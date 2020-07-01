@@ -1,5 +1,5 @@
 ---
-title: ~/home/cjunior
+title: ~/cjunior
 layout: home
 permalink: /
 ---

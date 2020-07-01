@@ -1,6 +1,7 @@
 ---
 title : Reversing Nanomites
 tags : notes writeups reversing
+layout: post
 ---
 
 One particular challenge over there rootme.org taught me a couple of things and I thought it'd be great to share some of them.
@@ -11,8 +12,7 @@ Nanomites are programs where you have two processes: a father and a son. A paren
 
 Let's try running it, now.
 
-<br />objective c:
-{% highlight objective_c %}
+{% highlight python %}
 ➜ ./ch28.bin
 Please input the flag:
 i'm just a fan of cjunior
