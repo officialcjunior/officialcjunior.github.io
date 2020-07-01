@@ -1,5 +1,5 @@
 ---
-title: /reversing
+title: ~/reversing
 layout: page
 permalink: /reversing
 ---

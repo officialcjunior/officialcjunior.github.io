@@ -1,5 +1,5 @@
 ---
-title: /notes
+title: ~/notes
 layout: page
 permalink: /notes
 ---

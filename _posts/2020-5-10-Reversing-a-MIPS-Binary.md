@@ -1,5 +1,5 @@
 ---
-title : Reversing MIPS
+title : Reversing MIPS for the first time
 tags : blog notes reversing
 ---
 

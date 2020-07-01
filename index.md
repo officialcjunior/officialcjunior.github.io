@@ -1,7 +1,7 @@
 ---
-title: /home
+title: ~/home/cjunior
 layout: home
-permalink: /home
+permalink: /
 ---
 
 Charlie, we are here!

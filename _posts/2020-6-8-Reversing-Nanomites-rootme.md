@@ -11,12 +11,13 @@ Nanomites are programs where you have two processes: a father and a son. A paren
 
 Let's try running it, now.
 
-```
+<br />objective c:
+{% highlight objective_c %}
 ➜ ./ch28.bin
 Please input the flag:
 i'm just a fan of cjunior
 Wrong! try hard! :)
-```
+{% endhighlight %}
 
 The function at _0x00400871_ is where the real game begins and what's interesting here, is the call to _fork()_
 
@@ -32,16 +33,16 @@ RETURN VALUE
 
 So, to put it clearly:
 
-```
-pid=fork()
+<br />objective c:
+{% highlight objective_c %}pid=fork()
 if (pid != 0) {
 	instruction_for_child;
 	}
 else {
 	instruction_for_parent;
 }
+{% endhighlight %}
 
-```
 Which means, we'll need to tell the debugger which process to debug.
 
 On radare2, you can do that by : _e  dbg.follow.child=true_ and on GDB, _set follow-fork-mode child_
