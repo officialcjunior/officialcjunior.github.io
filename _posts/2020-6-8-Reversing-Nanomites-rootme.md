@@ -12,7 +12,7 @@ Nanomites are programs where you have two processes: a father and a son. A paren
 
 Let's try running it, now.
 
-{% highlight python %}
+{% highlight vb linenos %}
 ➜ ./ch28.bin
 Please input the flag:
 i'm just a fan of cjunior
