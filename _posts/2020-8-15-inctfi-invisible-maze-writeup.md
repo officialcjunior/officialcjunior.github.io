@@ -28,7 +28,7 @@ You can get the challenge file from [here.](https://github.com/teambi0s/InCTFi/t
 
 Move the flag in just the right ways or just hack the game!
 
-<img src="../images/Invisible-Maze/challenge-desc.png" alt="Italian Trulli">
+<img src="/images/Invisible-Maze/challenge-desc.png" alt="Italian Trulli" width="500" height="500">
 
 ## Initial Analysis
 
@@ -36,7 +36,7 @@ We are provided with a single file: a 256Kbit Game Boy ROM image.
 
 In the absence and impracticability of using the actual hardware, we'll load it up on a GameBoy emulator.
 
-<img src="../images/Invisible-Maze/splash-screen.png" alt="Italian Trulli">
+<img src="/images/Invisible-Maze/splash-screen.png" alt="Italian Trulli" width="500" height="500">
 
 After the splashscreen, you'll be greeted with the challenge description and then, a screen with a movable flag. Briefly speaking, we just need to find where the checks are being done, which in turn track the movement of the flag.
 
@@ -57,7 +57,7 @@ Similarly, while moving through the other five positions, the game makes the dif
 
 After passing through all the checks, you'll be greeted with the flag.
 
-<img src="../images/Invisible-Maze/flag.png" alt="Italian Trulli">
+<img src="/images/Invisible-Maze/flag.png" alt="Italian Trulli" width="500" height="500">
 
 ## Side note
 
