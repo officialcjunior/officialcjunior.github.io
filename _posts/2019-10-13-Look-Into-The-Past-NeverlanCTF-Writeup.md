@@ -21,9 +21,9 @@ Let's take a look at the clue again.
 
 Let's see what the user did, and that is, the bash history.
 
-`vim home/User/./bash_history`
+`vi home/User/./bash_history`
 
-![1](/images/neverlan/1.png)
+<img src="/images/neverlan/1.png" alt="Italian Trulli" width="500" height="500">
 
 There's quite a lot to unpack here.
 
@@ -38,16 +38,15 @@ As you can see, `pass3` is inserted into a database called `table.db` using sqli
 
 You'll encounted a zipped package and a database file when unzipped. Open it with a DBMS if you have one, otherwise, just take a look at the ASCII strings.
 
-![2](/images/neverlan/2.png)
+<img src="/images/neverlan/2.png" alt="Italian Trulli" width="500" height="500">
 
 `nBNfDKbP5n` is pass3, the third part of our password.
 
 Now for pass2.
 You can see that the name of the user added was pass2.
-So, let's go over there  `/etc/shadows/ and see who the new user is.
+So, let's go over there  `/etc/shadows/` and see who the new user is.
 
-
-![3](/images/neverlan/3.png)
+<img src="/images/neverlan/3.png" alt="Italian Trulli" width="500" height="500">
 
 `KI6VWx09JJ`
 
@@ -60,7 +59,7 @@ Let's try to extract that out.
 
 Just hit enter while prompted to enter the passphrase.
 
-![4](/images/neverlan/4.png)
+<img src="/images/neverlan/4.png" alt="Italian Trulli" width="500" height="500">
 
 pass3 is JXrTLzijLb
 
@@ -68,12 +67,8 @@ Now, that you've got them all, you just need to decrypt it, using `openssl`.
 
 Combining them all, decrypting the .enc with the combined string as the key,
 
-![5](/images/neverlan/5.png)
-
+<img src="/images/neverlan/5.png" alt="Italian Trulli" width="500" height="500">
+	
 `flag{h1st0ry_1n_th3_m4k1ng}`
 
 Fun!
-
-
-
-

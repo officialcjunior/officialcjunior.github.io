@@ -12,7 +12,7 @@ header_pages:
 
 style: hacker
 
-footer: 'follow me on <a href="https://oldbytes.space/@officialcjunior">Mastodon</a> <3'
+footer: 'subscribe to my <a href="https://officialcjunior.github.io/feed.xml">RSS feed</a>'
 
 # Build settings
 markdown: kramdown

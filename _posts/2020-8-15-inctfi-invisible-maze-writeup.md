@@ -1,5 +1,5 @@
 ---
-title: "InCTF Internationalss 2020- Author's writeup for Invisible Maze"
+title: "InCTF Internationals- author's writeup for Invisible Maze"
 tags: blog writeups
 ---
 

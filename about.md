@@ -10,7 +10,6 @@ I'm a computer science undergraduate student. &nbsp;
 
 This is where I post and keep a log about the tech stuff I do.
 
-
 ### Connect with me
 
 I'm  on [Telegram](https://t.me/officialcjunior) and on the same nick on Freenode
