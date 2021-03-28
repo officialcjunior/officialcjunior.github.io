@@ -10,7 +10,7 @@ header_pages:
   - notes.md
   - about.md
 
-style: hacker
+style: light
 
 footer: 'subscribe to my <a href="https://officialcjunior.github.io/feed.xml">RSS feed</a>'
 
