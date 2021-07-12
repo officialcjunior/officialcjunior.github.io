@@ -1,0 +1,52 @@
+diff --git a/static/css/fonts.css b/static/css/fonts.css
+index 8ffcecd..fcf5c19 100644
+--- a/static/css/fonts.css
++++ b/static/css/fonts.css
+@@ -1,5 +1,6 @@
+ body {
+   font-family: Optima, Candara, Calibri, Arial, sans-serif;
++  font-size: 75%;
+ }
+ code {
+   font-family: "Lucida Console", Monaco, monospace;
+diff --git a/static/css/style.css b/static/css/style.css
+index 4dc3ae4..04dd736 100644
+--- a/static/css/style.css
++++ b/static/css/style.css
+@@ -3,25 +3,32 @@ body {
+   margin: auto;
+   padding: 1em;
+   line-height: 1.5em;
++  text-align:justify;
+ }
+ 
+ /* header and footer areas */
+-.menu { padding: 0; }
++.menu { padding: 0; text-align: right;}
+ .menu li { display: inline-block; }
+-.article-meta, .menu a {
++
++.menu a {
+   text-decoration: none;
+   background: #eee;
+   padding: 5px;
+   border-radius: 5px;
+ }
+-.menu, .article-meta, footer { text-align: center; }
+-.title { font-size: 1.1em; }
++.article-meta {text-align: left;
++  padding: 2px;
++  border-radius: 5px;
++}
++footer { text-align: center; }
++.title { font-size: 1.0em; }
+ footer a { text-decoration: none; }
+ hr {
+   border-style: dashed;
+   color: #ddd;
+ }
+ 
++.date{text-align: right;}
+ /* code */
+ pre {
+   border: 1px solid #ddd;
