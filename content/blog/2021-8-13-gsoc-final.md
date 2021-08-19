@@ -238,8 +238,21 @@ This tool works by analyzing the firmware using Rizin's `RzAnalysis` utilities a
 all (For example, while searching for the UEFI guilds). Here, the tool is a Python package 
 and all the interaction with `rizin` is done through `rz-pipe`'s Python module.
 
-Finally, I added some tests (pytests) and a good CI and put it over at my GitHub profile.
-This was not particularly challenging but it was indeed very informative. UEFI is insanely complex!
+You can get plenty of information with this. For example, all the protocol GUIDs, list of boot services and its addresses can be obtained just by passing the path to the UEFI image to `get_summary()`.
+
+```python
+>>> from rzuefi.uefi_analyzer import UefiAnalyzer
+
+>>> summary = UefiAnalyzer.get_summary(image_path)
+
+>>> summary['bs_list']
+[{'name': 'LocateProtocol', 'address': 142068}, {'name': 'LocateProtocol', 'address': 142598}, {'name': 'LocateProtocol', 'address': 134087}, {'name': 'ReinstallProtocolInterface', 'address': 164582},
+  ...
+```
+
+Finally, I added some tests: couple of simple [pytests](https://pytest.org/) to make sure that this is working, a small CI and I put it over at my GitHub profile.
+
+Overall, this was not particularly challenging but it was indeed very informative. UEFI is insanely complex!
 
 Alright, that's done. It was time to get back on improving the SVD plugin again.
 
@@ -257,6 +270,8 @@ Actually, the plan to end the second phase was to create a plugin inside [rz-lan
 sort of wrapper above the C structs with `PyObject` and its friends so that you can interact with it from Python. Since, a solid
 module for architecture (`RzArch`) hasn't been implemented yet, we switched plans and worked on improving the SVD plugin and other things.
 Still, I hope I can create the plugin when it's time. That's just one of the things I'm staying for at Rizin :)
+
+---
 
 ### Thanks
 
