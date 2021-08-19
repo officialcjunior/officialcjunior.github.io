@@ -214,7 +214,7 @@ to choose the platform profile. This will let the user choose the name of the pr
 based upon the CPU and the architecture that the user have previously set. For that, I added a new variable `platforms` 
 to `RzAsmPlugin` which will hold the list of all supported platforms of that architecture.
 
-<img src="/images/gsoc/asm-platform.png" alt="Italian Trulli">
+<img src="/images/gsoc/asm-platform.png" alt="Italian Trulli" width="600" height="116">
 
 After that, I spend a lot of time writing unit and integration tests for both CPU and platform profiles. A lot of time went to debugging and
 fixing bugs and other memory leaks. Thanks to Coverity Scan, wargio and other Continous Integration tests, it was very easy to spot them with their
