@@ -1,0 +1,126 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Google Summer Of Code 2021- Support for CPU and Platform Profiles | Aswin's blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css></head><body><nav><ul class=menu><li><a href=/>home</a></li><li><a href=/projects/>projects</a></li><li><a href=/about/>about</a></li></ul><hr></nav><div class=article-meta><h2><span class=title>Google Summer Of Code 2021- Support for CPU and Platform Profiles</span></h2><h4 class=author>Aswin</h4><h5 class=date>2021-08-20</h5></div><main><p>Hi all,</p><p>This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on
+adding support for CPU and platform profiles.</p><hr><p><img src=https://rizin.re/images/rizin.svg alt=rizin-image></p><h3 id=title-of-the-project>Title of the project</h3><p>Support for CPU and platform profiles</p><h3 id=synopsis>Synopsis</h3><p>Rizin previously relied upon manually writing code for adding a new CPU or an IO port. This
+implementation was unfit as the vast and growing ecology of hardware components such as
+CPUs and SoCs regularly implement a part of architecture with custom instructions,
+registers, and address configurations with trivial differences, making it infeasible to
+maintain all of them inside Rizin.</p><p>Providing a level of abstraction in handling this entropy in embedded systems by
+adding support for editable CPU and platform profile was the goal of this project. This also made
+adding and maintaining these ports easier with less interaction with Rizin’s core. This
+project also added more flexibility in having a way of importing existing hardware
+data description documents so that reverse engineering on particular chipsets is easier.
+Now, it&rsquo;s also easier to memory map the peripheral accesses and registers to provide a
+better reverse engineering experience. Currently, this is being extended to benefit Rizin
+in terms of compatibility and the end users in terms of user experience.</p><hr><h4 id=getting-ready>Getting ready</h4><p>The microtask I had to do before the actual project began was to make an SVD parser plugin.</p><p>SVD files are files containing information about a device&rsquo;s peripherals, MMIO registers and other particulars. They are usually
+made by the manufacturer. This plugin would load the data from SVD file to Rizin and add them as flags (labels) and comments,
+simplifying the reverse engineering experience.</p><p>Here&rsquo;s how the SVD file of the <code>STM32F030</code> microcontroller begins:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=color:#75715e>&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34; standalone=&#34;no&#34;?&gt;</span>
+<span style=color:#f92672>&lt;device</span> <span style=color:#a6e22e>schemaVersion=</span><span style=color:#e6db74>&#34;1.1&#34;</span>
+<span style=color:#a6e22e>xmlns:xs=</span><span style=color:#e6db74>&#34;http://www.w3.org/2001/XMLSchema-instance&#34;</span>
+<span style=color:#a6e22e>xs:noNamespaceSchemaLocation=</span><span style=color:#e6db74>&#34;CMSIS-SVD_Schema_1_1.xsd&#34;</span><span style=color:#f92672>&gt;</span>
+  <span style=color:#f92672>&lt;name&gt;</span>STM32F030<span style=color:#f92672>&lt;/name&gt;</span>
+  <span style=color:#f92672>&lt;version&gt;</span>1.0<span style=color:#f92672>&lt;/version&gt;</span>
+  <span style=color:#f92672>&lt;description&gt;</span>STM32F030<span style=color:#f92672>&lt;/description&gt;</span>
+  <span style=color:#75715e>&lt;!--Bus Interface Properties--&gt;</span>
+  <span style=color:#75715e>&lt;!--Cortex-M0 is byte addressable--&gt;</span>
+  <span style=color:#f92672>&lt;addressUnitBits&gt;</span>8<span style=color:#f92672>&lt;/addressUnitBits&gt;</span>
+</code></pre></div><p>This is a very big document with lots of information about peripherals, registers
+and much more:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=color:#f92672>&lt;register&gt;</span>
+  <span style=color:#f92672>&lt;name&gt;</span>DR<span style=color:#f92672>&lt;/name&gt;</span>
+  <span style=color:#f92672>&lt;displayName&gt;</span>DR<span style=color:#f92672>&lt;/displayName&gt;</span>
+  <span style=color:#f92672>&lt;description&gt;</span>Data register<span style=color:#f92672>&lt;/description&gt;</span>
+  <span style=color:#f92672>&lt;addressOffset&gt;</span>0x0<span style=color:#f92672>&lt;/addressOffset&gt;</span>
+  <span style=color:#f92672>&lt;size&gt;</span>0x20<span style=color:#f92672>&lt;/size&gt;</span>
+  <span style=color:#f92672>&lt;access&gt;</span>read-write<span style=color:#f92672>&lt;/access&gt;</span>
+  <span style=color:#f92672>&lt;resetValue&gt;</span>0xFFFFFFFF<span style=color:#f92672>&lt;/resetValue&gt;</span>
+</code></pre></div><p>The plugin parses all the registers' name, size, base address and its offset to add a flag
+or a label and parses its description to add a comment at its offset.</p><p>That was probably the first moderately large piece of software I had ever written from scratch. It was a bit
+challenging at the beginning but eventually I got the hang of and got it into a state where I could parse some of the
+register&rsquo;s description and offsets and add it as flags right before receiving the e-mail saying that I got accepted:</p><p><img src=https://user-images.githubusercontent.com/29057155/127342270-3863038e-aace-44c5-8feb-cc15888d03d6.png alt></p><hr><h4 id=summer-time>Summer time</h4><p>After getting accepted, the first thing I did was to remove the existing implementation of
+<code>RzSyscallPorts</code> - the module which took care of the architecture and CPU specefic system registers.</p><ul><li><a href=https://github.com/rizinorg/rizin/pull/1160>Deprecate RzSyscallPort and move the existing sysregs to SDB</a></li></ul><p><code>ioports.c</code> housed <code>RzSyscallPorts</code>, which were hardcoded definitions of system registers which were iteratively searched and
+served using <code>rz_syscall_get_io()</code> and other APIs. These hardcoded values are moved to SDB in this Pull Request.</p><p>A port using <code>RzSyscallPorts</code> looked like this:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c>RzSyscallPort sysport_avr[] <span style=color:#f92672>=</span> {
+    { <span style=color:#ae81ff>0x3e</span>, <span style=color:#e6db74>&#34;SPH: Stack higher bits SP8-SP10&#34;</span> },
+    { <span style=color:#ae81ff>0x3d</span>, <span style=color:#e6db74>&#34;SPL: Stack lower bits SP0-SP7&#34;</span> },
+    ...
+}
+</code></pre></div><p>This Pull Request moved all of those existing definitions to SDB, which follows a format like this:</p><pre><code>SPH=reg
+SPH.address=0x3e
+SPH.comment=Stack higher bits SP8 SP10
+</code></pre><p>Here, I made two new modules: <code>RzSysregsDB</code> and <code>RzSysregItem</code> to make this happen. <code>RzSysregsDB</code> just housed a hashtable
+which paired the address of the port and an <code>RzSysregItem</code> which contained the comment, type and all the other
+information related it. This Pull Request also introduced <code>rz_sysreg_get()</code> to which you can pass on the type (mmio/reg) and the offset to get the corresnponding port. This is used where these ports are displayed as comments from <code>disasm.c</code>.</p><p>After that, I jumped straight into the first phase and the crux of the project: CPU profiles.</p><ul><li><a href=https://github.com/rizinorg/rizin/pull/1193>Introduce RzArchProfile and add support for CPU profiles</a></li></ul><p>The CPU profiles, basically the files containing information about the CPUs were stored in SDB files at <code>librz/asm/cpus</code>
+following a naming convention <code>arch-cpu</code> are loaded up at<code>rz_arch_profiles_init()</code> at the beginning.
+Then, it&rsquo;s parsed and stored into various data structures inside <code>RzArchProfile</code>, where <code>RzArchTarget</code> houses
+the name of the CPU and architecture and a pointer to <code>RzArchProfile</code> (<code>RzArchTarget</code> is currently under <code>RzAnalysis</code>).
+Information about the IO registers and Extended IO registers were put inside a hashtable and the other data in normal
+<code>ut64</code> and character array variables for easy and fast access.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>typedef</span> <span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>rz_arch_profile_t</span> {
+  ut64 rom_size;
+  ut64 ram_size;
+  ...
+  HtUP <span style=color:#75715e>/* &lt;ut64 , char *&gt; */</span> <span style=color:#f92672>*</span>registers_mmio;
+  HtUP <span style=color:#75715e>/* &lt;ut64 , char *&gt; */</span> <span style=color:#f92672>*</span>registers_extended;
+} RzArchProfile;
+
+<span style=color:#66d9ef>typedef</span> <span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>rz_arch_target_t</span> {
+  <span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>cpu;
+  <span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>arch;
+  RzArchProfile <span style=color:#f92672>*</span>profile;
+} RzArchTarget;
+</code></pre></div><p>The information is integrated during the analysis loop. During analysis (<code>aa</code>), <code>rz_arch_profile_add_flag_every_io()</code>
+is called, which parses the two hashtables and adds the information as flags. For that, two new flagspaces were
+realized: <code>registers.mmio</code> and <code>registers.extended</code> for the corresponding ones.</p><p>You can see the CPU specific registers being added as flags here. This is when loaded up with an AVR firmware and CPU set
+to <code>ATmega168</code>.
+You can see the registers from the CPU profiles added as flags (labels) right near
+the offsets:
+<img src=https://user-images.githubusercontent.com/29057155/120918200-c7a66480-c6d0-11eb-80bc-de97c50e04d9.png alt=cpu-profiles-in-action></p><ul><li><a href=https://github.com/rizinorg/rizin/pull/1228>Support for memory mapping the ROM</a></li></ul><p>Since we already have size of the ROM and its starting address on the CPU profile, it makes good sense to add its range as a
+section (<code>iS</code> command). To implement that, I introduced <code>rz_analysis_add_io_registers_map()</code> which takes care of the job
+when during the analysis loop.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ rizin test/bins/firmware/arduino_avr.bin
+<span style=color:#f92672>[</span>0x00000158<span style=color:#f92672>]</span>&gt; aaa
+<span style=color:#f92672>[</span>x<span style=color:#f92672>]</span> Analyze all flags starting with sym. and entry0 <span style=color:#f92672>(</span>aa<span style=color:#f92672>)</span>
+<span style=color:#f92672>[</span>x<span style=color:#f92672>]</span> Analyze <span style=color:#66d9ef>function</span> calls <span style=color:#f92672>(</span>aac<span style=color:#f92672>)</span>
+<span style=color:#f92672>(</span>...<span style=color:#f92672>)</span>
+<span style=color:#f92672>[</span>0x00000158<span style=color:#f92672>]</span>&gt; iS~.rom
+ <span style=color:#ae81ff>8</span>   0x00001fff  0x4000 0x00001fff  0x4000 -r-x .rom      NULL  
+</code></pre></div><p>It was time to set my sails jolly for the next phase.</p><hr><ul><li><a href=https://github.com/rizinorg/rizin/pull/1254>Introduce RzArchPlatform and support for platform profiles</a></li></ul><p>In this patch series, I introduced <code>RzArchPlatformTarget</code> and <code>RzArchPlatformItem</code> for platform profiles.</p><p>The platform profiles stored as SDB files in <code>librz/asm/platforms</code> following a file naming convention similar to a
+triple target <code>arch-cpu-platform</code>, are firstly loaded up
+at <code>rz_arch_platform_init()</code>. Subsequently, it&rsquo;s parsed and stored in a hashtable inside <code>RzArchPlatformTarget</code> which is a pair of <code>ut64</code>
+address and a <code>RzArchPlatformItem</code>. <code>RzArchPlatformItem</code> is a struct/module which houses the name and the comment (if it exists) of
+the corresponding port. The names are added as flags and comments as comments (<code>CCu</code> command) in <code>rz_arch_platform_add_flags_comments()</code>.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>typedef</span> <span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>rz_platform_item_t</span> {
+  <span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>name;
+  <span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>comment;
+} RzArchPlatformItem;
+
+<span style=color:#66d9ef>typedef</span> <span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>rz_platform_target_t</span> {
+  HtUP <span style=color:#75715e>/* &lt;ut64 , RzArchPlatformItem&gt; */</span> <span style=color:#f92672>*</span>platforms;
+} RzArchPlatformTarget;
+</code></pre></div><p>Platform Profiles also follow a format similar to the CPU profiles that you saw earlier.
+Here&rsquo;s an excerpt BCM 2835&rsquo;s platform profile:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml>AUX_MU_IER_REG=name
+AUX_MU_IER_REG.address=0x7e215044
+AUX_MU_IER_REG.comment=Mini UART Interrupt Enable
+
+AUX_MU_IIR_REG=name
+AUX_MU_IIR_REG.address=0x7e215048
+AUX_MU_IIR_REG.comment=Mini UART Interrupt Identify
+</code></pre></div><p>A new configuration variable <code>asm.platform</code> was also <a href=https://github.com/rizinorg/rizin/pull/1254/commits/92e6777ca2e56f2f4d575d476f288a8589b0a572>added</a>
+to choose the platform profile. This will let the user choose the name of the profile they want to load and Rizin will load the profile
+based upon the CPU and the architecture that the user have previously set. For that, I added a new variable <code>platforms</code>
+to <code>RzAsmPlugin</code> which will hold the list of all supported platforms of that architecture.</p><img src=/images/gsoc/asm-platform.png alt="Italian Trulli" width=600 height=116><p>After that, I spend a lot of time writing unit and integration tests for both CPU and platform profiles. A lot of time went to debugging and
+fixing bugs and other memory leaks. Thanks to Coverity Scan, wargio and other Continous Integration tests, it was very easy to spot and fix them with their
+help!</p><ul><li><a href=https://github.com/rizinorg/rizin/pull/1263>Add x86 IO ports and support for more platforms</a></li></ul><p>In the previous Pull Request, I had only added support for one platform profile - the one for BCM2835, which one of the Raspberry Pi runs on.</p><p>And over here, more profiles: BCM2711 and OMAP 3430 were added along with the x86 IO ports. Since the code for the module was already in,
+it was just as simple as getting the data in the right format, putting it on the corresponding directory and adding it to its <code>meson.build</code> :)</p><p>Onwards!</p><ul><li><a href=https://github.com/officialcjunior/rz-uefi>Port r2-uefi to Rizin-land</a></li></ul><p>Folks at <a href=https://binarly.io>binarly.io</a> had made wonderful a tool named <a href=https://github.com/binarly-io/uefi_r2>uefi_r2</a> which can be used to analyze
+UEFI modules. I ported that to Rizin.</p><p>This tool works by analyzing the firmware using Rizin&rsquo;s <code>RzAnalysis</code> utilities and then by checking out with the analyzed functions, strings and
+all (For example, while searching for the UEFI guilds). Here, the tool is a Python package
+and all the interaction with <code>rizin</code> is done through <code>rz-pipe</code>&rsquo;s Python module.</p><p>You can get plenty of information with this. For example, all the protocol GUIDs, list of boot services and its addresses can be obtained just by passing the path to the UEFI image to <code>get_summary()</code>.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#f92672>&gt;&gt;&gt;</span> <span style=color:#f92672>from</span> rzuefi.uefi_analyzer <span style=color:#f92672>import</span> UefiAnalyzer
+
+<span style=color:#f92672>&gt;&gt;&gt;</span> summary <span style=color:#f92672>=</span> UefiAnalyzer<span style=color:#f92672>.</span>get_summary(image_path)
+
+<span style=color:#f92672>&gt;&gt;&gt;</span> summary[<span style=color:#e6db74>&#39;bs_list&#39;</span>]
+[{<span style=color:#e6db74>&#39;name&#39;</span>: <span style=color:#e6db74>&#39;LocateProtocol&#39;</span>, <span style=color:#e6db74>&#39;address&#39;</span>: <span style=color:#ae81ff>142068</span>}, {<span style=color:#e6db74>&#39;name&#39;</span>: <span style=color:#e6db74>&#39;LocateProtocol&#39;</span>, <span style=color:#e6db74>&#39;address&#39;</span>: <span style=color:#ae81ff>142598</span>}, {<span style=color:#e6db74>&#39;name&#39;</span>: <span style=color:#e6db74>&#39;LocateProtocol&#39;</span>, <span style=color:#e6db74>&#39;address&#39;</span>: <span style=color:#ae81ff>134087</span>}, {<span style=color:#e6db74>&#39;name&#39;</span>: <span style=color:#e6db74>&#39;ReinstallProtocolInterface&#39;</span>, <span style=color:#e6db74>&#39;address&#39;</span>: <span style=color:#ae81ff>164582</span>},
+  <span style=color:#f92672>...</span>
+</code></pre></div><p>Finally, I added some tests: couple of simple <a href=https://github.com/officialcjunior/rz-uefi/tree/dev/tests>pytests</a> to make sure that this is working, a small CI and I put it over at my GitHub profile.</p><p>Overall, this was not particularly challenging but it was indeed very informative. UEFI is insanely complex!</p><p>Alright, that&rsquo;s done. It was time to get back on improving the SVD plugin again.</p><ul><li><a href=https://github.com/rizinorg/rizin-extras/pull/4>Improvements in the SVD Parser plugin</a></li></ul><p>As I said, SVD files are basically XML files. Still, it wasn&rsquo;t so easy to parse them, at least with <a href=https://dev.yorhel.nl/yxml>yxml</a> due to its small size and compact design.
+We decided not to use any other XML parses since <code>yxml</code> is already used inside Rizin.
+Thanks to xvilka and his comments, after a couple of days of painful debugging, I was able to parse the SVD files from
+STM and add the necessary information as flags and comments!</p><p>Here&rsquo;s a quick demo!<br><img src=https://github.com/officialcjunior/rz-svd/raw/master/readme-example.gif alt></p><p>Actually, the plan to end the second phase was to create a plugin inside <a href=https://github.com/rizinorg/rz-lang/>rz-lang</a>- to create a
+sort of wrapper above the C structs with <code>PyObject</code> and its friends so that you can interact with it from Python. Since, a solid
+module for architecture (<code>RzArch</code>) hasn&rsquo;t been implemented yet, we switched plans and worked on improving the SVD plugin and other things.
+Still, I hope I can create the plugin when it&rsquo;s time. That&rsquo;s just one of the things I&rsquo;m staying for at Rizin :)</p><hr><h3 id=thanks>Thanks</h3><p>I would like to thank my mentors <a href=https://github.com/xvilka>xvilka</a> and <a href=https://github.com/wargio>wargio</a> for their guidance.
+I was regularly in touch with them and they were constantly trying make sure that everything was going smooth.</p><p>I have gained amazing insights and feel very grateful to have worked and learned from one of the smartest, kindest and
+knowledgeable people I’ve ever known. Huge respect!</p><p>Also kudos to all the folks at <code>#Rizin-dev</code>, <code>#gsoc-2021</code> and the other channels where my queries were cleared.</p><p>I&rsquo;m forever indebted to the community for this amazing experience.</p><p>Best regards,</p><p>Aswin</p></main><footer><script src=//yihui.org/js/math-code.js></script><script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script><script data-goatcounter=https://mindfreeze.goatcounter.com/count async src=//gc.zgo.at/count.js></script><script async src=//yihui.org/js/center-img.js></script><hr>Aswin&rsquo;s blog<br><a href=/index.xml>subscribe</a></footer></body></html>
