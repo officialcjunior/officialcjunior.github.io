@@ -12,10 +12,10 @@ When I held the Pi in my palm, the first thing I realized is that, like a real r
 
 So, I connected it to my laptop using an Ethernet cable, pulled up my USB Type C connecter for the power supply, and connected the HDMI cable of the monitor and keyboard to the Pi.
 
-My Ubuntu told me that the my Wired connection is alright, so I ran the command ''hostname-I'' on the Pi, got the IP address. I also turned on the SSH in ''raspi-config'', so that it recieves my SSH request.
+My Ubuntu told me that the my Wired connection is alright, so I ran the command ''hostname-I'' on the Pi, got the IP address. I also turned on the SSH in ''raspi-config'', so that it receives my SSH request.
 
 
-So, it all looked fine, I ran the command to establish a connection to the Pi, only to recieve:
+So, it all looked fine, I ran the command to establish a connection to the Pi, only to receive:
 
 `ssh: connect to host 192.168.1.201 port 22: No route to host`
 

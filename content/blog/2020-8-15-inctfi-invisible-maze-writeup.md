@@ -54,7 +54,7 @@ On further reversing, you'll find checks like the one below, quite often.
 	0x00000ada      7e             ld a, [hl]                       
 	0x00000adb      fe0a           cp 0x0a
 ```
-Adding this to what the description suggests, we can imply that they are checking the positon of the flag on the screen. And going 15 pixels to the right and 10 down from zero, which is at the top left corner, the game makes a different beep comapared to the normal beep.
+Adding this to what the description suggests, we can imply that they are checking the positon of the flag on the screen. And going 15 pixels to the right and 10 down from zero, which is at the top left corner, the game makes a different beep compared to the normal beep.
 
 Similarly, while moving through the other five positions, the game makes the different beep. They are the positions through which the flag must be moved.
 

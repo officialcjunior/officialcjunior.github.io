@@ -37,7 +37,7 @@ One has something to do with `stegihde`, another with `sqllie3` and and the othe
 We must hunt for all of those three passwords.
 Let's start with the easiest one.
 
-As you can see, `pass3` is inserted into a database called `table.db` using sqlite3. Let's go check what's happenning over there at `/opt/table.db`.
+As you can see, `pass3` is inserted into a database called `table.db` using sqlite3. Let's go check what's happening over there at `/opt/table.db`.
 
 You'll encounted a zipped package and a database file when unzipped. Open it with a DBMS if you have one, otherwise, just take a look at the ASCII strings.
 

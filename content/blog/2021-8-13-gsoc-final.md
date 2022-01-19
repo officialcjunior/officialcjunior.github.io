@@ -217,7 +217,7 @@ to `RzAsmPlugin` which will hold the list of all supported platforms of that arc
 <img src="/images/gsoc/asm-platform.png" alt="Italian Trulli">
 
 After that, I spend a lot of time writing unit and integration tests for both CPU and platform profiles. A lot of time went to debugging and
-fixing bugs and other memory leaks. Thanks to Coverity Scan, wargio and other Continous Integration tests, it was very easy to spot and fix them with their
+fixing bugs and other memory leaks. Thanks to Coverity Scan, wargio and other Continuous Integration tests, it was very easy to spot and fix them with their
 help!
 
 * [Add x86 IO ports and support for more platforms](https://github.com/rizinorg/rizin/pull/1263)

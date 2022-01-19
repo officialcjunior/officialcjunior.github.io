@@ -6,11 +6,11 @@ author: 'Aswin'
 
 ---
 
-A simple mannual to help you start working with your [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).
+A simple manual to help you start working with your [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).
 
 ## Useful links
 
-To learn about what the device can do for you, I'd suggest starting somewhere near [Sparkfun's article](https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all) or the [Bus Pirate 102 mannual](http://dangerousprototypes.com/docs/Bus_Pirate_102_tutorial)
+To learn about what the device can do for you, I'd suggest starting somewhere near [Sparkfun's article](https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all) or the [Bus Pirate 102 manual](http://dangerousprototypes.com/docs/Bus_Pirate_102_tutorial)
 
 ## Flashing the firmware
 
@@ -53,7 +53,7 @@ So, use the macro (2), the Live UART monitor to view the data.
 
 ## I2C
 
-To get started, connect the MOSI pin of the Buspirate to the SDA pin and the Clock pin to the SCL pin of the ciruit.
+To get started, connect the MOSI pin of the Buspirate to the SDA pin and the Clock pin to the SCL pin of the circuit.
 
 To set up the Bus Pirate to read data being sent through I2C, choose 4 from the Mode Menu.
 
