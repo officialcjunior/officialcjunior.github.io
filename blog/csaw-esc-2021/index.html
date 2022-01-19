@@ -1,0 +1,152 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Side Channel and Fault Injection Attacks with the ChipWhisperer | Aswin's blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css></head><body><nav><ul class=menu><li><a href=/>home</a></li><li><a href=/projects/>projects</a></li><li><a href=/about/>about</a></li></ul><hr></nav><div class=article-meta><h2><span class=title>Side Channel and Fault Injection Attacks with the ChipWhisperer</span></h2><h4 class=author>Aswin</h4><h5 class=date>2022-01-12</h5></div><main><p>Couple months ago, I had participated in the CSAW Embedded Security Challenges (ESC)- a perennial
+competition about security of embedded systems and devices. Each year, it comes with a
+different theme and the time around, it was about Side Channel and Fault Injection attacks with
+the ChipWhisperer Nano. The team and I had a fun time learning and getting used to them.</p><p>This blog is aimed at giving a short glimplse on what SCAs and other things in its realm are in a nutshell.
+In between, I&rsquo;ll be explaining how we approached a few of the challenges, as well.</p><h2 id=introduction>Introduction</h2><p>Side channel attacks (SCAs) and Fault Injection attacks (FIAs)
+fall under the attack vectors which target the external particulars of the
+computer system instead of trying to exploit the actual
+software or cryptographic protocol. Figuring out
+what a computer is doing by analysing the power usage statistics, i.e.,
+understanding something using a &ldquo;side channel&rdquo;, is a fine example of what an SCA is.
+Historically, these vectors are often detected and utilized through the holes
+left open by the chip manufacturers or the system vendors. For example, trying to
+sneak in through the parts of the debug mode of a chip or through some other information left by the
+software’s operation. <a href=https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)>Spectre</a>
+is probably the most famous and easily relatable example of a vulnerability that is
+exploited through a Side Channel Attack.</p><p>Before jumping right into SCAs, let me elaborate a bit on the scheme of things so that you&rsquo;ll
+feel more used to CSAW ESC, ChipWhisperer and about what I&rsquo;m talking about.</p><h3 id=a-little-on-the-chipwhisperer>A little on the ChipWhisperer</h3><p>We&rsquo;ll be talking about doing Side Channel Attacks with a ChipWhisperer.</p><p>The <a href=https://rtfm.newae.com/Capture/ChipWhisperer-Nano/>ChipWhisperer Nano</a>
+is a device which provides a fast and easy way to learn and get used to Side Channel and
+Fault Injection attacks. It&rsquo;s a small device and it&rsquo;s
+regularly used for training and research purposes. The device has two sections: one that has
+the target and the other that is used for measurement purposes. The target
+is a STM32F030F4P6 which has 16KB of FLASH and 4KB of SRAM. The target is where we&rsquo;ll
+be flashing (loading) our files into.</p><p>The ChipWhisperer has a great, free and open source software toolchain and it&rsquo;s available
+as a <a href=https://github.com/newaetech/chipwhisperer>Python package</a>. It&rsquo;s built on
+top of PyUSB and allows seamless interaction with all parts of the device and
+offers amazing APIs.</p><h3 id=the-workflow-of-csaw-esc-2021>The workflow of CSAW ESC 2021</h3><p>For each challenge (puzzle or the CTF problem), the precompiled (<code>.hex</code>) file and the pseudo-
+code (<code>.c</code>) files are given.</p><p>The <code>.hex</code> file is what you flash onto the target of the ChipWhisperer and the pseudo-code file is to
+understand what&rsquo;s been implemented in that challenge. The <code>.c</code> file is more of like the
+actual source code of the challenge, but it&rsquo;ll only have enough information to let you
+know about what it does and what you need to do.</p><p>Therefore, the workflow for each challenge is:</p><ul><li>Flash the <code>.hex</code> file onto the ChipWhisperer.</li><li>Take a look at the psuedo-code and understand the challenge.</li><li>Using the toolchain, interact with the device and exploit it.</li></ul><h2 id=side-channel-attacks>Side Channel Attacks</h2><p>We defined what SCAs are a while ago: they target the implementation of the system.</p><p>SCAs are broadly subdivided on the basis of the source of the data. Generally,
+you&rsquo;ll hear about Timing Attacks and Power Analysis attacks, and that means
+that the time and the power taken are taken into consideration and analyzed, respectively.</p><h3 id=power-analysis-attacks>Power Analysis Attacks</h3><p>Simple power analysis involves making deductions from the
+trends occurring in the power over a period of time. This is possible as the
+power consumption varies while the device performs different operations when
+measured with a device such as a standard digital oscilloscope. Obviously,
+this can be measured only on small embedded devices.</p><p>But the ChipWhisperer makes things a lot easier. You can just call a
+particular API and it&rsquo;ll return the power traces as a Python List. We&rsquo;ll get to all of
+that shortly.</p><p>We&rsquo;ll begin by taking a look at this code, which is the pseudo code of the
+challenge <code>recall</code> from the first set of challenges of the CSAW 2021 Finals.
+You can grab the full source <a href=https://github.com/TrustworthyComputing/csaw_esc_2021/blob/main/challenges/set-1/recall/recall.c>here</a>.</p><p>Just take a look at the loop and how the elements of the <code>data</code> (our input) are
+compared and handled.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=color:#75715e>// DUMMY VAL
+</span><span style=color:#75715e></span><span style=color:#66d9ef>uint8_t</span> correct_mem[] <span style=color:#f92672>=</span> {<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>6</span>,<span style=color:#ae81ff>7</span>,<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>9</span>,<span style=color:#ae81ff>10</span>,<span style=color:#ae81ff>11</span>,<span style=color:#ae81ff>12</span>,<span style=color:#ae81ff>13</span>,<span style=color:#ae81ff>14</span>,<span style=color:#ae81ff>15</span>};
+
+<span style=color:#66d9ef>uint8_t</span> <span style=color:#a6e22e>verify</span>(<span style=color:#66d9ef>uint8_t</span><span style=color:#f92672>*</span> data, <span style=color:#66d9ef>uint8_t</span> dlen) {
+  <span style=color:#66d9ef>uint8_t</span> mem_different <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+  <span style=color:#66d9ef>uint8_t</span> zero <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, one <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>;
+
+  trigger_high();
+  <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>uint8_t</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;</span> <span style=color:#66d9ef>sizeof</span>(correct_mem); i<span style=color:#f92672>++</span>) {
+    <span style=color:#66d9ef>if</span> (correct_mem[i] <span style=color:#f92672>!=</span> data[i]) {
+      mem_different <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>;
+      <span style=color:#66d9ef>break</span>;
+    }
+  }
+  trigger_low();
+
+  <span style=color:#66d9ef>if</span> (mem_different) {
+    simpleserial_put(<span style=color:#e6db74>&#39;r&#39;</span>, <span style=color:#ae81ff>1</span>, <span style=color:#f92672>&amp;</span>zero); <span style=color:#75715e>// Wrong password
+</span><span style=color:#75715e></span>  } <span style=color:#66d9ef>else</span> {
+    simpleserial_put(<span style=color:#e6db74>&#39;r&#39;</span>, <span style=color:#ae81ff>1</span>, <span style=color:#f92672>&amp;</span>one); <span style=color:#75715e>// GOAL
+</span><span style=color:#75715e></span>  }
+}
+</code></pre></div><p>The function stops comparing the moment it finds an incorrect character, breaks and writes a
+zero through the <a href=https://chipwhisperer.readthedocs.io/en/latest/simpleserial.html>SimpleSerial</a>
+protocol. This makes the code take different amount of time and power to complete its execution
+depending on the input. In each iteration of <code>i</code>, an incorrect character will take a particular amount of
+time and the correct input will take more time, since it&rsquo;ll start comparing the
+next letter. This makes this program vulnerable to a power analysis attack.</p><p>Now, let&rsquo;s see what sort of APIs does the ChipWhisperer has in its sleeves to aid us in power analysis.</p><p>The toolchain offers <a href=https://chipwhisperer.readthedocs.io/en/latest/api.html#chipwhisperer.capture.scopes.OpenADC.capture>scope.capture()</a> and
+<a href=https://chipwhisperer.readthedocs.io/en/latest/api.html#chipwhisperer.capture.scopes.OpenADC.get_last_trace>scope.get_last_trace()</a> which
+can help us with this. <code>scope.capture()</code> does the trace and <code>get_last_trace()</code> returns the traces, which are
+basically an array of values.</p><p>Let&rsquo;s get a function that returns the power traces when a particular input is sent.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>get_trace</span>(password_guess):
+    
+    <span style=color:#75715e># do some init</span>
+
+    target<span style=color:#f92672>.</span>write(password_guess)
+    ret <span style=color:#f92672>=</span> scope<span style=color:#f92672>.</span>capture()
+
+    <span style=color:#75715e># check ret for NULL, etc</span>
+
+    <span style=color:#66d9ef>return</span> scope<span style=color:#f92672>.</span>get_last_trace()
+</code></pre></div><p>Alright, our plan here is to try out all possible characters (<code>uint8_t</code>,
+so very bruteforce-able) for each of the characters, pass the string to <code>get_trace()</code>,
+compute absolute differences of the traces and see which character takes the most time, since
+the character which takes most time will be the correct one.</p><p>To compute the difference, we need the trace of a completely incorrect input which
+will act as a reference trace. Then, for each character of the password, we&rsquo;ll try
+out every possible alphanumerals and capture the traces.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>known_password <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;&#39;</span> 
+<span style=color:#66d9ef>for</span> i <span style=color:#f92672>in</span> range(<span style=color:#ae81ff>16</span>): 					<span style=color:#75715e># 16 is the length of the password, it&#39;s known</span>
+	ref_trace <span style=color:#f92672>=</span> cap_pass_trace(known <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;#&#34;</span><span style=color:#f92672>*</span>(<span style=color:#ae81ff>16</span><span style=color:#f92672>-</span>len(known)))
+	p <span style=color:#f92672>=</span> {}
+	<span style=color:#66d9ef>for</span> character <span style=color:#f92672>in</span> tqdm(<span style=color:#e6db74>&#39;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&#39;</span>):	
+		trace <span style=color:#f92672>=</span> cap_pass_trace(known <span style=color:#f92672>+</span> character <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;#&#34;</span><span style=color:#f92672>*</span>(<span style=color:#ae81ff>15</span><span style=color:#f92672>-</span>len(known)))
+		diff <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>sum(np<span style=color:#f92672>.</span>abs(trace <span style=color:#f92672>-</span> ref_trace))
+		p<span style=color:#f92672>.</span>update({c:diff})
+		<span style=color:#66d9ef>if</span> diff <span style=color:#f92672>&gt;</span> <span style=color:#ae81ff>200</span>: 				<span style=color:#75715e># rule of thumb</span>
+			known_password <span style=color:#f92672>+=</span> character
+</code></pre></div><p>By doing something like this, we&rsquo;ll be able to crack the correct input (flag) in a short while:</p><p><img src=/images/csaw-2021/recall.gif alt></p><p>The key takeaway from this part of the blog is that SCAs eventually comes down to data handling and
+about inferring from numerical observations. Almost like big data, if you will. Also understand that,
+something like this is only possible on small embedded systems where there&rsquo;s less abstractions and
+less things going around.</p><h2 id=fault-injection-attacks>Fault Injection Attacks</h2><p>Fault Injections are about injecting a small quirk into the execution of the
+processor so that a particular computation is skipped or faulted. In layman&rsquo;s terms,
+it&rsquo;s like giving the processor a boop. The ChipWhisperer supports Clock and Voltage
+glitching.</p><p>Below is the psuedo-code of the challenge <a href=https://github.com/TrustworthyComputing/csaw_esc_2021/blob/main/challenges/set-1/err0r/err0r.c>err0r</a>.
+Here, the pointer <code>txt</code> will point to the array which contains our input.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=color:#66d9ef>uint8_t</span> <span style=color:#a6e22e>hash_loop</span>(<span style=color:#66d9ef>uint8_t</span><span style=color:#f92672>*</span> txt, <span style=color:#66d9ef>uint8_t</span> len) {
+    <span style=color:#66d9ef>uint32_t</span> crc <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+    <span style=color:#66d9ef>uint32_t</span> crc_2 <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+
+    <span style=color:#66d9ef>char</span> buf[<span style=color:#ae81ff>8</span>]<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>int</span> i<span style=color:#f92672>=</span><span style=color:#ae81ff>0</span>;i<span style=color:#f92672>&lt;</span><span style=color:#ae81ff>8</span>;i<span style=color:#f92672>++</span>){
+      buf[i]<span style=color:#f92672>=</span>txt[i];
+    }
+    trigger_high();
+
+    crc32(buf, <span style=color:#66d9ef>sizeof</span>(buf), <span style=color:#f92672>&amp;</span>crc);
+    crc32(buf, <span style=color:#66d9ef>sizeof</span>(buf), <span style=color:#f92672>&amp;</span>crc_2);
+    trigger_low();
+
+    <span style=color:#66d9ef>if</span> (crc <span style=color:#f92672>!=</span> crc_2) {
+      simpleserial_put(<span style=color:#e6db74>&#39;r&#39;</span>,<span style=color:#ae81ff>4</span>, win_code); <span style=color:#75715e>// GOAL
+</span><span style=color:#75715e></span>    } <span style=color:#66d9ef>else</span> {
+      simpleserial_put(<span style=color:#e6db74>&#39;r&#39;</span>,<span style=color:#ae81ff>4</span> , (<span style=color:#66d9ef>uint8_t</span><span style=color:#f92672>*</span>)<span style=color:#f92672>&amp;</span>crc);
+    }
+    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0x00</span>;
+}
+</code></pre></div><p>This one&rsquo;s farily interesting as we have to somehow make the <a href=https://en.wikipedia.org/wiki/Cyclic_redundancy_check>CRC</a>
+hash return different results for the same input, which is not how hash
+functions or redundancy checks work. So, we&rsquo;ll try to glitch the execution while
+the CRC is being calculated so that the function would return different things.</p><p>ChipWhisperer Nano supports Voltage Glitching, i.e, supports shorting the voltage pins for a very short
+amount of time and that&rsquo;s what we&rsquo;ll do now. Initially, we need to set a couple of parameters which
+will decide how frequently the glitch would be inserted. This is a big deal and we&rsquo;ll have to tweak it if we&rsquo;re
+not getting good results. To solve <code>err0r</code>, to inject a fault, we used the <a href=https://chipwhisperer.readthedocs.io/en/latest/api.html#chipwhisperer.targets.SimpleSerial.simpleserial_read_witherrors>simpleserial_read_witherrors</a>
+API from the SimpleSerial’s standard library with <code>glitch_timeout</code> set as 10 samples.</p><p>Since, our program returns the CRC hash of the input if both of the hashes
+(<code>crc</code> and <code>crc_2</code>) are the same, we can just keep on glitching until it returns
+something different.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#66d9ef>while</span> <span style=color:#66d9ef>True</span>:
+  ret <span style=color:#f92672>=</span> scope<span style=color:#f92672>.</span>capture()
+  val <span style=color:#f92672>=</span> target<span style=color:#f92672>.</span>simpleserial_read_witherrors(<span style=color:#e6db74>&#39;r&#39;</span>, <span style=color:#ae81ff>4</span>, glitch_timeout <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>)
+
+  <span style=color:#f92672>...</span>
+
+  hash <span style=color:#f92672>=</span> struct<span style=color:#f92672>.</span>unpack(<span style=color:#e6db74>&#34;&lt;I&#34;</span>, val[<span style=color:#e6db74>&#39;payload&#39;</span>])[<span style=color:#ae81ff>0</span>] <span style=color:#75715e># the string which was returned</span>
+  <span style=color:#66d9ef>if</span> hash <span style=color:#f92672>!=</span> <span style=color:#ae81ff>3221785859</span>: 			<span style=color:#75715e># CRC32 hash of the input we were giving</span>
+  	print(<span style=color:#e6db74>&#34;Glitched!&#34;</span>)
+    <span style=color:#66d9ef>break</span>
+</code></pre></div><p><img src=/images/csaw-2021/err0r.png alt></p><p>I still remember the awe when I glitched something for the first time. Imagine that there&rsquo;s
+a simple <code>strcmp</code> password check somewhere. Now, imagine if you can just skip the check and
+try to run the code that comes below it.</p><p>We must realize that glitching is not entirely deterministic. There are a lot of variables
+around and a lot of things fighting against the us and the glitches. Therefore, we can insert
+glitches and only hope for the best. At least, that&rsquo;s what I understood.</p><h2 id=conclusion>Conclusion</h2><p>That&rsquo;s it! I hope I was able to give you a really short glimpse of what&rsquo;s SCA and what&rsquo;s possible with the ChipWhisperer.
+I aimed at keeping this blog short, and of course, there are a lot of other amazing things you can do here. For all
+of that, see the <a href=https://chipwhisperer.readthedocs.io/en/latest/tutorials.html>ChipWhisperer Wiki and tutorials</a>.
+The tutorials are an amazing resource. Most of the code on this blog
+and its pattern were heavily inspired from the sample code from the tutorials.</p><p>Thanks to everyone who worked on the ChipWhisperer and to all who helped answer our questions on Discord.
+The hardware and the software is inspiring and is an amazing example of quality engineering.</p></main><footer><script src=//yihui.org/js/math-code.js></script><script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script><script async src=//yihui.org/js/center-img.js></script><hr>Aswin&rsquo;s blog<br><a href=/index.xml>subscribe</a></footer></body></html>
