@@ -53,7 +53,7 @@ Boot000B* CD/DVD/CD-RW Drive
 Boot000C* Onboard NIC
 </code></pre></div><h2 id=hello-openbsd>Hello OpenBSD</h2><p>Booting it up for the first time felt like hacking the Pentagon from the movies, as it prints
 all the <a href=http://man.openbsd.org/dmesg>dmesg</a>-es. On a first look, it looked like it an
-operating system stuck in the 90s (in a good way :).</p><p><img src=/images/openbsd/boot.jpg alt></p><h3 id=getting-wi-fi>Getting Wi-Fi</h3><p>By default, OpenBSD doesn&rsquo;t distribute firmwares along with the kernel. So, there&rsquo;s
+operating system stuck in the 90s (in a good way :).</p><p><img src=/images/openbsd/boot.jpeg alt></p><h3 id=getting-wi-fi>Getting Wi-Fi</h3><p>By default, OpenBSD doesn&rsquo;t distribute firmwares along with the kernel. So, there&rsquo;s
 no Wi-Fi.</p><p><img src=/images/openbsd/iwm0.jpg alt></p><p>And there&rsquo;s two ways to get around this:</p><ol><li>Install the firmware inside the ISO image before installation using <a href=https://man.openbsd.org/fw_update>fw_update</a>, like you do when handling Raspberry Pis.</li></ol><p>The official documentation says one needs an existing OpenBSD installation to do this,
 although I&rsquo;m sure that it can be somehow done from Linux, as well.</p><ol start=2><li>Download the firmware package, put it on a drive, plug it in and then install it
 using <a href=http://man.openbsd.org/pkg_add>pkg_add</a>- the package manager.</li></ol><p>I didn&rsquo;t know that I didn&rsquo;t have the firmware for WiFi until I booted it up, so I had
