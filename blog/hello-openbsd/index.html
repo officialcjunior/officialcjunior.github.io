@@ -1,0 +1,84 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Hello OpenBSD | Aswin's blog</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css></head><body><nav><ul class=menu><li><a href=/>home</a></li><li><a href=/projects/>projects</a></li><li><a href=/about/>about</a></li></ul><hr></nav><div class=article-meta><h2><span class=title>Hello OpenBSD</span></h2><h4 class=author>Aswin</h4><h5 class=date>2022-06-29</h5></div><main><p>Oh, hi!</p><p>This is a blog post about the things I stumbled upon when I
+thought I&rsquo;ll give <a href=https://www.openbsd.org>OpenBSD</a> a go. Therefore, this post is going
+to sound more like a walkthrough than an ordinary blog post.</p><p>The reason why I decided to try it out was primarily for the learning experience, and to
+use it as a hobby OS- something you boot up every once in a while when you want to slow
+down and relax a bit. Moreover, I also wanted to see why many people love and endorse
+OpenBSD, and wanted to see if it is my cup of tea.</p><p>For those who are not much into the history of UNIX and operating systems, OpenBSD
+is a UNIX-like operating system based on the Berkeley Software Distribution (BSD). A very talented
+person named Theo de Raadt created OpenBSD in 1995 by forking <a href=https://netbsd.org>NetBSD</a>-
+which is another UNIX-like operating system.
+On a macroscopic level, all BSDs are pretty much the same: complete (more than just
+the kernel, unlike Linux), open-source, secure and very well-trusted.</p><h2 id=installation>Installation</h2><p>I backed my data up (even though Linus Torvalds has told us that- &ldquo;Real men don&rsquo;t
+use backups, they post their stuff on a public FTP server and let the rest of the
+world make copies&rdquo;) and downloaded the ISO image from their website. To be precise,
+the one which has all the <a href=https://www.openbsd.org/faq/faq4.html#FilesNeeded>file sets</a> in it.</p><p>The idea of filesets comes down to the founding principles of BSDs and UNIX: freedom. You can actually
+install <em>just</em> the kernel, compile
+and configure everything to the top, exactly as you prefer, like you do in
+<a href=https://www.linuxfromscratch.org/>Linux From Scratch</a>. This is clearly not for the ones
+who are just starting out, so I got the ISO image which has everything: manual pages,
+X11 (the windowing system/display servers), fonts and everything you expect in a
+modern operating system.</p><p>Of course, I wasn&rsquo;t intending to wipe my hard drive and go all in. And that was a problem:
+Almost all of the installation guides out there went for a full-disk installation and hence skipped the part where they set up the disks.</p><blockquote class=twitter-tweet data-lang=en><p lang=en dir=ltr>I guess, if I really want to give OpenBSD a go, I think I have to find a guide where they install it on a single partition, compared to the usual, default (messy, I'd say, but secure- yes) way the partitions are done.<br><br>Plus, the fdisk equivalent tool looks terrifying to me.</p>&mdash; aswin c ☯️ (@cjuniorstweets) <a href="https://twitter.com/cjuniorstweets/status/1471158304487346187?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><p>Luckily, I found out a YouTube video from &lsquo;The OpenBSD Guy&rsquo;
+which seemed to have what I wanted:</p><iframe width=782 height=440 src=https://www.youtube.com/embed/sYDUgJHbHgM title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Being a long-time (almost two years) and a <em>proud</em> user of Arch Linux, I
+found the installation process fairly straightforward until it got into the disk setup.
+Firstly, it asks you the basics: time zones, user information, network interfaces, and
+finally, it gets into disks.</p><p>The disk setup is tricky- you really can mess everything up by the press of a button. What I
+had to do was to format the existing partition as an OpenBSD partition and choose that as
+the place to install it.
+Thanks to Chapter 4 of the video from The OpenBSD Guy, I could cross this chasm that I almost
+dared not to.</p><h2 id=booting-up>Booting up</h2><p>I was aiming at dual-booting (triple booting, to be precise) Arch Linux and OpenBSD through GRUB.
+This is indeed possible and is what The OpenBSD Guy demonstrates in the video, and is also fairly
+straightforward as you&rsquo;d expect: you edit a particular GRUB configuration file, recompile it, and
+you reboot- similar to what you do when you want to change the kernel parameters on Linux. But in
+my case, the chain loader spit out some errors during the compilation, and I couldn&rsquo;t
+completely figure out why. I believe it was something to do with GRUB not being able to figure
+out the type of the disk partition.</p><p>In the end, I settled with booting OpenBSD from the UEFI boot menu:</p><blockquote class=twitter-tweet data-conversation=none><p lang=en dir=ltr>I finally joined the OpenBSD gang today.<br><br>Couldn't set up GRUB to dualboot properly, so I just used efibootmgr and booted it from the UEFI menu.<br><br>The view looks ancient (ew) and I have probably have to find a guide to set up things.<br><br>A good start for 2022, I guess.<br><br>More later!</p>&mdash; aswin c! ☯️ (@cjuniorstweets) <a href="https://twitter.com/cjuniorstweets/status/1477295882676494340?ref_src=twsrc%5Etfw">January 1, 2022</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><p>This was also the time I learned about <a href=https://linux.die.net/man/8/efibootmgr>efibootmgr</a>-
+which is a tool with which one can manage UEFI boot entries. With efibootmgr, I just had to
+run:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># /dev/sda5 was where I installed OpenBSD </span>
+$ sudo efibootmgr -c -p <span style=color:#ae81ff>1</span> -d /dev/sda5 -L OpenBSD -l /EFI/Boot/bootx64.efi
+
+<span style=color:#75715e># set timeout to 10 seconds</span>
+$ sudo efibootmgr -t <span style=color:#ae81ff>10</span>
+BootCurrent: <span style=color:#ae81ff>0000</span>
+Timeout: <span style=color:#ae81ff>10</span> seconds
+BootOrder: 0000,0002,0001
+Boot0000* linux
+Boot0001* OpenBSD
+Boot0002* Windows Boot Manager
+Boot0007* windows
+Boot0008* Diskette Drive
+Boot0009* Internal HDD
+Boot000A* USB Storage Device
+Boot000B* CD/DVD/CD-RW Drive
+Boot000C* Onboard NIC
+</code></pre></div><h2 id=hello-openbsd>Hello OpenBSD</h2><p>Booting it up for the first time felt like hacking the Pentagon from the movies, as it prints
+all the <a href=http://man.openbsd.org/dmesg>dmesg</a>-es. On a first look, it looked like it an
+operating system stuck in the 90s (in a good way :).</p><p><img src=/images/openbsd/boot.jpg alt></p><h3 id=getting-wi-fi>Getting Wi-Fi</h3><p>By default, OpenBSD doesn&rsquo;t distribute firmwares along with the kernel. So, there&rsquo;s
+no Wi-Fi.</p><p><img src=/images/openbsd/iwm0.jpg alt></p><p>And there&rsquo;s two ways to get around this:</p><ol><li>Install the firmware inside the ISO image before installation using <a href=https://man.openbsd.org/fw_update>fw_update</a>, like you do when handling Raspberry Pis.</li></ol><p>The official documentation says one needs an existing OpenBSD installation to do this,
+although I&rsquo;m sure that it can be somehow done from Linux, as well.</p><ol start=2><li>Download the firmware package, put it on a drive, plug it in and then install it
+using <a href=http://man.openbsd.org/pkg_add>pkg_add</a>- the package manager.</li></ol><p>I didn&rsquo;t know that I didn&rsquo;t have the firmware for WiFi until I booted it up, so I had
+to resort to the second method. And thanks to <a href=https://dev.to/jmarhee>jmarhee</a>&rsquo;s
+<a href=https://dev.to/jmarhee/configuring-wifi-firmware-at-installation-for-openbsd-25pl>article</a>,
+I was able to get it done in no time.</p><p>My <a href=https://amrita.edu>university</a> Wi-Fi uses WPA 802.1X encryption with a WPA-EAP
+authentication scheme. I knew this one was going to be a <em>hard</em> nut to crack. But thankfully, I found
+a <a href=https://azarus.ch/posts/2018-02-09-openbsd-wifi-802.1x-wpa-eap.html>blog post</a> from
+a fine gentleman named Azarus who explained how to do it. It was straightforward:
+I had to get <a href=https://linux.die.net/man/8/wpa_supplicant>wpa_supplicant</a>,
+add the network-specific devices to its configuration file, manually authenticate with
+the device to connect to the access point and get a DHCP lease.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># wpa_supplicant -i iwm0 -c /etc/wpa_supplicant.conf</span>
+<span style=color:#75715e># dhclient iwm0</span>
+<span style=color:#75715e># ping 1.1.1.1</span>
+PING 1.1.1.1 <span style=color:#f92672>(</span>1.1.1.1<span style=color:#f92672>)</span> 56<span style=color:#f92672>(</span>84<span style=color:#f92672>)</span> bytes of data.
+<span style=color:#ae81ff>64</span> bytes from 1.1.1.1: icmp_seq<span style=color:#f92672>=</span><span style=color:#ae81ff>1</span> ttl<span style=color:#f92672>=</span><span style=color:#ae81ff>55</span> time<span style=color:#f92672>=</span><span style=color:#ae81ff>168</span> ms
+</code></pre></div><p>I installed Firefox and sent out a Tweet:</p><blockquote class=twitter-tweet data-conversation=none><p lang=en dir=ltr>Just booted into my OpenBSD and upgraded it to 7.1 and I must say, it was an exciting process. It was my first time updating a BSD. I did it through my university Wi-Fi, which I finally ended up doing after an hour's hack.<br><br>Maybe I should write a blog about the experience so far.</p>&mdash; aswin c! ☯️ (@cjuniorstweets) <a href="https://twitter.com/cjuniorstweets/status/1520058496791846915?ref_src=twsrc%5Etfw">April 29, 2022</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><h2 id=updates>Updates</h2><p>The OpenBSD ecosystem is much fabled and praised when it comes to many things, especially
+in handling updates as it offers easy rollbacks and many other features.</p><p>Recently, OpenBSD 7.1 had come out and the upgrade process was <em>flawless</em>:</p><p><img src=/images/openbsd/update.jpg alt></p><h2 id=cwm--the-calm-window-manager>cwm- the calm window manager</h2><p>Even before diving into BSDs, I had come to know about
+<a href=http://man.openbsd.org/cwm>cwm</a> from a <a href=https://icyphox.sh/blog/openbsd-hp-envy/>blog</a>
+written by one of my Twitter friends who runs OpenBSD. So, cwm was definitely on my radar.</p><p>cwm is pragmatic: you write your configuration down in <code>.cwmrc</code> and you load it up. And
+the key bindings can be tweaked and it is as easy as changing the bindings in vim.</p><p>And this was when I had my first experience with the quality of OpenBSD&rsquo;s manual pages. When it
+comes to tweaking configuration files of software I just installed, I usually seek refuge
+in some blog post written for laymen. In this case, information about the keybindings, how to change them,
+and the notations that are used for the special keys- all were written in plain English in the manual
+page for <a href=http://man.openbsd.org/cwm#CM-Return>cmw</a>.</p><h2 id=experience>Experience</h2><p>The overall experience has been great - I learned a lot about GPT, UEFI,
+firmware and many other things along the way. I plan to keep updating this blog post if I
+run into something that&rsquo;s hard to do or is just interesting, so I can have one place to keep all of
+my thoughts related to my experience with OpenBSD.</p><p>For a person looking for a hobby OS or just some fresh air, I&rsquo;d totally recommend OpenBSD!</p><blockquote class=twitter-tweet data-conversation=none data-dnt=true><p lang=en dir=ltr>Anyway, if you want to learn about UEFI, BIOS, MBR, dual booting, bootloaders, disk partitions and other related shenanigans, I suggest you to try dualbooting Linux and OpenBSD with GRUB.<br><br>I think, there literally no other option more worse than this.<br><br>It'll teach you everything.</p>&mdash; aswin c! ☯️ (@cjuniorstweets) <a href="https://twitter.com/cjuniorstweets/status/1478238362523758594?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><p><img src=/images/openbsd/final.jpeg alt></p></main><footer><script src=//yihui.org/js/math-code.js></script><script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script><script async src=//yihui.org/js/center-img.js></script><hr>Aswin&rsquo;s blog<br><a href=/index.xml>subscribe</a></footer></body></html>
