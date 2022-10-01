@@ -22,6 +22,9 @@ menu:
     - name: about
       url: "about/"
       weight: 3
+    - name: cv/resume
+      url: "cv/"
+      weight: 4      
 
 params:
   description: "Aswin's blog"
