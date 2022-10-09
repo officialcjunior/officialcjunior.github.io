@@ -1,6 +1,12 @@
-body {
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+@font-face {
+    font-family: apple-sf;
+    src: url("sf-regular.ttf");
 }
+
+body {
+  font-family: apple-sf, Arial, sans-serif;
+}
+
 code {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 85%;

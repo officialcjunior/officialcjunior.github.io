@@ -28,7 +28,7 @@ menu:
 
 params:
   description: "Aswin's blog"
-  footer: "Aswin's blog      <br/>  [subscribe](/index.xml)"
+  footer: "Aswin's blog      <br/>  [RSS Feed](/index.xml)"
 
 markup:
   goldmark:
