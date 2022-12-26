@@ -11,8 +11,7 @@ new things of value.
 
 ---
 
-I consider myself to be a general enthusiast—and I have many interests. Here are some of them,
-and what I like to work on and learn more about.
+Here are some of my interests:
 
 ### Computer science:
 
