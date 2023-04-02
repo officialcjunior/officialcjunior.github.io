@@ -19,12 +19,15 @@ menu:
     - name: projects
       url: "projects/"
       weight: 2
-    - name: about
-      url: "about/"
+    - name: bookshelf
+      url: "bookshelf/"
       weight: 3
     - name: cv/resume
       url: "cv/"
-      weight: 4      
+      weight: 4
+    - name: about
+      url: "about/"
+      weight: 5      
 
 params:
   description: "Aswin's blog"
