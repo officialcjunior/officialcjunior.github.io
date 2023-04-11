@@ -21,6 +21,11 @@ and place.
 Insights about what's possible and how to shape our future
 in a modern industrial society like ours.
 
+#### The Power of Now – Eckhart Tolle
+The book looks at spiritual and meditative guidelines and insights of all
+major religions from a modern perspective. Some chapters—especially, the
+part about listening to your body—are evocative and "works".
+
 #### The Motorcycle Diaries – Ernesto Che Guevara
 Vivid description of a continent, culture, travel, colonialism and life
 in the 60s.
@@ -40,6 +45,6 @@ I'm not sure why this book won a Booker Prize.
 Very dense portrait of life in Delhi and India.
 Mostly sad. Has a bit of happiness at the end.
 
-#### The Almanac of Naval Ravikant
+#### The Almanack of Naval Ravikant
 A modern handy handbook about wealth, happiness, success, and spirituality.
 Basically, the text version of Joe Rogan's episode with Naval.

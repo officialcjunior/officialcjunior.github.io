@@ -18,9 +18,12 @@ brightness for Linux machines that can make the screen look like a Kindle for be
 
 [rz-svd](github.com/officialcjunior/rz-svd)—rz-svd is an SVD file parser plugin for Rizin framework which can parse SVD files and add the information as comments and labels simplifying the reverse engineering experience.
 
-### Other
+### Writing
 
-## Art
+My submission for the DEFCON 28 Short Story Contest: [forum.defon.irg/node/233102](https://forum.defcon.org/node/233102)
+A satrical take on what happens in a day at the gents' dorms at my university: [Menon Sir was sleeping in](https://www.tumblr.com/blogdecjunior/612311698309775360/menon-sir-was-sleeping-in?source=share)
+
+### Filmography
 
 A short film about my time in Israel: [Instagram post](https://www.instagram.com/p/Ci-GksgPe5N/)
 
