@@ -5,7 +5,7 @@ This is a list of books I've read and enjoyed. Inspired by [Patrick Collison's](
 "Since the stacks and shelves lack any particular order, so too does this list."
 
 #### Sapiens: A Brief History of Humankind – Yuval Noah Harari
-Life-altering insights about human origins, civilization, religion, 
+Life-altering insights about human origins, civilization, religion,
 empires, science, technology, and human nature.
 
 #### The God of Small Things – Arundhati Roy
@@ -32,7 +32,7 @@ in the 60s.
 Very well-written. Small and portable book.
 
 #### Hippie – Paulo Coelho
-About Paulo's time as a hippie backpacking through Europe. 
+About Paulo's time as a hippie backpacking through Europe.
 Relentless freedom and youthful indiscretion.
 
 #### The Alchemist – Paulo Coelho
@@ -40,6 +40,12 @@ Takeaway: "follow your dreams".
 
 #### Disgrace – J. M. Coetzee
 I'm not sure why this book won a Booker Prize.
+
+#### Ntuppuppakkoranendarnnu (My Granddad Had an Elephant!) – Basheer
+Good and short novel. Nothing fancy. Basheer also talks a lot about
+Islam through Kunjupattumma in the book, which was interesting to read.
+Even though the book has a predictable ending, the last chapter was a
+satisfying read.
 
 #### The Ministry of Utmost Happiness – Arundhati Roy
 Very dense portrait of life in Delhi and India.
