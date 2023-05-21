@@ -42,7 +42,7 @@ modern operating system.
 Of course, I wasn't intending to wipe my hard drive and go all in. And that was a problem:
 Almost all of the installation guides out there went for a full-disk installation and hence skipped the part where they set up the disks.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I guess, if I really want to give OpenBSD a go, I think I have to find a guide where they install it on a single partition, compared to the usual, default (messy, I&#39;d say, but secure- yes) way the partitions are done.<br><br>Plus, the fdisk equivalent tool looks terrifying to me.</p>&mdash; aswin c ☯️ (@cjuniorstweets) <a href="https://twitter.com/cjuniorstweets/status/1471158304487346187?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I guess, if I really want to give OpenBSD a go, I think I have to find a guide where they install it on a single partition, compared to the usual, default (messy, I&#39;d say, but secure- yes) way the partitions are done.<br><br>Plus, the fdisk equivalent tool looks terrifying to me.</p>&mdash; aswin c ☯️ (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1471158304487346187?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 Luckily, I found out a YouTube video from 'The OpenBSD Guy'
@@ -74,7 +74,7 @@ out the type of the disk partition.
 
 In the end, I settled with booting OpenBSD from the UEFI boot menu:
 
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">I finally joined the OpenBSD gang today.<br><br>Couldn&#39;t set up GRUB to dualboot properly, so I just used efibootmgr and booted it from the UEFI menu.<br><br>The view looks ancient (ew) and I have probably have to find a guide to set up things.<br><br>A good start for 2022, I guess.<br><br>More later!</p>&mdash; aswin c! ☯️ (@cjuniorstweets) <a href="https://twitter.com/cjuniorstweets/status/1477295882676494340?ref_src=twsrc%5Etfw">January 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">I finally joined the OpenBSD gang today.<br><br>Couldn&#39;t set up GRUB to dualboot properly, so I just used efibootmgr and booted it from the UEFI menu.<br><br>The view looks ancient (ew) and I have probably have to find a guide to set up things.<br><br>A good start for 2022, I guess.<br><br>More later!</p>&mdash; aswin c! ☯️ (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1477295882676494340?ref_src=twsrc%5Etfw">January 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 This was also the time I learned about [efibootmgr](https://linux.die.net/man/8/efibootmgr)-
@@ -149,7 +149,7 @@ PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
 ```
 I installed Firefox and sent out a Tweet:
 
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Just booted into my OpenBSD and upgraded it to 7.1 and I must say, it was an exciting process. It was my first time updating a BSD. I did it through my university Wi-Fi, which I finally ended up doing after an hour&#39;s hack.<br><br>Maybe I should write a blog about the experience so far.</p>&mdash; aswin c! ☯️ (@cjuniorstweets) <a href="https://twitter.com/cjuniorstweets/status/1520058496791846915?ref_src=twsrc%5Etfw">April 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Just booted into my OpenBSD and upgraded it to 7.1 and I must say, it was an exciting process. It was my first time updating a BSD. I did it through my university Wi-Fi, which I finally ended up doing after an hour&#39;s hack.<br><br>Maybe I should write a blog about the experience so far.</p>&mdash; aswin c! ☯️ (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1520058496791846915?ref_src=twsrc%5Etfw">April 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Updates
 
@@ -185,6 +185,6 @@ my thoughts related to my experience with OpenBSD.
 
 For a person looking for a hobby OS or just some fresh air, I'd totally recommend OpenBSD!
 
-<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Anyway, if you want to learn about UEFI, BIOS, MBR, dual booting, bootloaders, disk partitions and other related shenanigans, I suggest you to try dualbooting Linux and OpenBSD with GRUB.<br><br>I think, there literally no other option more worse than this.<br><br>It&#39;ll teach you everything.</p>&mdash; aswin c! ☯️ (@cjuniorstweets) <a href="https://twitter.com/cjuniorstweets/status/1478238362523758594?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Anyway, if you want to learn about UEFI, BIOS, MBR, dual booting, bootloaders, disk partitions and other related shenanigans, I suggest you to try dualbooting Linux and OpenBSD with GRUB.<br><br>I think, there literally no other option more worse than this.<br><br>It&#39;ll teach you everything.</p>&mdash; aswin c! ☯️ (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1478238362523758594?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ![](/images/openbsd/final.jpeg)
