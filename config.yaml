@@ -22,9 +22,6 @@ menu:
     - name: bookshelf
       url: "bookshelf/"
       weight: 3
-    - name: cv/resume
-      url: "cv/"
-      weight: 4
     - name: about
       url: "about/"
       weight: 5      
