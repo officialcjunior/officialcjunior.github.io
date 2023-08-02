@@ -22,6 +22,9 @@ menu:
     - name: bookshelf
       url: "bookshelf/"
       weight: 3
+    - name: tweets
+      url: "tweets/"
+      weight: 4
     - name: about
       url: "about/"
       weight: 5      
