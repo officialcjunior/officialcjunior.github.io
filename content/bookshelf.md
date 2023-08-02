@@ -21,6 +21,10 @@ and place.
 Insights about what's possible and how to shape our future
 in a modern industrial society like ours.
 
+#### 12 Rules for Life - Jordan Peterson
+A good-quality self-improvement book. The first chapter of the book, about the first rule, is one of the most inspiring words I've ever read. I liked how he connected history and evolution in that. Rest
+are pretty much like any other self-help books.
+
 #### The Power of Now – Eckhart Tolle
 The book looks at spiritual and meditative guidelines and insights of all
 major religions from a modern perspective. Some chapters—especially, the
@@ -33,13 +37,16 @@ Very well-written. Small and portable book.
 
 #### Hippie – Paulo Coelho
 About Paulo's time as a hippie backpacking through Europe.
-Relentless freedom and youthful indiscretion.
+About relentless freedom of being alone and youthful indiscretion.
 
 #### The Alchemist – Paulo Coelho
 Takeaway: "follow your dreams".
 
 #### Disgrace – J. M. Coetzee
 I'm not sure why this book won a Booker Prize.
+
+#### To Kill a Mockinbird – Harper Lee
+Harper Lee's style, imagery and poise forces readers to achieve feats such as finishing the book faster than the reader ever thought was possible.
 
 #### Ntuppuppakkoranendarnnu (My Granddad Had an Elephant!) – Basheer
 Good and short novel. Nothing fancy. Basheer also talks a lot about
@@ -53,4 +60,4 @@ Mostly sad. Has a bit of happiness at the end.
 
 #### The Almanack of Naval Ravikant
 A modern handy handbook about wealth, happiness, success, and spirituality.
-Basically, the text version of Joe Rogan's episode with Naval.
+Basically, the text version of Joe Rogan podcast's episode with Naval.

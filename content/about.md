@@ -5,8 +5,11 @@ author: Aswin
 
 Hello, I'm Aswin. I'm a 21 year old [Malayali](https://en.wikipedia.org/wiki/Malayali) from Bengaluru.
 
-I'm interested in learning more about myself and about the world so that I can change, improve, and create 
-new things of value. 
+Currently, I'm interested in learning more about myself and about the world so that I can change, improve, and create 
+new things of value.
+
+
+![http://stevejobsarchive.com/book from https://twitter.com/krishnadusad/status/1645832927652253701/photo/1](https://pbs.twimg.com/media/FtcsUxcaQAE71YG?format=jpg&name=large)
 
 ---
 
@@ -39,7 +42,7 @@ sort of feelings I like to show through my cinema:
 
 At times, I also write fiction on my [Tumblr](blogdecjunior.tumblr.com).
 
-I also love to play music—especially, piano and guitar.
+I also love to play music – especially, [piano](https://www.instagram.com/stories/highlights/18068450794078622/) and guitar.
 
 ### Life
 
@@ -47,6 +50,6 @@ I'm a general enthusiast and like talking about most interesting things.
 
 I'd love to hear from you and have a chat. Here are some ways to contact me:
 
-1. Twitter - [cjuniorstweets](https://twitter.com/cjuniorstweets)
+1. Twitter - [chandanaveli](https://twitter.com/chandanaveli)
 
 2. Mail - [aswinc.mailbox@gmail.com](mailto:aswinc.mailbox@gmail.com)
