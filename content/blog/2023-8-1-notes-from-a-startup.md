@@ -8,7 +8,7 @@ author: 'Aswin'
 
 ## Notes after working at a 14-people startup
 
-I worked at [Subconscious Compute](subcom.tech)—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.
+I worked at [Subconscious Compute](https://subcom.tech)—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.
 
 
 From day one, I wanted to write this blog down with every detail, and make it as fun and artistic as the public image of the company on LinkedIn. But right now, a lot of happenings have become fuzzy in my present memory to be reviewed and summarized in detail. Therefore, what I'll present will be my current viewpoints and major events, obviously, as many perspectives were molded, reshaped, learned and unlearned during this journey – the first chapter of my life in the workplace. For example, people and practices I thought were the most ridiculous entities of reality, currently feel just typical, and perhaps a bit oddly ironical.
