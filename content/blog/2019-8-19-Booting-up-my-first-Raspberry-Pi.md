@@ -1,7 +1,7 @@
 ---
 title: 'Booting up my first Raspberry Pi'
 draft: 'false'
-slug: 'booting-paspberry-pi'
+slug: 'booting-raspberry-pi'
 author: 'Aswin'
 date: '2019-08-19'
 ---
