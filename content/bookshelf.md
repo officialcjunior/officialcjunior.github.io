@@ -1,16 +1,19 @@
-# Aswin's bookshelf
-
-This is a list of books I've read and enjoyed. Inspired by [Patrick Collison's](https://patrickcollison.com/bookshelf) Bookshelf.
+This is a list of books I've read and enjoyed. This page is inspired from [Patrick Collison's](https://patrickcollison.com/bookshelf) Bookshelf.
 
 "Since the stacks and shelves lack any particular order, so too does this list."
+
+---
 
 #### Sapiens: A Brief History of Humankind – Yuval Noah Harari
 Life-altering insights about human origins, civilization, religion,
 empires, science, technology, and human nature.
 
+
+#### An Era of Darkness: The British Empire in India – Shashi Tharoor
+Although the book presents an incessantly one-sided narrative, its descriptions and style of writing is engaging, and does not fail to deliver the unparalleled joy of reading a Tharoor. Here's [my tweet thread](https://twitter.com/chandanaveli/status/1697308569945911338?s=20) about the book.
+
 #### The God of Small Things – Arundhati Roy
-Possibly the best English fiction with a story set in Kerala. Incredible storyline
-and way of writing.
+Possibly the best English fiction with a story set in Kerala. Incredible storyline and style of writing.
 
 #### The Legends of Khasak – O.V Vijayan
 English translation of the best Malayalam novel ever. Timeless. Legendary.
@@ -58,6 +61,6 @@ satisfying read.
 Very dense portrait of life in Delhi and India.
 Mostly sad. Has a bit of happiness at the end.
 
-#### The Almanack of Naval Ravikant
+#### The Almanack of Naval Ravikant – Eric Jorgenson
 A modern handy handbook about wealth, happiness, success, and spirituality.
 Basically, the text version of Joe Rogan podcast's episode with Naval.

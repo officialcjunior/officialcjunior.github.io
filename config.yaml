@@ -16,18 +16,21 @@ menu:
     - name: home
       url: ""
       weight: 1
-    - name: projects
-      url: "projects/"
+    - name: technical talks and projects
+      url: "tech/"
       weight: 2
+    - name: art portfolio
+      url: "art/"
+      weight: 3
     - name: bookshelf
       url: "bookshelf/"
-      weight: 3
+      weight: 4
     - name: tweets
       url: "tweets/"
-      weight: 4
+      weight: 5
     - name: about
       url: "about/"
-      weight: 5      
+      weight: 6
 
 params:
   description: "Aswin's blog"
