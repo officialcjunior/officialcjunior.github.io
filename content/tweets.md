@@ -1,3 +1,7 @@
+---
+title: Tweets
+---
+
 This is a list of some of the best tweets I've put and read.
 
 The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas the tweets sometimes touch. But it's usually a mix of wit, wisdom, and the unbridled exuberance of 3 A.M.

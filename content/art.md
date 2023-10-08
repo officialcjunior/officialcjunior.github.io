@@ -1,3 +1,7 @@
+---
+title: Art portfolio
+---
+
 Table of contents:
 
 * [Writing](#writing)

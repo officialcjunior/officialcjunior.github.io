@@ -1,7 +1,3 @@
----
-title: About
----
-
 Hello, I'm Aswin. I'm a 22 year old [Malayali](https://en.wikipedia.org/wiki/Malayali) from Kerala, currently living in Bengaluru.
 
 ---
