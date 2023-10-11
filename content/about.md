@@ -15,7 +15,7 @@ member of [Rizin](https://rizin.re) - which is an Open Source organization that 
 I like computers and what is possible with them. At the beginning of my "computer journey", as a freshman at my university, I was exclusively interested in systems. But lately, as I got acquainted
 with other things of the stack, I like almost all parts of it.
 
-More can be found on my [art portfolio](/art) page of this website.
+More can be found on my [technical talks and projects](/tech) page of this website and my Github: [@officialcjunior](https://github.com/officialcjunior)
 
 ### Everything else
 
