@@ -16,6 +16,11 @@ My tweets
 - Tweets from Israel: [Link](https://twitter.com/chandanaveli/status/1546076212350828544?)
 - Descriptions about Chalakudy: [Link](https://twitter.com/chandanaveli/status/1485095590744977408?)
 - About women with nose rings: [Link](https://twitter.com/chandanaveli/status/1683868810821124097?)
+- The 'c' in 'aswin c': [Link](https://x.com/chandanaveli/status/1629514866158628864?s=20)
+- About roomates who set alarms and doesn't turn it off themselves: [Link](https://x.com/chandanaveli/status/1466625073654030336?s=20)
+- What North Indians think about South Indian languages: [Link](https://x.com/chandanaveli/status/1645835344565379075?s=20)
+- What openwrt lets you do to routers: [Link](https://x.com/chandanaveli/status/1561936757066567680?s=20)
+- About Mark Zuckerburg: [Link](https://x.com/chandanaveli/status/1655593123211513857?s=20)
 
 ---
 Others' tweets

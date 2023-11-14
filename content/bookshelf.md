@@ -48,6 +48,9 @@ Takeaway: "follow your dreams".
 #### Disgrace – J. M. Coetzee
 I'm not sure why this book won a Booker Prize.
 
+#### Friendly Ambitious Nerd – Visakan Veerasamy
+A collection of ideas to become more friendly and ambitious – an invitation to bring the tamed and scrutinized part of our inner-self forward and manifest with glory. Here's my [Twitter thread](https://x.com/chandanaveli/status/1720796951523016887?s=20) about the book.
+
 #### To Kill a Mockinbird – Harper Lee
 Harper Lee's style, imagery and poise forces readers to achieve feats such as finishing the book faster than the reader ever thought was possible.
 

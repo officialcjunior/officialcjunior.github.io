@@ -6,6 +6,10 @@ slug: 'college'
 author: 'Aswin'
 ---
 
+For reading or giving feedback, social proof, comments, and further discussion, see the following [Twitter thread](https://x.com/chandanaveli/status/1723241534609645998?s=20).
+
+---
+
 <style>
 mark {
   background-color: #ffc266;
