@@ -4,6 +4,7 @@ date: '2021-03-28'
 draft: false
 slug: 'the-commons-in-computing'
 author: 'Aswin'
+tags: ['tech']
 ---
 
 ---

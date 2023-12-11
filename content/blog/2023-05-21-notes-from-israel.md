@@ -4,6 +4,39 @@ date: '2023-05-21'
 draft: false
 slug: 'notes-from-israel'
 author: 'Aswin'
+tags: ['life']
+---
+
+### Table of contents
+* [Delhi – the journey begins](#delhi--the-journey-begins)
+* [Shalom, Israel](#shalom-israel)
+* [First meet-up party in the dorm lawns](#first-meet-up-party-in-the-dorm-lawns)
+* [The university](#the-university)
+* [Be’er Sheva central park](#beer-sheva-central-park)
+  * [Attending the pizza party](#attending-a-salsa-class)
+  * [Bengi's bar](#bengis-bar)  
+* [Startup tour at HiTech park](#startup-tour-at-hitech-park)
+* [Eilat](#eilat)
+  * [Coral beach](#coral-beach)
+* [Be'er Sheva city](#beer-sheva-city)
+ * [The old city](#the-old-city)
+ * [Food street](#food-street) 
+* [Jerusalem](#jerusalem)
+  * [The Western Wall](#the-western-wall)
+  * [King David's fort](#king-davids-fort)  
+  * [Church of the Holy Sepulchre](#church-of-the-holy-sepulchre)
+  * [The market and the old city](#the-market-and-the-old-city)
+  * [Mount of Olives](#mount-of-olives)
+  * [The Holocaust memorial](#the-holocaust-memorial)
+* [Tel Aviv](#tel-aviv)
+  * [The beach](#the-beach)
+* [Jaffa](#jaffa)
+* [Dead Sea](#dead-sea)
+* [Haifa](#haifa)
+* [Akko](#akko)
+* [Nahariya](#nahariyaa)
+* [Last day and the flight back](#last-day-and-the-flight-back)
+
 ---
 
 These are the candid, first-hand writings of my trip to Israel to attend a summer school on ‘Data Mining and Cybersecurity for Business Intelligence’ at the Ben-Gurion University in July 2022. The prose is mostly first-person and like a diary entry. 
@@ -34,8 +67,6 @@ It was dusk when we landed in Ben-Gurion International airport at Tel-Aviv. And 
 
 
 We started walking towards the university and walked to one of the gates—Gate of The Future—of the campus and found out that we couldn't get inside the university through that. Since we just had the address—"Dalet Dorms, Alexander Yannai street"—and none of us had internet, we were just walking around, trying to get to the address. I remember we stopped a guy who was jogging and asked him for directions. He helped us out and we finally made it. And Tom—our counselor—was there to greet us. We got to our rooms and slept. In Israel. In Dalet Dorms.
-
-## Swimming pool at the university
 
 
 The next day, we met Sarita (@kosherbackpacker) who worked at the international office and was a sort of coordinator of international events like these, near the university swimming pool. In fact, that was the very second day, in Israel. We first went to the international office and met Sarita and then got access to the swimming pool. I remember wanting to have some coffee from the office since I was hungry and hadn’t eaten anything. The WiFi also didn't allow voice calls, so calling back home wasn't possible yet. It was a pretty sunny day. Sarita walked us through what was going to go down in the program and what the university had cooked for us. All of this happened near the grass in the swimming pool – and I remember thinking how different the landscape and the experience is compared to what I would have been doing that day if I was in India. Soon, people from other programs (courses) showed up. Then we went to Agadir—a local burger place and had brunch.

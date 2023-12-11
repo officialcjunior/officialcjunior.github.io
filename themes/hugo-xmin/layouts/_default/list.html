@@ -1,5 +1,11 @@
 {{ partial "header.html" . }}
 
+<style>
+  .tags {
+    color: #de16d1; /* Change to your preferred color */
+  }
+</style>
+
 {{if not .IsHome }}
 <h1>{{ .Title | markdownify }}</h1>
 {{ end }}
@@ -11,7 +17,8 @@
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ range (where $pages "Section" "!=" "") }}
   <li>
-   [<span class="date">{{ .Date.Format "2006-01-02" }}]:</span>
+   {{ with .Params.tags }}
+   <span class="tags">[{{ range $index, $tag := . }}{{ if $index }}, {{ end }}{{ $tag }}{{ end }}]: </span>    {{ end }}       
     <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
   </li>
   {{ end }}

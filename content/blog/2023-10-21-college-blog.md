@@ -4,6 +4,7 @@ date: '2023-11-11'
 draft: false
 slug: 'college'
 author: 'Aswin'
+tags: ['life']
 ---
 
 For reading or giving feedback, social proof, comments, and further discussion, see the following [Twitter thread](https://x.com/chandanaveli/status/1723241534609645998?s=20).

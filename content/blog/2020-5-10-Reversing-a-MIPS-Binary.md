@@ -4,6 +4,7 @@ date: '2020-05-10'
 draft: false
 slug: 'reversing-mips'
 author: 'Aswin'
+tags: ['tech']
 ---
 
 Lately, I had got a [reversing challenge](https://github.com/s34s0n/multiarch/tree/master/mips/challenges/word_generator) compiled for MIPS architecture and I struggled a bit as I couldn't find a lot information on the web on how to analyze or debug it properly.

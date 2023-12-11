@@ -4,6 +4,7 @@ draft: 'false'
 slug: 'booting-raspberry-pi'
 author: 'Aswin'
 date: '2019-08-19'
+tags: ['tech']
 ---
 
 Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven't heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.

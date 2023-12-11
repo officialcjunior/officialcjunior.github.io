@@ -4,6 +4,7 @@ date: '2021-08-20'
 draft: false
 slug: 'gsoc-2021'
 author: 'Aswin'
+tags: ['tech']
 ---
 
 Hi all,

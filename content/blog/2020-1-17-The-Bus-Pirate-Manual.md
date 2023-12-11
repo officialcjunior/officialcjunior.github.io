@@ -3,7 +3,7 @@ title: "The Bus Pirate manual"
 date: '2020-01-17'
 slug: 'the-bus-pirate-manual'
 author: 'Aswin'
-
+tags: ['tech']
 ---
 
 A simple manual to help you start working with your [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).

@@ -4,6 +4,8 @@ date: '2022-06-28'
 draft: false
 slug: 'hello-openbsd'
 author: 'Aswin'
+tags: ['tech']
+
 ---
 
 Oh, hi!

@@ -4,6 +4,7 @@ date: '2020-08-15'
 draft: false
 slug: 'inctfi-invisible-maze'
 author: 'Aswin and Akul'
+tags: ['tech']
 ---
 
 For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.

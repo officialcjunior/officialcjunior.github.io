@@ -4,6 +4,14 @@ date: '2023-08-02'
 draft: false
 slug: 'notes-after-working-at-a-startup'
 author: 'Aswin'
+tags: ['tech', 'life']
+---
+
+### Table of contents
+* [SubCom](#subcom)
+* [The internship and work](#the-internship-and-work)
+* [Reflections](#the-internship-and-work)
+* [Closing](#closing-thoughts)
 ---
 
 I worked at [Subconscious Compute](https://subcom.tech)—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.
