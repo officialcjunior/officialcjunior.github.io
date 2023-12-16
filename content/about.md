@@ -8,14 +8,8 @@ Here are some of my interests:
 
 ### Computer science:
 
-I am a Computer Science and Engineering undergraduate
-from [Amrita University](https://amrita.edu), Kollam. At my university, I was a member of a student-run computer
-security club at my university—[teambi0s](https://bi0s.in).
-At bi0s, I used to mentor students, manage the team, work on various projects and play CTFs. I'm also a
-member of [Rizin](https://rizin.re) - which is an Open Source organization that makes reverse engineering frameworks.
-
-I like computers and what is possible with them. At the beginning of my "computer journey", as a freshman at my university, I was exclusively interested in systems. But lately, as I got acquainted
-with other things of the stack, I like almost all parts of it.
+I like computers and what is possible with them. At the beginning of my "computer journey", as a freshman at my university, I was exclusively interested in systems. But lately, as I got acquainted with other things of the stack, I like almost all parts of it,
+and been more on the line of "make what people want".
 
 More can be found on my [technical talks and projects](/tech) page of this website and my Github: [@officialcjunior](https://github.com/officialcjunior)
 
@@ -29,6 +23,13 @@ More can be found on my [art portfolio](/art) page of this website and on the fo
 X (Formerly Twitter) : [@chandanaveli](https://twitter.com/chandanaveli)
 
 Instagram : [@officialcjunior](https://instagram.com/officialcjunior)
+
+---
+
+### In the press and elsewhere
+- Fandom page about me on a TV show I was on – [Who Wants To Be A Millionaire Wiki](https://millionaire.fandom.com/wiki/Aswin_and_Krishnapriya)
+- The Hindu reporting about my Google Summer of Code project – [Eight Amrita students selected for Google’s annual programme](https://www.thehindu.com/news/cities/Coimbatore/eight-amrita-students-selected-for-googles-annual-programme/article35311592.ece)
+- India Today quoting [my Tweet](https://x.com/chandanaveli/status/1727705540565016897?s=20) about Sam Altman's return to OpenAI – [Sam Altman’s OpenAI drama gets a Peak Bengaluru spin by auto-rickshaw app](https://www.indiatoday.in/trending-news/story/sam-altman-openai-drama-gets-a-peak-bengaluru-spin-by-namma-yatri-app-2467287-2023-11-25)
 
 ---
 

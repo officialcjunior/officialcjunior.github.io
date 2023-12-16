@@ -3,25 +3,32 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5em;
+  text-align:justify;
 }
 
 /* header and footer areas */
-.menu { padding: 0; }
+.menu { padding: 0; text-align: center;}
 .menu li { display: inline-block; }
-.article-meta, .menu a {
+
+.menu a {
   text-decoration: none;
-  background: #eee;
-  padding: 5px;
+  background: #ffccff;
+  padding: 8px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
+.article-meta {text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+}
+footer { text-align: center; }
+.title { font-size: 1.0em; }
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
   color: #ddd;
 }
 
+.date{text-align: right;}
 /* code */
 pre {
   border: 1px solid #ddd;
