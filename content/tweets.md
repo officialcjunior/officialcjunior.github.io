@@ -15,9 +15,11 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 ## My tweets
 
 - Advice on improving writing: [Link](https://twitter.com/chandanaveli/status/1570242973107101697)
-- About terraces being a place with privacy for Indian kids: [Link](https://twitter.com/chandanaveli/status/1632786947423997957)
-- South Indian aesthetics: [Link](https://twitter.com/chandanaveli/status/1577221715330945025?)
-- Year end post of 2021 : Contains wishful thinking and subtly motivating words. [Link](https://twitter.com/chandanaveli/status/1476787793552568322?)
+- On Mark Zuckerburg: [Link](https://x.com/chandanaveli/status/1655593123211513857?s=20)
+- About terraces being a place with privacy for (Indian) kids: [Link](https://twitter.com/chandanaveli/status/1632786947423997957)
+- How I visualize new ideas (the creative process): [Link](https://x.com/chandanaveli/status/1603252015001325569?s=20)
+- Aesthetics about the South Indian culture that I love: [Link](https://twitter.com/chandanaveli/status/1577221715330945025?)
+- Reflections from 2021 : Contains wishful thinking and subtly motivating words. [Link](https://twitter.com/chandanaveli/status/1476787793552568322?)
 - Tweets from Israel: [Link](https://twitter.com/chandanaveli/status/1546076212350828544?)
 - Descriptions about Chalakudy: [Link](https://twitter.com/chandanaveli/status/1485095590744977408?)
 - About women with nose rings: [Link](https://twitter.com/chandanaveli/status/1683868810821124097?)
@@ -25,8 +27,8 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - About roomates who set alarms and doesn't turn it off themselves: [Link](https://x.com/chandanaveli/status/1466625073654030336?s=20)
 - What North Indians think about South Indian languages: [Link](https://x.com/chandanaveli/status/1645835344565379075?s=20)
 - What openwrt lets you do to routers: [Link](https://x.com/chandanaveli/status/1561936757066567680?s=20)
-- About Mark Zuckerburg: [Link](https://x.com/chandanaveli/status/1655593123211513857?s=20)
 - December 9 2023's Thindi (Food) Walk with Thindi Capital: [Link](https://x.com/chandanaveli/status/1733831897237823763?s=20)
+- People getting very good at one or many things is (mostly) not an anomaly: [Link](https://x.com/chandanaveli/status/1606655105763540992?s=20)
 
 ---
 ## Others' tweets
@@ -51,12 +53,15 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - "the more you build, the more you have to pay to maintain": [Link](https://twitter.com/Noahpinion/status/1731765206265864689)
 - "Things around you weren't just always there; people made them happen": [Link](https://twitter.com/collision/status/1529452415346302976?t=oTqPyZ_Eabytnd-gw0opyw)
 - What people want: automation, plants, sunlight, family: [Link](https://twitter.com/__drewface/status/1473684287648055309?s=20&t=z1wRwdmlyNf3owPQcj1KNQ)
+- All advice is context dependent: [Link](https://x.com/visakanv/status/1090128599603044352?s=20)
+- Good generalists ask "what is nobody else doing?" (Related to: what is worth doing?): [Link](https://twitter.com/pronounced_kyle/status/1696939771111813169)
 
 ---
 ## My bookmarks
 - Milan Cvitkovic – Things you're allowed to do (and can do in life): [Link](https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/)
 - Alexey Guzey – What Should You Do with Your Life? Directions and Advice: [Link](https://guzey.com/personal/what-should-you-do-with-your-life/#cold-emails-and-twitter)
 - Moxie Marlinkspike (Founder of Signal) – Career Advice: [Link](https://moxie.org/2013/01/07/career-advice.html)
+- Ben Kuhn – You don’t need to work on hard problems: [Link](https://www.benkuhn.net/hard/)
 - Dan Luu – 95%-ile isn't that good: [Link](https://danluu.com/p95-skill/)
 - Paul Graham – Superlinear Returns: [Link](http://paulgraham.com/superlinear.html)
 - Paul Graham – Life is Short: [Link](http://paulgraham.com/vb.html)
