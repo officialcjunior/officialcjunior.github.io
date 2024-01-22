@@ -24,6 +24,8 @@ X (Formerly Twitter) : [@chandanaveli](https://twitter.com/chandanaveli)
 
 Instagram : [@officialcjunior](https://instagram.com/officialcjunior)
 
+GitHub : [@officialcjunior](https://github.com/officialcjunior)
+
 ---
 
 ### In the press and elsewhere

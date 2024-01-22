@@ -11,10 +11,10 @@ body {
 .menu li { display: inline-block; }
 
 .menu a {
-  text-decoration: none;
+  text-decoration: underline;
   background: #ffccff;
-  padding: 8px;
-  border-radius: 5px;
+  padding: 10px;
+  border-radius: 23px;
 }
 .article-meta {text-align: center;
   padding: 2px;
@@ -25,7 +25,7 @@ footer { text-align: center; }
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
-  color: #ddd;
+  color: #900808;
 }
 
 .date{text-align: right;}
