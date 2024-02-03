@@ -1,4 +1,4 @@
-Hello, I'm Aswin. I'm a 22 year old [Malayali](https://en.wikipedia.org/wiki/Malayali) from Kerala, currently living in Bengaluru.
+Hello, I'm Aswin. I'm a 22 year old [Malayali](https://en.wikipedia.org/wiki/Malayali) from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.
 
 I want to build new things to improve the world through engineering or through other creative outputs.
 
