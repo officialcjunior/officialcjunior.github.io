@@ -16,6 +16,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 
 - Advice on improving writing: [Link](https://twitter.com/chandanaveli/status/1570242973107101697)
 - On Mark Zuckerburg: [Link](https://x.com/chandanaveli/status/1655593123211513857?s=20)
+- What running Arch Linux is like: [Link](https://x.com/chandanaveli/status/1594716643996868609?s=20)
 - About terraces being a place with privacy for (Indian) kids: [Link](https://twitter.com/chandanaveli/status/1632786947423997957)
 - How I visualize new ideas (the creative process): [Link](https://x.com/chandanaveli/status/1603252015001325569?s=20)
 - Aesthetics about the South Indian culture that I love: [Link](https://twitter.com/chandanaveli/status/1577221715330945025?)
@@ -29,6 +30,8 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - What openwrt lets you do to routers: [Link](https://x.com/chandanaveli/status/1561936757066567680?s=20)
 - December 9 2023's Thindi (Food) Walk with Thindi Capital: [Link](https://x.com/chandanaveli/status/1733831897237823763?s=20)
 - People getting very good at one or many things is (mostly) not an anomaly: [Link](https://x.com/chandanaveli/status/1606655105763540992?s=20)
+- What Malayali driving instructors need to do: [Link](https://x.com/chandanaveli/status/1609901261507432449?s=20)
+- On Mani Ratnam's romantic movies: [Link](https://x.com/chandanaveli/status/1643809875833798659?s=20)
 
 ---
 ## Others' tweets
@@ -39,8 +42,10 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - A collection of Steve Jobs' quotes: [Link](https://x.com/visakanv/status/1074945441958027264?s=20)
 - Sam Altman on "bending the world at our will": [Link](https://x.com/danallison/status/1731070496299692335?s=20)
 - Applying high agency: [Link](https://x.com/blader/status/1731570133095924074?s=20)
+- To expand my sense of agency is to pretend I have permission: [Link](https://x.com/goblinodds/status/1594830397606699011?s=20)
 - "Avoid snacking" and seek better and bigger projects: [Link](https://x.com/tao_lin/status/1732826295514636516?s=20)
 - Specialization is for insects: [Link](https://x.com/sophianegativa/status/1719791332376350774?s=20)
+- The best writers, programmers and artists don't do it because they have to: [Link](https://x.com/yacineMTB/status/1742947798696272207?s=20)
 - Pick a business, deeply understand the workflows, and solve it: [Link](https://x.com/levie/status/1699780631151169778?s=20)
 - "if you're precise about what you mean, and choose your words carefully, you end up improving language just by speaking and writing": [Link](https://twitter.com/visakanv/status/1515773253901746176)
 - Intuition is simply reading a lot: [Link](https://x.com/zaoyang/status/940409514875961344?s=20)
@@ -55,17 +60,26 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - What people want: automation, plants, sunlight, family: [Link](https://twitter.com/__drewface/status/1473684287648055309?s=20&t=z1wRwdmlyNf3owPQcj1KNQ)
 - All advice is context dependent: [Link](https://x.com/visakanv/status/1090128599603044352?s=20)
 - Good generalists ask "what is nobody else doing?" (Related to: what is worth doing?): [Link](https://twitter.com/pronounced_kyle/status/1696939771111813169)
+- Why some things don't exist: [Link](https://x.com/naslouki/status/1747688262532026610?s=20)
+- Visakan Veerasamy's thread on random historical events: [Link](https://x.com/visakanv/status/1113165222871674880?s=20)
+- "I can author my life": [Link](https://x.com/mbateman/status/1683487890905481218?s=20)
+- If you're not annoying someone, you're not doing anything interesting: [Link](https://x.com/sashachapin/status/1753489473604915206?s=20)
+- Experts are fake, smart generalists rule the world: [Link](https://twitter.com/tszzl/status/1577059345883283456)
+- Knowing the word for a thing doesn't mean you know the thing: [Link](https://x.com/nosilverv/status/1750451126359503267?s=20)
 
 ---
 ## My bookmarks
 - Milan Cvitkovic – Things you're allowed to do (and can do in life): [Link](https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/)
 - Alexey Guzey – What Should You Do with Your Life? Directions and Advice: [Link](https://guzey.com/personal/what-should-you-do-with-your-life/#cold-emails-and-twitter)
 - Moxie Marlinkspike (Founder of Signal) – Career Advice: [Link](https://moxie.org/2013/01/07/career-advice.html)
+- Wikipedia - The purpose of a system is what it does: [Link](https://en.wikipedia.org/wiki/the_purpose_of_a_system_is_what_it_does)
 - Ben Kuhn – You don’t need to work on hard problems: [Link](https://www.benkuhn.net/hard/)
+- brycedotvc - Most people won't: [Link](https://bryce.vc/post/64889707700/most-people-wont)
+- A meme about life and the importance to move (simply get out and do things): [Link](https://x.com/inflammateomnia/status/1749589692960428049?s=20)
 - Dan Luu – 95%-ile isn't that good: [Link](https://danluu.com/p95-skill/)
 - Paul Graham – Superlinear Returns: [Link](http://paulgraham.com/superlinear.html)
 - Paul Graham – Life is Short: [Link](http://paulgraham.com/vb.html)
-- James Hush – "poke around, find something, redefine yourself: [Link](https://news.ycombinator.com/item?id=32921256)
+- James Hush – "poke around, find something, redefine yourself": [Link](https://news.ycombinator.com/item?id=32921256)
 - tegowerk – Serendipity: [Link](https://tegowerk.eu/posts/serendipity/)
 - Stepan Parunashvili – What Artists Notice: [Link](https://stopa.io/post/294)
 - Alexey Guzey – On (email) follow ups: [Link](https://guzey.com/follow-up/)
