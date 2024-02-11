@@ -32,6 +32,12 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - People getting very good at one or many things is (mostly) not an anomaly: [Link](https://x.com/chandanaveli/status/1606655105763540992?s=20)
 - What Malayali driving instructors need to do: [Link](https://x.com/chandanaveli/status/1609901261507432449?s=20)
 - On Mani Ratnam's romantic movies: [Link](https://x.com/chandanaveli/status/1643809875833798659?s=20)
+- Prayers are clarifications. Prayers will save yourself: [Link](https://twitter.com/chandanaveli/status/1751640591337930848)
+- A lot of human history lives inside our genes: [Link](https://x.com/chandanaveli/status/1740232597215821836?s=20)
+- A common nature of many things in life: [Link](https://x.com/chandanaveli/status/1572194097481543683?s=20)
+- Today's attention span is more about your nutrition and well-being, rather than last day's screentime: [Link](https://x.com/chandanaveli/status/1742527430630252605?s=20)
+- Growing thread of things to be grateful for on a global level: [Link](https://x.com/chandanaveli/status/1746206626930217180?s=20)
+- A glorious memory of waking up from a fever as a child: [Link](https://x.com/chandanaveli/status/1734472368209134019?s=20)
 
 ---
 ## Others' tweets
@@ -43,6 +49,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - Sam Altman on "bending the world at our will": [Link](https://x.com/danallison/status/1731070496299692335?s=20)
 - Applying high agency: [Link](https://x.com/blader/status/1731570133095924074?s=20)
 - To expand my sense of agency is to pretend I have permission: [Link](https://x.com/goblinodds/status/1594830397606699011?s=20)
+- Agency is realizing that you can "just do things": [Link](https://x.com/shaiyanhkhan/status/1754197898814689379?s=20)
 - "Avoid snacking" and seek better and bigger projects: [Link](https://x.com/tao_lin/status/1732826295514636516?s=20)
 - Specialization is for insects: [Link](https://x.com/sophianegativa/status/1719791332376350774?s=20)
 - The best writers, programmers and artists don't do it because they have to: [Link](https://x.com/yacineMTB/status/1742947798696272207?s=20)
