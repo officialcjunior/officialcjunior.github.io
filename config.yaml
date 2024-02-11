@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "en-us"
-title: "Aswin's blog"
+title: "aswin's blog"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
@@ -25,7 +25,7 @@ menu:
     - name: bookshelf
       url: "bookshelf/"
       weight: 4
-    - name: tweets and further reading
+    - name: tweets & other links
       url: "tweets/"
       weight: 5
     - name: about
