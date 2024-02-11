@@ -1,5 +1,5 @@
 ---
-title: "September visit to my hometown"
+title: "A September Visit To My Hometown"
 date: '2024-02-10'
 draft: false
 slug: 'september-2023-home-visit'
@@ -7,8 +7,8 @@ author: 'Aswin'
 tags: ['life']
 ---
 This is a rundown of my experience of a visit I made to my hometown and family in September 2023.
-There's a place where I write and keep some personal narratives, and I found this from there while 
-searching for something else yesterday. I read it again and thought it was post-worthy.
+There's a place where I build and keep some personal narratives, and I found this there while 
+searching for something else yesterday. I felt that it was post-worthy so here it is.
 
 ---
 My September visit to home—a week-long halt at Chalakudy—ended on the thirteenth and I 
@@ -27,24 +27,24 @@ that – you only get to live through every single phase of life once, referring
 of infancy, which she has always loved and is now lost in time (and echoes in eternity).
 
 Quality time was also spent with Ammathe Muthassi (maternal grandmother), who'll be here for 
-three more weeks until her leg heals. On the day before the first day of Onam 2023, grandma 
-slipped and fell on the living room's carpet, ultimately becoming the pioneer in bringing 
-Plaster of Paris home to the current household. This also meant that the wedding at Manthredam 
+three more weeks until her leg heals. On the day before the first day of Onam (Onam is spread over ten days, last being the most auspicious), grandma 
+slipped and fell on the living room's carpet, ultimately becoming the current household's  pioneer in bringing 
+Plaster of Paris home. This also meant that the wedding at Manthredam 
 had to be missed — an event much looked-forward since months ago as it featured an opportunity 
 to convene with the old cousin-friends from Varikkassery after a long while. On the weekend, we 
 talked about the particulars of her wedding at Kottayam, how culture and time has progressed, 
-and some usual old tales. At times, I felt like she looked older and more of her hair had grown 
+and some usual old tales around her days. At times, I felt like she looked older and more of her hair had grown 
 gray – an effect possibly left from her forced arrest to the house. Ammathe Muthassan (maternal grandfather) 
 also paid a visit with Appams he got from the temple on the particular day and the previous. The old man 
 has gotten thinner. I pray for his best.
 
 On Saturday, I re-watched Gladiator, mainly to listen to the dialogues from its first half before
 Maximus is forced to become a slave. It's still an amazing film from all aspects, and whoever acted 
-as Marcus Aurelius did his job really well. It was also nice to revisit and soak in some Roman medieval 
+as Marcus Aurelius did his job really well. It was also nice to revisit and soak in some  medieval Roman
 chivalry—scenes about sword fighting, brotherhood, and empires—into my modern psyche.
 
-Sunday ended with a drive to Athirapilly Waterfalls with Achan (father). Athirapilly feels closer than 
-I expected and the view was simply majestic and humbling. While driving, I need to remind myself to be 
+Sunday ended with a drive to Athirapilly Waterfalls with Achan (father). Athirapilly felt closer than 
+I expected and the view was simply majestic and humbling. Whenever I'm at Athirapilly, I  think about the first human being to watch this view and how it must've felt for him or her. And while driving, I need to remind myself to be 
 aware of the line on the left, I realized. Although I expected to have some good ol’ father-son 
 conversation at the time, that only came later, after I explained what happened in the last monthly 
 team meeting from work and after he explained about change and quality management (his thing) for 
