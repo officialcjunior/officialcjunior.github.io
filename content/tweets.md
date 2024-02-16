@@ -16,6 +16,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 
 - Advice on improving writing: [Link](https://twitter.com/chandanaveli/status/1570242973107101697)
 - On Mark Zuckerburg: [Link](https://x.com/chandanaveli/status/1655593123211513857?s=20)
+- The degree of dependency on romantic crushes: [Link](https://x.com/chandanaveli/status/1758014342061252744?s=20)
 - What running Arch Linux is like: [Link](https://x.com/chandanaveli/status/1594716643996868609?s=20)
 - About terraces being a place with privacy for (Indian) kids: [Link](https://twitter.com/chandanaveli/status/1632786947423997957)
 - How I visualize new ideas (the creative process): [Link](https://x.com/chandanaveli/status/1603252015001325569?s=20)
@@ -38,6 +39,14 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - Today's attention span is more about your nutrition and well-being, rather than last day's screentime: [Link](https://x.com/chandanaveli/status/1742527430630252605?s=20)
 - Growing thread of things to be grateful for on a global level: [Link](https://x.com/chandanaveli/status/1746206626930217180?s=20)
 - A glorious memory of waking up from a fever as a child: [Link](https://x.com/chandanaveli/status/1734472368209134019?s=20)
+- Being able to sing and play a musical instrument is wonderful: [Link](https://x.com/chandanaveli/status/1754073259098734616?s=20)
+- Bring back bathing as a communal activity: [Link](https://x.com/chandanaveli/status/1612322187930931200?s=20)
+- My favourite bad-ass imperial moments from world history: [Link](https://x.com/chandanaveli/status/1749718645478129920?s=20)
+- Why I write beautiful e-mails at work: [Link](https://x.com/chandanaveli/status/1720025292985503815?s=20)
+- On Lijo Jose Pellissery: [Link](https://x.com/chandanaveli/status/1753248414425616544?s=20)
+- I'm an 'internet explorer': [Link](https://x.com/chandanaveli/status/1705045453283459490?s=20)
+- Mentally visualizing talents as a symphony: [Link](https://x.com/chandanaveli/status/1595410337016135680?s=20)
+- On Open Source Projects that has a special culture and tools: [Link](https://x.com/chandanaveli/status/1695338821171196203?s=20)
 
 ---
 ## Others' tweets
