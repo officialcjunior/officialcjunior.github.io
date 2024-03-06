@@ -38,6 +38,9 @@ Vivid description of a continent, culture, travel, colonialism and life
 in the 60s.
 Very well-written. Small and portable book.
 
+#### Originals: How Non-Conformists Move the World – Adam Grant
+Sometimes the anecdotes and correlations presented feel loosely connected and specially curated. But one thing that stuck my mind was his data that showed that the best entrepreneurs take calculated-risks and not leap of faiths.
+
 #### Hippie – Paulo Coelho
 About Paulo's time as a hippie backpacking through Europe.
 About relentless freedom of being alone and youthful indiscretion.
