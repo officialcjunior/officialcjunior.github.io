@@ -16,13 +16,13 @@ More can be found on my [technical talks and projects](/tech) page of this websi
 ### Everything else
 
 I like writing, music, art and its aesthetics, especially: photography, filmmaking, pianos, and writing. I put my long writings on
-this blog, my everyday thoughts on Twitter, and the rest on on Instagram.
+this blog, my everyday thoughts on Twitter, and the rest visual arts on Instagram.
 
 More can be found on my [art portfolio](/art) page of this website and on the following social media pages.
 
-X (Formerly Twitter) : [@chandanaveli](https://twitter.com/chandanaveli)
+Twitter (Formerly X) : [@chandanaveli](https://twitter.com/chandanaveli)
 
-Instagram : [@officialcjunior](https://instagram.com/officialcjunior)
+Instagram : [@aswincveli](https://instagram.com/aswincveli)
 
 GitHub : [@officialcjunior](https://github.com/officialcjunior)
 
