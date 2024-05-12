@@ -10,6 +10,8 @@
 
 These are some of my software projects that I wrote from scratch.
 
+* [snapgist](aswinc.blog/snapgist) - snapgist is a snappy, card-based (inspired from Google Keep), draggable, and cute front-end for Github Gist, so that I can create, edit, view, and save multiple gists on the same screen.
+
 * [rz-svd](https://github.com/officialcjunior/rz-svd) – rz-svd is an SVD file parser plugin for Rizin framework which can parse SVD files and add the information as comments and labels simplifying the reverse engineering experience.
 
 * [kalyani.sh](https://github.com/officialcjunior/kalyani) – kalyani is a simple tool to control the screen
