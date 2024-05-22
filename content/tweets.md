@@ -15,6 +15,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 ## My tweets
 
 ### Observations and Reflections
+- How to use Twitter: [Link](https://x.com/chandanaveli/status/1776960432693039369)
 - Prayers are clarifications. Prayers will save yourself: [Link](https://twitter.com/chandanaveli/status/1751640591337930848)
 - Thinking about the human history lives inside our genes: [Link](https://x.com/chandanaveli/status/1740232597215821836?s=20) 
 - A common nature of many things in life: [Link](https://x.com/chandanaveli/status/1572194097481543683?s=20)
@@ -25,6 +26,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - Mentally visualizing talents as a symphony: [Link](https://x.com/chandanaveli/status/1595410337016135680?s=20)
 - Advice on improving writing: [Link](https://twitter.com/chandanaveli/status/1570242973107101697)
 - Best way to learn a musical instrument is by learning how to play your favourite song: [Link](https://x.com/chandanaveli/status/1585840016781344769?s=20)
+- Being in the middle-class with some drip is a great platform: [Link](https://x.com/chandanaveli/status/1759449891896492338)
 - All creative people should get a website: [Link](https://x.com/chandanaveli/status/1696012954058338695?s=20)
 - Being able to sing and play a musical instrument is wonderful: [Link](https://x.com/chandanaveli/status/1754073259098734616?s=20)
 - A glorious memory of waking up from a fever as a child: [Link](https://x.com/chandanaveli/status/1734472368209134019?s=20)
@@ -33,20 +35,31 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - My random and stinging urge to write an autobiography: [Link](https://x.com/chandanaveli/status/1480853809068843014?s=20)  
 
 ### Technology
+- Knowing programming in this era of software has good leverage: [Link](https://x.com/chandanaveli/status/1786291592564797654)
 - What running Arch Linux (Operating System) is like: [Link](https://x.com/chandanaveli/status/1594716643996868609?s=20)
 - Programming and automation haven't really come down to people: [Link](https://x.com/chandanaveli/status/1734804951941927112?s=20) 
 - I look forward to the convergence of AI and hardware: [Link](https://x.com/chandanaveli/status/1749305864073392639?s=20)
+- GitHub Copilot: [Link](https://x.com/chandanaveli/status/1715349143940411726)
 - Thread about my phone - Pixel 8 Pro. [Link](https://x.com/visakanv/status/1769814366210150488?s=20)
 - Internet has silos, social media apps especially: [Link](https://x.com/chandanaveli/status/1755226502395040047?s=20)
 - What openwrt lets you to do to routers: [Link](https://x.com/chandanaveli/status/1561936757066567680?s=20)
+- Thread about the UX and general personalities of major AI chat models: [Link](https://x.com/chandanaveli/status/1687075579781328896)
 - On Open Source Projects that has a special culture and tools: [Link](https://x.com/chandanaveli/status/1695338821171196203?s=20)
 - Electric scooters lie in the antipodal point of where classical motorcycles lie: [Link](https://twitter.com/chandanaveli/status/1724029407025848527)
 
 ### Personal experiences and memories
+- My lifestyle is 'vibes-based (?) [Link](https://x.com/chandanaveli/status/1759947037305372788)
 - Reflections from 2021: Contains wishful thinking and subtly motivating words. [Link](https://twitter.com/chandanaveli/status/1476787793552568322?)
 - Tweets from Israel: [Link](https://twitter.com/chandanaveli/status/1546076212350828544?)
 - Descriptions about Chalakudy: [Link](https://twitter.com/chandanaveli/status/1485095590744977408?)
 - December 9 2023's Thindi (Food) Walk with Thindi Capital: [Link](https://x.com/chandanaveli/status/1733831897237823763?s=20)
+
+### Music
+- There was a time I thought the Police was the best band in the world, but: [Link](https://x.com/chandanaveli/status/1601573269122883584)
+- Praise for the Indian rock band - F16s: [Link](https://x.com/chandanaveli/status/1775835453632950274)
+- Listening to the Legendary playlist on Spotify: [Link](https://x.com/chandanaveli/status/1684125584551723009)
+- The dexterity of the guitar: [Link](https://x.com/chandanaveli/status/1776132450768302215)
+- 
 
 ### Humorous observations
 - The 'c' in 'aswin c': [Link](https://x.com/chandanaveli/status/1629514866158628864?s=20)
@@ -97,6 +110,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - Good generalists ask "what is nobody else doing?" (Related to: what is worth doing?): [Link](https://twitter.com/pronounced_kyle/status/1696939771111813169)
 - Why some things don't exist: [Link](https://x.com/naslouki/status/1747688262532026610?s=20)
 - Visakan Veerasamy's thread on random historical events: [Link](https://x.com/visakanv/status/1113165222871674880?s=20)
+- The light bulb saved the whale and cities preserve forests: [Link](https://x.com/moultano/status/1785332914416488484)
 - "I can author my life": [Link](https://x.com/mbateman/status/1683487890905481218?s=20)
 - If you're not annoying someone, you're not doing anything interesting: [Link](https://x.com/sashachapin/status/1753489473604915206?s=20)
 - Experts are fake, smart generalists rule the world: [Link](https://twitter.com/tszzl/status/1577059345883283456) [Archive link](
