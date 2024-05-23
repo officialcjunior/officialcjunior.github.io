@@ -36,6 +36,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 
 ### Technology
 - Knowing programming in this era of software has good leverage: [Link](https://x.com/chandanaveli/status/1786291592564797654)
+- All social media websites and internet cultures are sort of rabbit holes: [Link](https://x.com/chandanaveli/status/1755226502395040047)
 - What running Arch Linux (Operating System) is like: [Link](https://x.com/chandanaveli/status/1594716643996868609?s=20)
 - Programming and automation haven't really come down to people: [Link](https://x.com/chandanaveli/status/1734804951941927112?s=20) 
 - I look forward to the convergence of AI and hardware: [Link](https://x.com/chandanaveli/status/1749305864073392639?s=20)
@@ -45,6 +46,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - What openwrt lets you to do to routers: [Link](https://x.com/chandanaveli/status/1561936757066567680?s=20)
 - Thread about the UX and general personalities of major AI chat models: [Link](https://x.com/chandanaveli/status/1687075579781328896)
 - On Open Source Projects that has a special culture and tools: [Link](https://x.com/chandanaveli/status/1695338821171196203?s=20)
+- About being online in the 2010s: [Link](https://x.com/chandanaveli/status/1773603432680567257)
 - Electric scooters lie in the antipodal point of where classical motorcycles lie: [Link](https://twitter.com/chandanaveli/status/1724029407025848527)
 
 ### Personal experiences and memories
@@ -57,14 +59,14 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 ### Music
 - There was a time I thought the Police was the best band in the world, but: [Link](https://x.com/chandanaveli/status/1601573269122883584)
 - Praise for the Indian rock band - F16s: [Link](https://x.com/chandanaveli/status/1775835453632950274)
+- Listening and reviewing [Iyer's Filter Coffee](https://x.com/iyersfilterkapi): [Link](https://x.com/chandanaveli/status/1695384844061253657)
 - Listening to the Legendary playlist on Spotify: [Link](https://x.com/chandanaveli/status/1684125584551723009)
 - The dexterity of the guitar: [Link](https://x.com/chandanaveli/status/1776132450768302215)
-- 
 
 ### Humorous observations
-- The 'c' in 'aswin c': [Link](https://x.com/chandanaveli/status/1629514866158628864?s=20)
 - On Mark Zuckerburg: [Link](https://x.com/chandanaveli/status/1655593123211513857?s=20)
 - The degree of dependence on romantic crushes: [Link](https://x.com/chandanaveli/status/1758014342061252744?s=20)
+- In Bengaluru, people come meetup, sit in circles, and Tweet. [Link](https://x.com/chandanaveli/status/1744333630103568878)
 - About terraces being a place with privacy for (Indian) kids: [Link](https://twitter.com/chandanaveli/status/1632786947423997957)
 - About roomates who set alarms and doesn't turn it off themselves: [Link](https://x.com/chandanaveli/status/1466625073654030336?s=20)
 - What North Indians think about South Indian languages: [Link](https://x.com/chandanaveli/status/1645835344565379075?s=20)
@@ -108,6 +110,7 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - What people want: automation, plants, sunlight, family: [Link](https://twitter.com/__drewface/status/1473684287648055309?s=20&t=z1wRwdmlyNf3owPQcj1KNQ)
 - All advice is context dependent: [Link](https://x.com/visakanv/status/1090128599603044352?s=20)
 - Good generalists ask "what is nobody else doing?" (Related to: what is worth doing?): [Link](https://twitter.com/pronounced_kyle/status/1696939771111813169)
+- Intellectual capacity != mental richness: [Link](https://x.com/octopichael/status/1701474167609033031)
 - Why some things don't exist: [Link](https://x.com/naslouki/status/1747688262532026610?s=20)
 - Visakan Veerasamy's thread on random historical events: [Link](https://x.com/visakanv/status/1113165222871674880?s=20)
 - The light bulb saved the whale and cities preserve forests: [Link](https://x.com/moultano/status/1785332914416488484)
@@ -133,6 +136,7 @@ https://x.com/nahrzf/status/1783891232936091907)
 - Paul Graham – Superlinear Returns: [Link](http://paulgraham.com/superlinear.html)
 - Paul Graham – Life is Short: [Link](http://paulgraham.com/vb.html)
 - James Hush – "poke around, find something, redefine yourself": [Link](https://news.ycombinator.com/item?id=32921256)
+- Steve Jobs: Sculley's Disease – 'An idea changes and grows. Most work is in craftmanship' : [Link](https://martinklepsch.org/posts/sculleys-disease.html) [Backup](https://x.com/keshavchan/status/1793286299392328026)
 - tegowerk – Serendipity: [Link](https://tegowerk.eu/posts/serendipity/)
 - Stepan Parunashvili – What Artists Notice: [Link](https://stopa.io/post/294)
 - Alexey Guzey – On (email) follow ups: [Link](https://guzey.com/follow-up/)
