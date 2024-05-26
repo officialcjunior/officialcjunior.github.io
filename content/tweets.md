@@ -16,8 +16,8 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 
 ### Observations and Reflections
 - How to use Twitter: [Link](https://x.com/chandanaveli/status/1776960432693039369)
-- Prayers are clarifications. Prayers will save yourself: [Link](https://twitter.com/chandanaveli/status/1751640591337930848)
-- Thinking about the human history lives inside our genes: [Link](https://x.com/chandanaveli/status/1740232597215821836?s=20) 
+- All creative people should get a website: [Link](https://x.com/chandanaveli/status/1696012954058338695?s=20)
+- The amount of human history living inside our genes: [Link](https://x.com/chandanaveli/status/1740232597215821836?s=20) 
 - A common nature of many things in life: [Link](https://x.com/chandanaveli/status/1572194097481543683?s=20)
 - Today's attention span is more about your nutrition and well-being, rather than last day's screentime: [Link](https://x.com/chandanaveli/status/1742527430630252605?s=20)
 - Growing thread of things to be grateful for on a global level: [Link](https://x.com/chandanaveli/status/1746206626930217180?s=20)
@@ -27,7 +27,6 @@ The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas
 - Advice on improving writing: [Link](https://twitter.com/chandanaveli/status/1570242973107101697)
 - Best way to learn a musical instrument is by learning how to play your favourite song: [Link](https://x.com/chandanaveli/status/1585840016781344769?s=20)
 - Being in the middle-class with some drip is a great platform: [Link](https://x.com/chandanaveli/status/1759449891896492338)
-- All creative people should get a website: [Link](https://x.com/chandanaveli/status/1696012954058338695?s=20)
 - Being able to sing and play a musical instrument is wonderful: [Link](https://x.com/chandanaveli/status/1754073259098734616?s=20)
 - A glorious memory of waking up from a fever as a child: [Link](https://x.com/chandanaveli/status/1734472368209134019?s=20)
 - My dream as a piano player: [Link](https://x.com/chandanaveli/status/1569207075397406720?s=20)
