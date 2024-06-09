@@ -22,13 +22,13 @@ menu:
     - name: art portfolio
       url: "art/"
       weight: 3
-    - name: bookshelf
+    - name: my bookshelf
       url: "bookshelf/"
       weight: 4
-    - name: tweets & other links
+    - name: fav tweets & links
       url: "tweets/"
       weight: 5
-    - name: about
+    - name: about aswin
       url: "about/"
       weight: 6
 
