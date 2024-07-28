@@ -1,0 +1,69 @@
+{{ $path := .Get "src" }}
+
+<!-- Read the csv -->
+
+{{ $csv := readFile $path }}
+
+{{ if $csv }}
+
+<!-- Unmarshal it as a data object -->
+
+{{ $data := $csv | transform.Unmarshal }}
+
+<!-- Populate the table -->
+
+<table id="linksTable" class="display">
+
+  <thead>
+
+    <!-- Declare the columns for your table -->
+
+    <tr>
+
+      <th>Title</th>
+
+      <th>URL</th>
+
+      <th>Tags</th>
+
+      <th>Content type</th>
+
+    </tr>
+
+  </thead>
+
+  <!-- Populate rows -->
+
+  <tbody>
+    {{ range $index, $row := $data }}
+
+    {{ if ne $index 0 }}
+
+    <tr>
+
+      <!-- Note that the row object is dependent on your csv structure. Map proper column names. -->
+
+      <td>{{ index $row 0 }}</td>
+
+      <td><a href="{{ index $row 1 }}">{{ index $row 1 }}</a></td>
+
+      <td>{{ index $row 2 }}</td>
+
+      <td>{{ index $row 3 }}</td>
+
+    </tr>
+
+    {{ end }}
+
+    {{ end }}
+
+  </tbody>
+  </tbody>
+
+</table>
+
+{{ else }}
+
+<p>Error: CSV file not found.</p>
+
+{{ end }}

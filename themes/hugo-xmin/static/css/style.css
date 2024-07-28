@@ -56,3 +56,29 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+/* Table borders */
+#linksTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#linksTable th, #linksTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Hover effect */
+#linksTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Header styling */
+#linksTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f49af4;
+  color: white;
+}
+
