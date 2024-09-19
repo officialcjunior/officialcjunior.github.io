@@ -26,6 +26,8 @@ Instagram : [@aswincveli](https://instagram.com/aswincveli)
 
 GitHub : [@officialcjunior](https://github.com/officialcjunior)
 
+If you'd like to date me, see my date me doc here: [date aswin c](https://docs.google.com/document/d/1ZibqJ77qEXedC6t9R8pblUtLNUYkpYSDKxqKM1iLNUw/edit?usp=sharing)
+
 ---
 
 ### In the press and elsewhere
