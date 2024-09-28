@@ -1,5 +1,5 @@
 ---
-title: "Google Summer Of Code 2021- Support for CPU and Platform Profiles"
+title: "Google Summer Of Code 2021 report – Support for CPU and Platform Profiles"
 date: '2021-08-20'
 draft: false
 slug: 'gsoc-2021'
