@@ -1,4 +1,4 @@
-Hello, I'm Aswin. I'm a 22 year old [Malayali](https://en.wikipedia.org/wiki/Malayali) from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.
+Hello, I'm Aswin. I'm a 23 year old [Malayali](https://en.wikipedia.org/wiki/Malayali) from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.
 
 I want to build new things to improve the world through engineering or through other creative outputs.
 
@@ -6,25 +6,21 @@ I want to build new things to improve the world through engineering or through o
 
 Here are some of my interests:
 
-### Computer science:
+### Computers:
 
-I like computers and what is possible with them. At the beginning of my "computer journey", as a freshman at my university, I was exclusively interested in systems. But lately, as I got acquainted with other things of the stack, I like almost all parts of it,
-and been more on the line of "make what people want".
+I like computers and what is possible with them. At the beginning, as a freshman at my university, I was exclusively interested in systems. But lately, as I got acquainted with other things of the stack and culture, I like almost all parts of it, and been more on the line of "make what people want", generally and at work.
 
 More can be found on my [technical talks and projects](/tech) page of this website and my Github: [@officialcjunior](https://github.com/officialcjunior)
 
 ### Everything else
 
-I like writing, music, art and its aesthetics, especially: photography, filmmaking, pianos, and writing. I put my long writings on
-this blog, my everyday thoughts on Twitter, and the rest visual arts on Instagram.
+I like writing, music, art and its aesthetics, especially: photography, filmmaking, pianos, and writing. I put my long writings on this blog, my everyday thoughts on Twitter, and the rest on Instagram.
 
-More can be found on my [art portfolio](/art) page of this website and on the following social media pages.
+More can be found on my [art](/art) page of this website and on the following social media pages.
 
 Twitter (Formerly X) : [@chandanaveli](https://twitter.com/chandanaveli)
 
 Instagram : [@aswincveli](https://instagram.com/aswincveli)
-
-GitHub : [@officialcjunior](https://github.com/officialcjunior)
 
 ---
 
