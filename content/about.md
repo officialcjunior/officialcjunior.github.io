@@ -1,22 +1,13 @@
 Hello, I'm Aswin. I'm a 23 year old [Malayali](https://en.wikipedia.org/wiki/Malayali) from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.
 
-I want to build new things to improve the world through engineering or through other creative outputs.
+I like creating, solving, and working on things and products that people want to use.
 
 ---
 
-Here are some of my interests:
+I like computers and what is possible with them. At the beginning, I was exclusively interested in systems. But lately, as I got acquainted with other things of the stack and culture, I like almost all parts of it, and been more on the line of "make what people want", generally and at work. I now primarily work in the app-tier. More can be found on my [technical talks and projects](/tech) page of this website and my Github: [@officialcjunior](https://github.com/officialcjunior)
 
-### Computers:
 
-I like computers and what is possible with them. At the beginning, as a freshman at my university, I was exclusively interested in systems. But lately, as I got acquainted with other things of the stack and culture, I like almost all parts of it, and been more on the line of "make what people want", generally and at work.
-
-More can be found on my [technical talks and projects](/tech) page of this website and my Github: [@officialcjunior](https://github.com/officialcjunior)
-
-### Everything else
-
-I like writing, music, art and its aesthetics, especially: photography, filmmaking, pianos, and writing. I put my long writings on this blog, my everyday thoughts on Twitter, and the rest on Instagram.
-
-More can be found on my [art](/art) page of this website and on the following social media pages.
+I like writing, music, art and its aesthetics, especially: photography, filmmaking, pianos, and writing. I put my long writings on this blog, my everyday thoughts on Twitter, and the rest on Instagram. More can be found on my [art](/art) page of this website and on the following social media pages.
 
 Twitter (Formerly X) : [@chandanaveli](https://twitter.com/chandanaveli)
 
