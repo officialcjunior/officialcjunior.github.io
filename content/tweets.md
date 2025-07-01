@@ -4,9 +4,7 @@ title: Tweets and further reading
 
 This is the collection of some of the best tweets I've posted and read, and some of the best articles I've read on the internet that I've bookrmarked.
 
-The word 'best' is perhaps too feeble a term to encapsulate the breadth of ideas the contents of the below links sometimes touch. But it's usually a mix of wit, wisdom, and the unbridled exuberance of 3 A.M.
-
-
+You can see a part of the collection on my TweetLists profile: [TweetLists](https://tweetlists.app/chandanaveli) and the rest below.
 
 <script src="/tweets-table.js" defer></script>
 
