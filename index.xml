@@ -1,37 +1,2879 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on aswin's blog</title><link>/</link><description>Recent content in Home on aswin's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes from my first workplace as an employee</title><link>/blog/work-1/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/work-1/</guid><description>mark { background-color: #ffc266; color: black; } yellowmark { background-color: #ffffb3; color: black; } Hey, we&amp;rsquo;re back.
-The cadence of these notes will vary like a meandering river as it was not easy to connect different things and also keep the same voice – &amp;ldquo;I am not an expert; I&amp;rsquo;m just writing it down as I fare forward and figure it out&amp;rdquo; throughout the blog. I also feel this blog post lacks a certain standard of emotional density that I thought this would have when I envisioned writing it.</description></item><item><title>Jerusalem</title><link>/blog/jerusalem/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/jerusalem/</guid><description>This is the caption I wrote for an Instagram post about Jerusalem, when I visited it in July 2022. More about the trip can be read on a previous post − Notes from Israel.
-Recently, I read it again and thought it was post-worthy, so here it is:
-To get lost in the beauty and the aesthetics of the Old City of Jerusalem, you won&amp;rsquo;t need to try or look closely.</description></item><item><title>A September Visit To My Hometown</title><link>/blog/september-2023-home-visit/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/september-2023-home-visit/</guid><description>This is a rundown of my experience of a visit I made to my hometown and family in September 2023. There&amp;rsquo;s a place where I build and keep some personal narratives, and I found this there while searching for something else yesterday. I felt that it was post-worthy so here it is.
-My September visit to home—a week-long halt at Chalakudy—ended on the thirteenth and I have come back to the city with a reminder that working on myself, usually career, is always the best thing to do and brings the most happiness and satisfaction.</description></item><item><title>Brick by brick – my four years at Amrita University</title><link>/blog/college/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><guid>/blog/college/</guid><description>For reading or giving feedback, social proof, comments, and further discussion, see the following Twitter thread.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on aswin's blog</title><link>/</link><description>Recent content in Home on aswin's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes from my first workplace as an employee</title><link>/blog/work-1/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/work-1/</guid><description>&lt;style>
 mark {
-background-color: #ffc266;
-color: black;
+ background-color: #ffc266;
+ color: black;
 }
-Table of contents The years 2019: starting out 2020: just Aswin and his computer 2021: changing landscapes 2022: saying yes to new things 2023: to infinity and beyond In retrospect Amritapuri Campus My years teambi0s Reminders about life and career Looking at the future – the world is my oyster Acknowledgements Hello, everyone.</description></item><item><title>Notes after working at a 14-people startup</title><link>/blog/notes-after-working-at-a-startup/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/notes-after-working-at-a-startup/</guid><description>Table of contents SubCom The internship and work Reflections Closing I worked at Subconscious Compute—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.</description></item><item><title>Notes from Israel</title><link>/blog/notes-from-israel/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><guid>/blog/notes-from-israel/</guid><description>Table of contents Delhi – the journey begins Shalom, Israel First meet-up party in the dorm lawns The university Be’er Sheva central park Attending the pizza party Bengi&amp;rsquo;s bar Startup tour at HiTech park Eilat Coral beach Be&amp;rsquo;er Sheva city The old city Food street Jerusalem The Western Wall King David&amp;rsquo;s fort Church of the Holy Sepulchre The market and the old city Mount of Olives The Holocaust memorial Tel Aviv The beach Jaffa Dead Sea Haifa Akko Nahariya Last day and the flight back These are the candid, first-hand writings of my trip to Israel to attend a summer school on ‘Data Mining and Cybersecurity for Business Intelligence’ at the Ben-Gurion University in July 2022.</description></item><item><title>Hello OpenBSD</title><link>/blog/hello-openbsd/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/hello-openbsd/</guid><description>Oh, hi!
-This is a blog post about the things I stumbled upon when I thought I&amp;rsquo;ll give OpenBSD a go. Therefore, this post is going to sound more like a walkthrough than an ordinary blog post.
-The reason why I decided to try it out was primarily for the learning experience, and to use it as a hobby OS- something you boot up every once in a while when you want to slow down and relax a bit.</description></item><item><title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title><link>/blog/gsoc-2021/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/gsoc-2021/</guid><description>Hi all,
-This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on adding support for CPU and platform profiles.
-Title of the project Support for CPU and platform profiles
-Synopsis Rizin previously relied upon manually writing code for adding a new CPU or an IO port. This implementation was unfit as the vast and growing ecology of hardware components such as CPUs and SoCs regularly implement a part of architecture with custom instructions, registers, and address configurations with trivial differences, making it infeasible to maintain all of them inside Rizin.</description></item><item><title>Preserving the commons in computing</title><link>/blog/the-commons-in-computing/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/the-commons-in-computing/</guid><description>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas.</description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.
-This is the writeup for the same.
-Invisible Maze tl;dr
-Challenge is a Nintendo GameBoy ROM image. Reverse the ROM and figure out the implementation Analyze the calling function&amp;rsquo;s checks to find the path along which we must move. Challenge points: 936
-No. of solves: 13
-Challenge Authors: officialcjunior and k4iz3n</description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.
-When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.</description></item><item><title/><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>Hello, I&amp;rsquo;m Aswin. I&amp;rsquo;m a 23 year old Malayali from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.
-I like creating, solving, and working on things and products that people want to use.
-I like computers and what is possible with them. At the beginning, I was exclusively interested in systems. But lately, as I got acquainted with other things of the stack and culture, I like almost all parts of it, and been more on the line of &amp;ldquo;make what people want&amp;rdquo;, generally and at work.</description></item><item><title/><link>/bookshelf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/bookshelf/</guid><description>This is a list of books I&amp;rsquo;ve read and enjoyed. This page is inspired from Patrick Collison&amp;rsquo;s Bookshelf.
-&amp;ldquo;Since the stacks and shelves lack any particular order, so too does this list.&amp;rdquo;
-Sapiens: A Brief History of Humankind – Yuval Noah Harari Life-altering insights about human origins, civilization, religion, empires, science, technology, and human nature.
-An Era of Darkness: The British Empire in India – Shashi Tharoor Although the book presents an incessantly one-sided narrative, its descriptions and style of writing is engaging, and does not fail to deliver the unparalleled joy of reading a Tharoor.</description></item><item><title/><link>/tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/tech/</guid><description>Talks State of Rust in the Linux kernel – a talk I gave at Bangalore Rust community&amp;rsquo;s October 2023 meetup: Slides
-Summer of Code at Rizin - a talk I gave at FOSSMEC on December 2 2022, where I talked about my Google Summer of Code project, the experience, and insights: Slides
-A brief history of UNIX and Linux - an internal talk at teambi0s: Slides</description></item><item><title>Art portfolio</title><link>/art/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/art/</guid><description>Table of contents:
-Writing
-Photography
-Filmography
-Music
-Writing Apart from the posts from the blog tab of the same website, here are links to some of my most well-received writing:
-Write-up and a character sketch about one of my best friend from university: instagram
-A satrical take on what happens in a day at the gents' dorms at my university: Menon Sir was sleeping in</description></item><item><title>Tweets and further reading</title><link>/tweets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/tweets/</guid><description>This is the collection of some of the best tweets I&amp;rsquo;ve posted and read, and some of the best articles I&amp;rsquo;ve read on the internet that I&amp;rsquo;ve bookrmarked.
-The word &amp;lsquo;best&amp;rsquo; is perhaps too feeble a term to encapsulate the breadth of ideas the contents of the below links sometimes touch. But it&amp;rsquo;s usually a mix of wit, wisdom, and the unbridled exuberance of 3 A.M.
-Title URL Tags Content type How to use Twitter https://x.</description></item></channel></rss>
+yellowmark {
+ background-color: #ffffb3;
+ color: black;
+}
+&lt;/style>
+&lt;p>Hey, we&amp;rsquo;re back.&lt;/p>
+&lt;p>The cadence of these notes will vary like a meandering river as it was not easy to connect different things and also keep the same voice – &amp;ldquo;I am not an expert; I&amp;rsquo;m just writing it down as I fare forward and figure it out&amp;rdquo; throughout the blog. I also feel this blog post lacks a certain standard of emotional density that I thought this would have when I envisioned writing it. Nevertheless, the deliverables of an average blog post on this site: candid accounts of experiences and reflections, with an edge for optimism, can be easily observed even by the accidental audience on this blog post.&lt;/p></description></item><item><title>Jerusalem</title><link>/blog/jerusalem/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/jerusalem/</guid><description>&lt;p>This is the caption I wrote for &lt;a href="https://www.instagram.com/p/CgZevibs7j-/">an Instagram post&lt;/a> about Jerusalem, when I visited it in July 2022. More about the trip can be read on a previous post − &lt;a href="notes-from-israel">Notes from Israel&lt;/a>.&lt;/p>
+&lt;p>Recently, I read it again and thought it was post-worthy, so here it is:&lt;/p>
+&lt;hr>
+&lt;p>To get lost in the beauty and the aesthetics of the Old City of Jerusalem, you won&amp;rsquo;t need to try or look closely.&lt;/p>
+&lt;p>The city naturally presents itself—its hills and vineyards, its grandeur and poise—the moment you step inside its walls. Intangible dust of another era: of untold stories and forgotten past rest in its old and narrow pathways—almost palpable to the trivial and mortal souls of the distant wayfarers—which, upon our touch, dissolves and slips away back to its angelic provenance. Hence, just like how Ernesto Che Guevara saw the ancient city of Cuzco, more than one Jerusalems can be summoned and perceived. And to each of these Jerusalems, we shall dedicate our stay.&lt;/p></description></item><item><title>A September Visit To My Hometown</title><link>/blog/september-2023-home-visit/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/september-2023-home-visit/</guid><description>&lt;p>This is a rundown of my experience of a visit I made to my hometown and family in September 2023.
+There&amp;rsquo;s a place where I build and keep some personal narratives, and I found this there while
+searching for something else yesterday. I felt that it was post-worthy so here it is.&lt;/p>
+&lt;hr>
+&lt;p>My September visit to home—a week-long halt at Chalakudy—ended on the thirteenth and I
+have come back to the city with a reminder that working on myself, usually career, is always
+the best thing to do and brings the most happiness and satisfaction.&lt;/p></description></item><item><title>Brick by brick – my four years at Amrita University</title><link>/blog/college/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><guid>/blog/college/</guid><description>&lt;p>For reading or giving feedback, social proof, comments, and further discussion, see the following &lt;a href="https://x.com/chandanaveli/status/1723241534609645998?s=20">Twitter thread&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;style>
+mark {
+ background-color: #ffc266;
+ color: black;
+}
+&lt;/style>
+&lt;h3 id="table-of-contents">Table of contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#the-years">The years&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#2019-starting-out">2019: starting out&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2020-just-aswin-and-his-computer">2020: just Aswin and his computer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2021-changing-landscapes">2021: changing landscapes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2022-saying-yes-to-new-things">2022: saying yes to new things&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2023-to-infinity-and-beyond">2023: to infinity and beyond&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#in-retrospect">In retrospect&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#amritapuri-campus--in-retrospect">Amritapuri Campus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#my-years--in-retrospect">My years&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#teambi0s--in-retrospect">teambi0s&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#reminders-about-life-and-career">Reminders about life and career&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#looking-at-the-future--the-world-is-my-oyster">Looking at the future – the world is my oyster&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgements">Acknowledgements&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Hello, everyone.&lt;/p></description></item><item><title>Notes after working at a 14-people startup</title><link>/blog/notes-after-working-at-a-startup/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/notes-after-working-at-a-startup/</guid><description>&lt;h3 id="table-of-contents">Table of contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#subcom">SubCom&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-internship-and-work">The internship and work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-internship-and-work">Reflections&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#closing-thoughts">Closing&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>I worked at &lt;a href="https://subcom.tech">Subconscious Compute&lt;/a>—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.&lt;/p>
+&lt;p>From day one, I wanted to write this blog down with every detail, and make it as fun and artistic as the public image of the company on LinkedIn. But right now, a lot of happenings have become fuzzy in my present memory to be reviewed and summarized in detail. Therefore, what I&amp;rsquo;ll present will be my current viewpoints and major events, obviously, as many perspectives were molded, reshaped, learned and unlearned during this journey – the first chapter of my life in the workplace. For example, people and practices I thought were the most ridiculous entities of reality, currently feel just typical, and perhaps a bit oddly ironical.&lt;/p></description></item><item><title>Notes from Israel</title><link>/blog/notes-from-israel/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><guid>/blog/notes-from-israel/</guid><description>&lt;h3 id="table-of-contents">Table of contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#delhi--the-journey-begins">Delhi – the journey begins&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#shalom-israel">Shalom, Israel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-meet-up-party-in-the-dorm-lawns">First meet-up party in the dorm lawns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-university">The university&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#beer-sheva-central-park">Be’er Sheva central park&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#attending-a-salsa-class">Attending the pizza party&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#bengis-bar">Bengi&amp;rsquo;s bar&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#startup-tour-at-hitech-park">Startup tour at HiTech park&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#eilat">Eilat&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#coral-beach">Coral beach&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#beer-sheva-city">Be&amp;rsquo;er Sheva city&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-old-city">The old city&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#food-street">Food street&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#jerusalem">Jerusalem&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#the-western-wall">The Western Wall&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#king-davids-fort">King David&amp;rsquo;s fort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#church-of-the-holy-sepulchre">Church of the Holy Sepulchre&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-market-and-the-old-city">The market and the old city&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mount-of-olives">Mount of Olives&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-holocaust-memorial">The Holocaust memorial&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#tel-aviv">Tel Aviv&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#the-beach">The beach&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#jaffa">Jaffa&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#dead-sea">Dead Sea&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#haifa">Haifa&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#akko">Akko&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#nahariyaa">Nahariya&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#last-day-and-the-flight-back">Last day and the flight back&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>These are the candid, first-hand writings of my trip to Israel to attend a summer school on ‘Data Mining and Cybersecurity for Business Intelligence’ at the Ben-Gurion University in July 2022. The prose is mostly first-person and like a diary entry.&lt;/p></description></item><item><title>Hello OpenBSD</title><link>/blog/hello-openbsd/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/hello-openbsd/</guid><description>&lt;p>Oh, hi!&lt;/p>
+&lt;p>This is a blog post about the things I stumbled upon when I
+thought I&amp;rsquo;ll give &lt;a href="https://www.openbsd.org">OpenBSD&lt;/a> a go. Therefore, this post is going
+to sound more like a walkthrough than an ordinary blog post.&lt;/p>
+&lt;p>The reason why I decided to try it out was primarily for the learning experience, and to
+use it as a hobby OS- something you boot up every once in a while when you want to slow
+down and relax a bit. Moreover, I also wanted to see why many people love and endorse
+OpenBSD, and wanted to see if it is my cup of tea.&lt;/p></description></item><item><title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title><link>/blog/gsoc-2021/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/gsoc-2021/</guid><description>&lt;p>Hi all,&lt;/p>
+&lt;p>This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on
+adding support for CPU and platform profiles.&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="https://rizin.re/images/rizin.svg" alt="rizin-image">&lt;/p>
+&lt;h3 id="title-of-the-project">Title of the project&lt;/h3>
+&lt;p>Support for CPU and platform profiles&lt;/p>
+&lt;h3 id="synopsis">Synopsis&lt;/h3>
+&lt;p>Rizin previously relied upon manually writing code for adding a new CPU or an IO port. This
+implementation was unfit as the vast and growing ecology of hardware components such as
+CPUs and SoCs regularly implement a part of architecture with custom instructions,
+registers, and address configurations with trivial differences, making it infeasible to
+maintain all of them inside Rizin.&lt;/p></description></item><item><title>Preserving the commons in computing</title><link>/blog/the-commons-in-computing/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/the-commons-in-computing/</guid><description>&lt;hr>
+&lt;p>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas. empowering the world as we know it, ultimately allowing you to read this very blog.&lt;/p></description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>&lt;p>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.&lt;/p>
+&lt;p>This is the writeup for the same.&lt;/p>
+&lt;h2 id="invisible-maze">Invisible Maze&lt;/h2>
+&lt;p>&lt;strong>tl;dr&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Challenge is a Nintendo GameBoy ROM image.&lt;/li>
+&lt;li>Reverse the ROM and figure out the implementation&lt;/li>
+&lt;li>Analyze the calling function&amp;rsquo;s checks to find the path along which we must move.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Challenge points&lt;/strong>: 936&lt;/p>
+&lt;p>&lt;strong>No. of solves&lt;/strong>: 13&lt;/p>
+&lt;p>&lt;strong>Challenge Authors&lt;/strong>: officialcjunior and &lt;a href="twitter.com/akulpillai">k4iz3n&lt;/a>&lt;/p>
+&lt;p>You can get the challenge file from &lt;a href="https://github.com/teambi0s/InCTFi/tree/master/2020/Misc/Invisible-Maze">here.&lt;/a>&lt;/p></description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>&lt;p>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.&lt;/p>
+&lt;p>When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.&lt;/p></description></item><item><title/><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;p>Hello, I&amp;rsquo;m Aswin. I&amp;rsquo;m a 23 year old &lt;a href="https://en.wikipedia.org/wiki/Malayali">Malayali&lt;/a> from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.&lt;/p>
+&lt;p>I like creating, solving, and working on things and products people want to use.&lt;/p>
+&lt;div style="display: flex; justify-content: center; width: 100%; margin: 20px 0;">
+ &lt;blockquote class="twitter-tweet" data-dnt="true" style="max-width: 550px;">
+ &lt;p lang="en" dir="ltr">as far back as i can remember, i always wanted to work on cool products. &lt;a href="https://t.co/Beu9hkQ0qM">https://t.co/Beu9hkQ0qM&lt;/a>&lt;/p>&amp;mdash; aswin c (@chandanaveli) &lt;a href="https://twitter.com/chandanaveli/status/1925395446895398987?ref_src=twsrc%5Etfw">May 22, 2025&lt;/a>
+ &lt;/blockquote>
+ &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;/div>
+&lt;hr>
+&lt;p>Twitter (Formerly X) : &lt;a href="https://twitter.com/chandanaveli">@chandanaveli&lt;/a>&lt;/p></description></item><item><title/><link>/bookshelf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/bookshelf/</guid><description>&lt;p>This is a list of books I&amp;rsquo;ve read and enjoyed. This page is inspired from &lt;a href="https://patrickcollison.com/bookshelf">Patrick Collison&amp;rsquo;s&lt;/a> Bookshelf.&lt;/p>
+&lt;p>&amp;ldquo;Since the stacks and shelves lack any particular order, so too does this list.&amp;rdquo;&lt;/p>
+&lt;hr>
+&lt;h4 id="sapiens-a-brief-history-of-humankind--yuval-noah-harari">Sapiens: A Brief History of Humankind – Yuval Noah Harari&lt;/h4>
+&lt;p>Life-altering insights about human origins, civilization, religion,
+empires, science, technology, and human nature.&lt;/p>
+&lt;h4 id="an-era-of-darkness-the-british-empire-in-india--shashi-tharoor">An Era of Darkness: The British Empire in India – Shashi Tharoor&lt;/h4>
+&lt;p>Although the book presents an incessantly one-sided narrative, its descriptions and style of writing is engaging, and does not fail to deliver the unparalleled joy of reading a Tharoor. Here&amp;rsquo;s &lt;a href="https://twitter.com/chandanaveli/status/1697308569945911338?s=20">my tweet thread&lt;/a> about the book.&lt;/p></description></item><item><title/><link>/tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/tech/</guid><description>&lt;h3 id="talks">Talks&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>State of Rust in the Linux kernel&lt;/strong> – a talk I gave at Bangalore Rust community&amp;rsquo;s October 2023 meetup: &lt;a href="https://docs.google.com/presentation/d/1DrQLhqYSxaC1X0ANI9AQRNoChwWdo61-L3W12bfB3dY/edit?usp=sharing">Slides&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Summer of Code at Rizin&lt;/strong> - a talk I gave at &lt;a href="https://www.instagram.com/foss_mec/">FOSSMEC&lt;/a> on December 2 2022, where I talked about my Google Summer of Code project, the experience, and insights: &lt;a href="https://docs.google.com/presentation/d/16Scw_7i_RIwaefmYd68q2BYg1RhX7Gi5Nh0GhN46HtI/edit?usp=sharing">Slides&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>A brief history of UNIX and Linux&lt;/strong> - an internal talk at &lt;a href="https://bi0s.in">teambi0s&lt;/a>: &lt;a href="https://docs.google.com/presentation/d/1jT62ioshEg1mgoN6s2-s1TYoD8GGt3rS-cXvipN06vg/edit?usp=sharing">Slides&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="software-projects">Software projects&lt;/h3>
+&lt;p>These are some of my software projects that I wrote from scratch.&lt;/p></description></item><item><title>Art portfolio</title><link>/art/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/art/</guid><description>&lt;p>Table of contents:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="#writing">Writing&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="#photography">Photography&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="#filmography">Filmography&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="#music">Music&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="writing">Writing&lt;/h3>
+&lt;p>Apart from the posts from the blog tab of the same website, here are links to some of my most well-received writing:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Write-up and a character sketch about one of my best friend from university: &lt;a href="https://www.instagram.com/p/Cv4QL27AqHi/">instagram&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A satrical take on what happens in a day at the gents&amp;rsquo; dorms at my university: &lt;a href="https://www.tumblr.com/blogdecjunior/612311698309775360/menon-sir-was-sleeping-in?source=share">Menon Sir was sleeping in&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>My submission for the DEFCON 28 Short Story Contest: &lt;a href="https://forum.defcon.org/node/233102">forum.defon.irg/node/233102&lt;/a>&lt;/p></description></item><item><title>Tweets and further reading</title><link>/tweets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/tweets/</guid><description>&lt;p>This is the collection of some of the best tweets I&amp;rsquo;ve posted and read, and some of the best articles I&amp;rsquo;ve read on the internet that I&amp;rsquo;ve bookrmarked.&lt;/p>
+&lt;p>You can see a part of the collection on my TweetLists profile: &lt;a href="https://tweetlists.app/chandanaveli">TweetLists&lt;/a> and the rest below.&lt;/p>
+&lt;script src="/tweets-table.js" defer>&lt;/script>
+&lt;link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css" />
+&lt;script src="https://code.jquery.com/jquery-3.7.0.min.js">&lt;/script>
+&lt;script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js">&lt;/script>
+&lt;script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js">&lt;/script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table id="linksTable" class="display">
+
+ &lt;thead>
+
+ 
+
+ &lt;tr>
+
+ &lt;th>Title&lt;/th>
+
+ &lt;th>URL&lt;/th>
+
+ &lt;th>Tags&lt;/th>
+
+ &lt;th>Content type&lt;/th>
+
+ &lt;/tr>
+
+ &lt;/thead>
+
+ 
+
+ &lt;tbody>
+ 
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>How to use Twitter&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1776960432693039369">https://x.com/chandanaveli/status/1776960432693039369&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>All creative people should get a website&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1696012954058338695?s=20">https://x.com/chandanaveli/status/1696012954058338695?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>The amount of human history living inside our genes&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1740232597215821836?s=20%20">https://x.com/chandanaveli/status/1740232597215821836?s=20 &lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>A common nature of many things in life&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1572194097481543683?s=20">https://x.com/chandanaveli/status/1572194097481543683?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Today&amp;#39;s attention span is more about your nutrition and well-being, rather than last day&amp;#39;s screentime&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1742527430630252605?s=20">https://x.com/chandanaveli/status/1742527430630252605?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Growing thread of things to be grateful for on a global level&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1746206626930217180?s=20">https://x.com/chandanaveli/status/1746206626930217180?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>People getting very good at one or many things is (mostly not an anomaly)&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1606655105763540992?s=20">https://x.com/chandanaveli/status/1606655105763540992?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>How I visualize new ideas (the creative process)&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1603252015001325569?s=20">https://x.com/chandanaveli/status/1603252015001325569?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Mentally visualizing talents as a symphony&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1595410337016135680?s=20">https://x.com/chandanaveli/status/1595410337016135680?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Advice on improving writing&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1570242973107101697">https://twitter.com/chandanaveli/status/1570242973107101697&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Best way to learn a musical instrument is by learning how to play your favourite song&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1585840016781344769?s=20">https://x.com/chandanaveli/status/1585840016781344769?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Being in the middle-class with some drip is a great platform&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1759449891896492338">https://x.com/chandanaveli/status/1759449891896492338&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Most people don’t ever get to sing and play a musical instrument.&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1754073259098734616?s=20">https://x.com/chandanaveli/status/1754073259098734616?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>A glorious memory of waking up from a fever as a child&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1734472368209134019?s=20">https://x.com/chandanaveli/status/1734472368209134019?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>My dream as a piano player&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1569207075397406720?s=20">https://x.com/chandanaveli/status/1569207075397406720?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>I&amp;#39;m an &amp;#39;internet explorer’&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1705045453283459490?s=20">https://x.com/chandanaveli/status/1705045453283459490?s=20&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>My random and stinging urge to write an autobiography&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1480853809068843014?s=20%20%20">https://x.com/chandanaveli/status/1480853809068843014?s=20 &lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>On moving closer to work&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1747626584138240511">https://x.com/chandanaveli/status/1747626584138240511&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Attention span is proportional to your well-being, not your screen-time&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1742527430630252605">https://x.com/chandanaveli/status/1742527430630252605&lt;/a>&lt;/td>
+
+ &lt;td>observation, technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Knowing programming in this era of software has good leverage&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1786291592564797654">https://x.com/chandanaveli/status/1786291592564797654&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+All social media websites and internet cultures are sort of rabbit holes&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1755226502395040047">https://x.com/chandanaveli/status/1755226502395040047&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+What running Arch Linux (Operating System) is like&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1594716643996868609?s=20">https://x.com/chandanaveli/status/1594716643996868609?s=20&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Programming and automation haven&amp;#39;t really come down to people&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1734804951941927112?s=20">https://x.com/chandanaveli/status/1734804951941927112?s=20&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+I look forward to the convergence of AI and hardware&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1749305864073392639?s=20">https://x.com/chandanaveli/status/1749305864073392639?s=20&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>On GitHub Copilot — the experience&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1715349143940411726">https://x.com/chandanaveli/status/1715349143940411726&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Thread about my phone - Pixel 8 Pro&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/visakanv/status/1769814366210150488?s=20">https://x.com/visakanv/status/1769814366210150488?s=20&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Internet has silos, social media apps especially&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1755226502395040047?s=20">https://x.com/chandanaveli/status/1755226502395040047?s=20&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+What openwrt lets you to do to routers:&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1561936757066567680?s=20">https://x.com/chandanaveli/status/1561936757066567680?s=20&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Thread about the UX and general personalities of major AI chat models&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1687075579781328896">https://x.com/chandanaveli/status/1687075579781328896&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+On Open Source Projects that has special cultures and tools&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1695338821171196203?s=20">https://x.com/chandanaveli/status/1695338821171196203?s=20&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+About being online in the 2010s&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1773603432680567257">https://x.com/chandanaveli/status/1773603432680567257&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Electric scooters lie in the antipodal point of where classical motorcycles lie&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1724029407025848527">https://twitter.com/chandanaveli/status/1724029407025848527&lt;/a>&lt;/td>
+
+ &lt;td>technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>MacBook Pro Spirit/Deity&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1782008556323287220">https://x.com/chandanaveli/status/1782008556323287220&lt;/a>&lt;/td>
+
+ &lt;td>observation, technology&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+My lifestyle is &amp;#39;vibes-based (?)&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1759947037305372788">https://x.com/chandanaveli/status/1759947037305372788&lt;/a>&lt;/td>
+
+ &lt;td>experiences, observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Reflections from 2021: Contains wishful thinking and subtly motivating words. Feels cringe now&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1476787793552568322">https://twitter.com/chandanaveli/status/1476787793552568322&lt;/a>&lt;/td>
+
+ &lt;td>experiences&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Tweets from Israel&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1546076212350828544?">https://twitter.com/chandanaveli/status/1546076212350828544?&lt;/a>&lt;/td>
+
+ &lt;td>experiences&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Descriptions about Chalakudy — my home&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1485095590744977408?">https://twitter.com/chandanaveli/status/1485095590744977408?&lt;/a>&lt;/td>
+
+ &lt;td>experiences&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+December 9 2023&amp;#39;s Thindi (Food) Walk with Thindi Capital:&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1733831897237823763?s=20">https://x.com/chandanaveli/status/1733831897237823763?s=20&lt;/a>&lt;/td>
+
+ &lt;td>experiences&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+There was a time I thought the Police was the best band in the world, but&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">ttps://x.com/chandanaveli/status/1601573269122883584&lt;/a>&lt;/td>
+
+ &lt;td>music&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Praise for the Indian rock band - F16s&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1775835453632950274">https://x.com/chandanaveli/status/1775835453632950274&lt;/a>&lt;/td>
+
+ &lt;td>music&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+istening and reviewing [Iyer&amp;#39;s Filter Coffee](https://x.com/iyersfilterkapi)&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1695384844061253657">https://x.com/chandanaveli/status/1695384844061253657&lt;/a>&lt;/td>
+
+ &lt;td>music&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Listening to the Legendary playlist on Spotify&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">ttps://x.com/chandanaveli/status/1684125584551723009&lt;/a>&lt;/td>
+
+ &lt;td>music&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+The dexterity of the guitar&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">ttps://x.com/chandanaveli/status/1776132450768302215&lt;/a>&lt;/td>
+
+ &lt;td>music&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>On Mark Zuckerburg
+&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1655593123211513857?s=20">https://x.com/chandanaveli/status/1655593123211513857?s=20&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td> The degree of dependence on romantic crushes
+&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1758014342061252744?s=20">https://x.com/chandanaveli/status/1758014342061252744?s=20&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>In Bengaluru, people come meetup, sit in circles, and Tweet&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1744333630103568878">https://x.com/chandanaveli/status/1744333630103568878&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>About terraces being a place with privacy for (Indian) kids&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1632786947423997957">https://twitter.com/chandanaveli/status/1632786947423997957&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>About roomates who set alarms and doesn&amp;#39;t turn it off themselves&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1466625073654030336?s=20">https://x.com/chandanaveli/status/1466625073654030336?s=20&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>What North Indians think about South Indian languages&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1645835344565379075?s=20">https://x.com/chandanaveli/status/1645835344565379075?s=20&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>How good I am in programming – on a scale of 10&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1709776724224069740">https://twitter.com/chandanaveli/status/1709776724224069740&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>About women with nose rings&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1683868810821124097">https://twitter.com/chandanaveli/status/1683868810821124097&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>What Malayali driving instructors need to do&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1609901261507432449?s=20">https://x.com/chandanaveli/status/1609901261507432449?s=20&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Why I write beautiful e-mails at work&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1720025292985503815?s=20">https://x.com/chandanaveli/status/1720025292985503815?s=20&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>My workplace is too good, now I need a nemesis to spice things up&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1689300221120180224">https://x.com/chandanaveli/status/1689300221120180224&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+Aesthetics about the South Indian culture that I love:&lt;/td>
+
+ &lt;td>&lt;a href="https://twitter.com/chandanaveli/status/1577221715330945025?">https://twitter.com/chandanaveli/status/1577221715330945025?&lt;/a>&lt;/td>
+
+ &lt;td>culture&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+On Mani Ratnam&amp;#39;s romantic movies&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1643809875833798659?s=20">https://x.com/chandanaveli/status/1643809875833798659?s=20&lt;/a>&lt;/td>
+
+ &lt;td>culture&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+
+My favourite bad-ass imperial moments from world history&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1749718645478129920?s=20%29">https://x.com/chandanaveli/status/1749718645478129920?s=20)&lt;/a>&lt;/td>
+
+ &lt;td>culture&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>On Lijo Jose Pellissery&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1753248414425616544?s=20">https://x.com/chandanaveli/status/1753248414425616544?s=20&lt;/a>&lt;/td>
+
+ &lt;td>culture&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>In your 20s, a mere 4 year gap with someone can feel like&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1775509535110697255">https://x.com/chandanaveli/status/1775509535110697255&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>I have a vibes-based lifestyle&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1759947037305372788">https://x.com/chandanaveli/status/1759947037305372788&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>You need to wait to build a relationship with a software use it for thought&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/chandanaveli/status/1787438940678394204">https://x.com/chandanaveli/status/1787438940678394204&lt;/a>&lt;/td>
+
+ &lt;td>observation&lt;/td>
+
+ &lt;td>my-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+On the line of &amp;#39;do 100 things, get out, and do things&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/SP1NS1R/status/1707595027680317694?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Master boring fundamentals; Play infinite games
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/nearcyan/status/1770005990479716488
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+A huge part of success is connections
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/emollick/status/1768304847055417431
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Knowing the word for a thing doesn&amp;#39;t mean you know the thing
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/nosilverv/status/1750451126359503267?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Experts are fake, smart generalists rule the world
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://twitter.com/tszzl/status/1577059345883283456
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+If you&amp;#39;re not annoying someone, you&amp;#39;re not doing anything interesting
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/sashachapin/status/1753489473604915206?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+&amp;#39;I can author my life&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/mbateman/status/1683487890905481218?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+The light bulb saved the whale and cities preserve forests
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/moultano/status/1785332914416488484
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Visakan Veerasamy&amp;#39;s thread on random historical events
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/visakanv/status/1113165222871674880?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Why some things don&amp;#39;t exist
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/naslouki/status/1747688262532026610?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Intellectual capacity != mental richness
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/octopichael/status/1701474167609033031
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Good generalists ask &amp;#39;what is nobody else doing?&amp;#39; (Related to: what is worth doing?)
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://twitter.com/pronounced_kyle/status/1696939771111813169
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+All advice is context dependent
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/visakanv/status/1090128599603044352?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+What people want: automation, plants, sunlight, family
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://twitter.com/__drewface/status/1473684287648055309?s=20&amp;amp;t=z1wRwdmlyNf3owPQcj1KNQ
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+&amp;#39;Things around you weren&amp;#39;t just always there; people made them happen&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://twitter.com/collision/status/1529452415346302976?t=oTqPyZ_Eabytnd-gw0opyw
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+&amp;#39;the more you build, the more you have to pay to maintain&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://twitter.com/Noahpinion/status/1731765206265864689
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+The mood for e/acc (effective accelerationism)
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/yacineMTB/status/1694852280481194232?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+&amp;#39;building trust requires risky micro-movements be made and reciprocated by all parties in order to progress&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://twitter.com/mollyfmielke/status/1529490158214647813
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Thiel&amp;#39;s Closing Thoughts (CS183: Startup): &amp;#39;There is something importantly singular about each new thing in the world. There is a mini singularity whenever you start a company or make a key life decision. In a very real sense, the life of every person is a singularity.&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/BrianJJi/status/1710468010337550792?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Summary of David Deutsch&amp;#39;s book – The Beginning of Infinity
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/blisstweeting/status/1421947182341570562?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Sam Altman: &amp;#39;Generally the highest ROI comes from getting even better in areas where you&amp;#39;re already strong, not improving in areas where you&amp;#39;re weak.&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://twitter.com/then_there_was/status/1723564875664994330
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+&amp;#39;if I don’t know something I can put a box there that says “there is a thing here but it is ambiguous and I dont know the answer yet”&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/christineist/status/1637278683995201539?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>“you simply have to go out and make your own opportunities. but once you do, the world really is open to you”&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/DanielleFong/status/1809660986812674124">https://x.com/DanielleFong/status/1809660986812674124&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>As you become an adult, you realize people put things there. People made them happen. The world is a museum of passion projects.&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/collision/status/1529452415346302976">https://x.com/collision/status/1529452415346302976&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Jeff Bezos on writing well&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/nurijanian/status/1794420863992725972">https://x.com/nurijanian/status/1794420863992725972&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Intuition is simply reading a lot
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/zaoyang/status/940409514875961344?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+&amp;#39;if you&amp;#39;re precise about what you mean, and choose your words carefully, you end up improving language just by speaking and writing&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://twitter.com/visakanv/status/1515773253901746176
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Pick a business, deeply understand the workflows, and solve it
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/levie/status/1699780631151169778?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+The best writers, programmers and artists don&amp;#39;t do it because they have to
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/yacineMTB/status/1742947798696272207?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Specialization is for insects
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/sophianegativa/status/1719791332376350774?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+&amp;#39;Avoid snacking&amp;#39; and seek better and bigger projects
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/tao_lin/status/1732826295514636516?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Agency is realizing that you can &amp;#39;just do things&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/shaiyanhkhan/status/1754197898814689379?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+To expand my sense of agency is to pretend I have permission
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/goblinodds/status/1594830397606699011?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Applying high agency
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/blader/status/1731570133095924074?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Build first, optimize later
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/octopichael/status/1759356567147938195?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Sam Altman on &amp;#39;bending the world at our will&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/danallison/status/1731070496299692335?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+A collection of Steve Jobs&amp;#39; quotes
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/visakanv/status/1074945441958027264?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+On making friends
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/kasratweets/status/1707221378854695405?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Rozzi Roomian’s depiction of a spiritual experience&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/sashachapin/status/1800973437634216201">https://x.com/sashachapin/status/1800973437634216201&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Civilisations are built by societies. Societies are built by families.&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/TariqMK_/status/1809974087592063091">https://x.com/TariqMK_/status/1809974087592063091&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>Let the feelings flow&lt;/td>
+
+ &lt;td>&lt;a href="https://x.com/VividVoid_/status/1812865909817753746">https://x.com/VividVoid_/status/1812865909817753746&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>others-tweet&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Milan Cvitkovic – Things you&amp;#39;re allowed to do (and can do in life)
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Alexey Guzey – On (email) follow ups
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://guzey.com/follow-up/
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Stepan Parunashvili – What Artists Notice
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://stopa.io/post/294
+&lt;/a>&lt;/td>
+
+ &lt;td>art&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+tegowerk – Serendipity
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://tegowerk.eu/posts/serendipity/
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Steve Jobs: Sculley&amp;#39;s Disease – &amp;#39;An idea changes and grows. Most work is in craftmanship&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="https://martinklepsch.org/posts/sculleys-disease.html%20https://x.com/keshavchan/status/1793286299392328026">https://martinklepsch.org/posts/sculleys-disease.html https://x.com/keshavchan/status/1793286299392328026&lt;/a>&lt;/td>
+
+ &lt;td>life, technology&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+James Hush – &amp;#39;poke around, find something, redefine yourself&amp;#39;
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://news.ycombinator.com/item?id=32921256
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Paul Graham – Life is Short
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+http://paulgraham.com/vb.html
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Paul Graham – Superlinear Returns
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+http://paulgraham.com/superlinear.html
+&lt;/a>&lt;/td>
+
+ &lt;td>life, technology&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Dan Luu – 95%-ile isn&amp;#39;t that good
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://danluu.com/p95-skill/
+&lt;/a>&lt;/td>
+
+ &lt;td>life, technology&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+A meme about life and the importance to move (simply get out and do things)
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://x.com/inflammateomnia/status/1749589692960428049?s=20
+&lt;/a>&lt;/td>
+
+ &lt;td>funny&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+brycedotvc - Most people won&amp;#39;t
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://bryce.vc/post/64889707700/most-people-wont
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Ben Kuhn – You don’t need to work on hard problems
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://www.benkuhn.net/hard/
+&lt;/a>&lt;/td>
+
+ &lt;td>life, technology&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Wikipedia - The purpose of a system is what it does
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://en.wikipedia.org/wiki/the_purpose_of_a_system_is_what_it_does
+&lt;/a>&lt;/td>
+
+ &lt;td>life, technology&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Moxie Marlinkspike (Founder of Signal) – Career Advice
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://moxie.org/2013/01/07/career-advice.html
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Alexey Guzey – What Should You Do with Your Life? Directions and Advice
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://guzey.com/personal/what-should-you-do-with-your-life/#cold-emails-and-twitter
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>
+Steve Jobs - Most people do not act. They don&amp;#39;t pick the phone up and ask
+&lt;/td>
+
+ &lt;td>&lt;a href="#ZgotmplZ">
+https://youtu.be/zkTf0LmDqKI?t=69
+&lt;/a>&lt;/td>
+
+ &lt;td>life&lt;/td>
+
+ &lt;td>article&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ 
+
+ &lt;tr>
+
+ 
+
+ &lt;td>&lt;/td>
+
+ &lt;td>&lt;a href="">&lt;/a>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;td>&lt;/td>
+
+ &lt;/tr>
+
+ 
+
+ 
+
+ &lt;/tbody>
+ &lt;/tbody>
+
+&lt;/table></description></item></channel></rss>

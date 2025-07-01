@@ -34,24 +34,24 @@ my case, the chain loader spit out some errors during the compilation, and I cou
 completely figure out why. I believe it was something to do with GRUB not being able to figure
 out the type of the disk partition.</p><p>In the end, I settled with booting OpenBSD from the UEFI boot menu:</p><blockquote class=twitter-tweet data-conversation=none><p lang=en dir=ltr>I finally joined the OpenBSD gang today.<br><br>Couldn't set up GRUB to dualboot properly, so I just used efibootmgr and booted it from the UEFI menu.<br><br>The view looks ancient (ew) and I have probably have to find a guide to set up things.<br><br>A good start for 2022, I guess.<br><br>More later!</p>&mdash; aswin c! ☯️ (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1477295882676494340?ref_src=twsrc%5Etfw">January 1, 2022</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><p>This was also the time I learned about <a href=https://linux.die.net/man/8/efibootmgr>efibootmgr</a>-
 which is a tool with which one can manage UEFI boot entries. With efibootmgr, I just had to
-run:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># /dev/sda5 was where I installed OpenBSD </span>
-$ sudo efibootmgr -c -p <span style=color:#ae81ff>1</span> -d /dev/sda5 -L OpenBSD -l /EFI/Boot/bootx64.efi
-
-<span style=color:#75715e># set timeout to 10 seconds</span>
-$ sudo efibootmgr -t <span style=color:#ae81ff>10</span>
-BootCurrent: <span style=color:#ae81ff>0000</span>
-Timeout: <span style=color:#ae81ff>10</span> seconds
-BootOrder: 0000,0002,0001
-Boot0000* linux
-Boot0001* OpenBSD
-Boot0002* Windows Boot Manager
-Boot0007* windows
-Boot0008* Diskette Drive
-Boot0009* Internal HDD
-Boot000A* USB Storage Device
-Boot000B* CD/DVD/CD-RW Drive
-Boot000C* Onboard NIC
-</code></pre></div><h2 id=hello-openbsd>Hello OpenBSD</h2><p>Booting it up for the first time felt like hacking the Pentagon from the movies, as it prints
+run:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># /dev/sda5 was where I installed OpenBSD </span>
+</span></span><span style=display:flex><span>$ sudo efibootmgr -c -p <span style=color:#ae81ff>1</span> -d /dev/sda5 -L OpenBSD -l /EFI/Boot/bootx64.efi
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># set timeout to 10 seconds</span>
+</span></span><span style=display:flex><span>$ sudo efibootmgr -t <span style=color:#ae81ff>10</span>
+</span></span><span style=display:flex><span>BootCurrent: <span style=color:#ae81ff>0000</span>
+</span></span><span style=display:flex><span>Timeout: <span style=color:#ae81ff>10</span> seconds
+</span></span><span style=display:flex><span>BootOrder: 0000,0002,0001
+</span></span><span style=display:flex><span>Boot0000* linux
+</span></span><span style=display:flex><span>Boot0001* OpenBSD
+</span></span><span style=display:flex><span>Boot0002* Windows Boot Manager
+</span></span><span style=display:flex><span>Boot0007* windows
+</span></span><span style=display:flex><span>Boot0008* Diskette Drive
+</span></span><span style=display:flex><span>Boot0009* Internal HDD
+</span></span><span style=display:flex><span>Boot000A* USB Storage Device
+</span></span><span style=display:flex><span>Boot000B* CD/DVD/CD-RW Drive
+</span></span><span style=display:flex><span>Boot000C* Onboard NIC
+</span></span></code></pre></div><h2 id=hello-openbsd>Hello OpenBSD</h2><p>Booting it up for the first time felt like hacking the Pentagon from the movies, as it prints
 all the <a href=http://man.openbsd.org/dmesg>dmesg</a>-es. On a first look, it looked like it an
 operating system stuck in the 90s (in a good way :).</p><p><img src=/images/openbsd/boot.jpeg alt></p><h3 id=getting-wi-fi>Getting Wi-Fi</h3><p>By default, OpenBSD doesn&rsquo;t distribute firmwares along with the kernel. So, there&rsquo;s
 no Wi-Fi.</p><p><img src=/images/openbsd/iwm0.jpg alt></p><p>And there&rsquo;s two ways to get around this:</p><ol><li>Install the firmware inside the ISO image before installation using <a href=https://man.openbsd.org/fw_update>fw_update</a>, like you do when handling Raspberry Pis.</li></ol><p>The official documentation says one needs an existing OpenBSD installation to do this,
@@ -65,12 +65,12 @@ a <a href=https://azarus.ch/posts/2018-02-09-openbsd-wifi-802.1x-wpa-eap.html>bl
 a fine gentleman named Azarus who explained how to do it. It was straightforward:
 I had to get <a href=https://linux.die.net/man/8/wpa_supplicant>wpa_supplicant</a>,
 add the network-specific devices to its configuration file, manually authenticate with
-the device to connect to the access point and get a DHCP lease.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># wpa_supplicant -i iwm0 -c /etc/wpa_supplicant.conf</span>
-<span style=color:#75715e># dhclient iwm0</span>
-<span style=color:#75715e># ping 1.1.1.1</span>
-PING 1.1.1.1 <span style=color:#f92672>(</span>1.1.1.1<span style=color:#f92672>)</span> 56<span style=color:#f92672>(</span>84<span style=color:#f92672>)</span> bytes of data.
-<span style=color:#ae81ff>64</span> bytes from 1.1.1.1: icmp_seq<span style=color:#f92672>=</span><span style=color:#ae81ff>1</span> ttl<span style=color:#f92672>=</span><span style=color:#ae81ff>55</span> time<span style=color:#f92672>=</span><span style=color:#ae81ff>168</span> ms
-</code></pre></div><p>I installed Firefox and sent out a Tweet:</p><blockquote class=twitter-tweet data-conversation=none><p lang=en dir=ltr>Just booted into my OpenBSD and upgraded it to 7.1 and I must say, it was an exciting process. It was my first time updating a BSD. I did it through my university Wi-Fi, which I finally ended up doing after an hour's hack.<br><br>Maybe I should write a blog about the experience so far.</p>&mdash; aswin c! ☯️ (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1520058496791846915?ref_src=twsrc%5Etfw">April 29, 2022</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><h2 id=updates>Updates</h2><p>The OpenBSD ecosystem is much fabled and praised when it comes to many things, especially
+the device to connect to the access point and get a DHCP lease.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># wpa_supplicant -i iwm0 -c /etc/wpa_supplicant.conf</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># dhclient iwm0</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># ping 1.1.1.1</span>
+</span></span><span style=display:flex><span>PING 1.1.1.1 <span style=color:#f92672>(</span>1.1.1.1<span style=color:#f92672>)</span> 56<span style=color:#f92672>(</span>84<span style=color:#f92672>)</span> bytes of data.
+</span></span><span style=display:flex><span><span style=color:#ae81ff>64</span> bytes from 1.1.1.1: icmp_seq<span style=color:#f92672>=</span><span style=color:#ae81ff>1</span> ttl<span style=color:#f92672>=</span><span style=color:#ae81ff>55</span> time<span style=color:#f92672>=</span><span style=color:#ae81ff>168</span> ms
+</span></span></code></pre></div><p>I installed Firefox and sent out a Tweet:</p><blockquote class=twitter-tweet data-conversation=none><p lang=en dir=ltr>Just booted into my OpenBSD and upgraded it to 7.1 and I must say, it was an exciting process. It was my first time updating a BSD. I did it through my university Wi-Fi, which I finally ended up doing after an hour's hack.<br><br>Maybe I should write a blog about the experience so far.</p>&mdash; aswin c! ☯️ (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1520058496791846915?ref_src=twsrc%5Etfw">April 29, 2022</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><h2 id=updates>Updates</h2><p>The OpenBSD ecosystem is much fabled and praised when it comes to many things, especially
 in handling updates as it offers easy rollbacks and many other features.</p><p>Recently, OpenBSD 7.1 had come out and the upgrade process was <em>flawless</em>:</p><p><img src=/images/openbsd/update.jpg alt></p><h2 id=cwm--the-calm-window-manager>cwm- the calm window manager</h2><p>Even before diving into BSDs, I had come to know about
 <a href=http://man.openbsd.org/cwm>cwm</a> from a <a href=https://icyphox.sh/blog/openbsd-hp-envy/>blog</a>
 written by one of my Twitter friends who runs OpenBSD. So, cwm was definitely on my radar.</p><p>cwm is pragmatic: you write your configuration down in <code>.cwmrc</code> and you load it up. And

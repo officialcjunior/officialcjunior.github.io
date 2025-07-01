@@ -1,12 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tech on aswin's blog</title><link>/tags/tech/</link><description>Recent content in tech on aswin's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes after working at a 14-people startup</title><link>/blog/notes-after-working-at-a-startup/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/notes-after-working-at-a-startup/</guid><description>Table of contents SubCom The internship and work Reflections Closing I worked at Subconscious Compute—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.</description></item><item><title>Hello OpenBSD</title><link>/blog/hello-openbsd/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/hello-openbsd/</guid><description>Oh, hi!
-This is a blog post about the things I stumbled upon when I thought I&amp;rsquo;ll give OpenBSD a go. Therefore, this post is going to sound more like a walkthrough than an ordinary blog post.
-The reason why I decided to try it out was primarily for the learning experience, and to use it as a hobby OS- something you boot up every once in a while when you want to slow down and relax a bit.</description></item><item><title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title><link>/blog/gsoc-2021/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/gsoc-2021/</guid><description>Hi all,
-This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on adding support for CPU and platform profiles.
-Title of the project Support for CPU and platform profiles
-Synopsis Rizin previously relied upon manually writing code for adding a new CPU or an IO port. This implementation was unfit as the vast and growing ecology of hardware components such as CPUs and SoCs regularly implement a part of architecture with custom instructions, registers, and address configurations with trivial differences, making it infeasible to maintain all of them inside Rizin.</description></item><item><title>Preserving the commons in computing</title><link>/blog/the-commons-in-computing/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/the-commons-in-computing/</guid><description>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas.</description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.
-This is the writeup for the same.
-Invisible Maze tl;dr
-Challenge is a Nintendo GameBoy ROM image. Reverse the ROM and figure out the implementation Analyze the calling function&amp;rsquo;s checks to find the path along which we must move. Challenge points: 936
-No. of solves: 13
-Challenge Authors: officialcjunior and k4iz3n</description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.
-When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on aswin's blog</title><link>/tags/tech/</link><description>Recent content in Tech on aswin's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 02 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes after working at a 14-people startup</title><link>/blog/notes-after-working-at-a-startup/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/notes-after-working-at-a-startup/</guid><description>&lt;h3 id="table-of-contents">Table of contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#subcom">SubCom&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-internship-and-work">The internship and work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-internship-and-work">Reflections&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#closing-thoughts">Closing&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>I worked at &lt;a href="https://subcom.tech">Subconscious Compute&lt;/a>—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.&lt;/p>
+&lt;p>From day one, I wanted to write this blog down with every detail, and make it as fun and artistic as the public image of the company on LinkedIn. But right now, a lot of happenings have become fuzzy in my present memory to be reviewed and summarized in detail. Therefore, what I&amp;rsquo;ll present will be my current viewpoints and major events, obviously, as many perspectives were molded, reshaped, learned and unlearned during this journey – the first chapter of my life in the workplace. For example, people and practices I thought were the most ridiculous entities of reality, currently feel just typical, and perhaps a bit oddly ironical.&lt;/p></description></item><item><title>Hello OpenBSD</title><link>/blog/hello-openbsd/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/hello-openbsd/</guid><description>&lt;p>Oh, hi!&lt;/p>
+&lt;p>This is a blog post about the things I stumbled upon when I
+thought I&amp;rsquo;ll give &lt;a href="https://www.openbsd.org">OpenBSD&lt;/a> a go. Therefore, this post is going
+to sound more like a walkthrough than an ordinary blog post.&lt;/p>
+&lt;p>The reason why I decided to try it out was primarily for the learning experience, and to
+use it as a hobby OS- something you boot up every once in a while when you want to slow
+down and relax a bit. Moreover, I also wanted to see why many people love and endorse
+OpenBSD, and wanted to see if it is my cup of tea.&lt;/p></description></item><item><title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title><link>/blog/gsoc-2021/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/gsoc-2021/</guid><description>&lt;p>Hi all,&lt;/p>
+&lt;p>This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on
+adding support for CPU and platform profiles.&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="https://rizin.re/images/rizin.svg" alt="rizin-image">&lt;/p>
+&lt;h3 id="title-of-the-project">Title of the project&lt;/h3>
+&lt;p>Support for CPU and platform profiles&lt;/p>
+&lt;h3 id="synopsis">Synopsis&lt;/h3>
+&lt;p>Rizin previously relied upon manually writing code for adding a new CPU or an IO port. This
+implementation was unfit as the vast and growing ecology of hardware components such as
+CPUs and SoCs regularly implement a part of architecture with custom instructions,
+registers, and address configurations with trivial differences, making it infeasible to
+maintain all of them inside Rizin.&lt;/p></description></item><item><title>Preserving the commons in computing</title><link>/blog/the-commons-in-computing/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/the-commons-in-computing/</guid><description>&lt;hr>
+&lt;p>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas. empowering the world as we know it, ultimately allowing you to read this very blog.&lt;/p></description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>&lt;p>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.&lt;/p>
+&lt;p>This is the writeup for the same.&lt;/p>
+&lt;h2 id="invisible-maze">Invisible Maze&lt;/h2>
+&lt;p>&lt;strong>tl;dr&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Challenge is a Nintendo GameBoy ROM image.&lt;/li>
+&lt;li>Reverse the ROM and figure out the implementation&lt;/li>
+&lt;li>Analyze the calling function&amp;rsquo;s checks to find the path along which we must move.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Challenge points&lt;/strong>: 936&lt;/p>
+&lt;p>&lt;strong>No. of solves&lt;/strong>: 13&lt;/p>
+&lt;p>&lt;strong>Challenge Authors&lt;/strong>: officialcjunior and &lt;a href="twitter.com/akulpillai">k4iz3n&lt;/a>&lt;/p>
+&lt;p>You can get the challenge file from &lt;a href="https://github.com/teambi0s/InCTFi/tree/master/2020/Misc/Invisible-Maze">here.&lt;/a>&lt;/p></description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>&lt;p>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.&lt;/p>
+&lt;p>When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.&lt;/p></description></item></channel></rss>

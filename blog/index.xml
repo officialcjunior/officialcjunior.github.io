@@ -1,21 +1,139 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on aswin's blog</title><link>/blog/</link><description>Recent content in Blogs on aswin's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes from my first workplace as an employee</title><link>/blog/work-1/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/work-1/</guid><description>mark { background-color: #ffc266; color: black; } yellowmark { background-color: #ffffb3; color: black; } Hey, we&amp;rsquo;re back.
-The cadence of these notes will vary like a meandering river as it was not easy to connect different things and also keep the same voice – &amp;ldquo;I am not an expert; I&amp;rsquo;m just writing it down as I fare forward and figure it out&amp;rdquo; throughout the blog. I also feel this blog post lacks a certain standard of emotional density that I thought this would have when I envisioned writing it.</description></item><item><title>Jerusalem</title><link>/blog/jerusalem/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/jerusalem/</guid><description>This is the caption I wrote for an Instagram post about Jerusalem, when I visited it in July 2022. More about the trip can be read on a previous post − Notes from Israel.
-Recently, I read it again and thought it was post-worthy, so here it is:
-To get lost in the beauty and the aesthetics of the Old City of Jerusalem, you won&amp;rsquo;t need to try or look closely.</description></item><item><title>A September Visit To My Hometown</title><link>/blog/september-2023-home-visit/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/september-2023-home-visit/</guid><description>This is a rundown of my experience of a visit I made to my hometown and family in September 2023. There&amp;rsquo;s a place where I build and keep some personal narratives, and I found this there while searching for something else yesterday. I felt that it was post-worthy so here it is.
-My September visit to home—a week-long halt at Chalakudy—ended on the thirteenth and I have come back to the city with a reminder that working on myself, usually career, is always the best thing to do and brings the most happiness and satisfaction.</description></item><item><title>Brick by brick – my four years at Amrita University</title><link>/blog/college/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><guid>/blog/college/</guid><description>For reading or giving feedback, social proof, comments, and further discussion, see the following Twitter thread.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on aswin's blog</title><link>/blog/</link><description>Recent content in Blogs on aswin's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes from my first workplace as an employee</title><link>/blog/work-1/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/work-1/</guid><description>&lt;style>
 mark {
-background-color: #ffc266;
-color: black;
+ background-color: #ffc266;
+ color: black;
 }
-Table of contents The years 2019: starting out 2020: just Aswin and his computer 2021: changing landscapes 2022: saying yes to new things 2023: to infinity and beyond In retrospect Amritapuri Campus My years teambi0s Reminders about life and career Looking at the future – the world is my oyster Acknowledgements Hello, everyone.</description></item><item><title>Notes after working at a 14-people startup</title><link>/blog/notes-after-working-at-a-startup/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/notes-after-working-at-a-startup/</guid><description>Table of contents SubCom The internship and work Reflections Closing I worked at Subconscious Compute—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.</description></item><item><title>Notes from Israel</title><link>/blog/notes-from-israel/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><guid>/blog/notes-from-israel/</guid><description>Table of contents Delhi – the journey begins Shalom, Israel First meet-up party in the dorm lawns The university Be’er Sheva central park Attending the pizza party Bengi&amp;rsquo;s bar Startup tour at HiTech park Eilat Coral beach Be&amp;rsquo;er Sheva city The old city Food street Jerusalem The Western Wall King David&amp;rsquo;s fort Church of the Holy Sepulchre The market and the old city Mount of Olives The Holocaust memorial Tel Aviv The beach Jaffa Dead Sea Haifa Akko Nahariya Last day and the flight back These are the candid, first-hand writings of my trip to Israel to attend a summer school on ‘Data Mining and Cybersecurity for Business Intelligence’ at the Ben-Gurion University in July 2022.</description></item><item><title>Hello OpenBSD</title><link>/blog/hello-openbsd/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/hello-openbsd/</guid><description>Oh, hi!
-This is a blog post about the things I stumbled upon when I thought I&amp;rsquo;ll give OpenBSD a go. Therefore, this post is going to sound more like a walkthrough than an ordinary blog post.
-The reason why I decided to try it out was primarily for the learning experience, and to use it as a hobby OS- something you boot up every once in a while when you want to slow down and relax a bit.</description></item><item><title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title><link>/blog/gsoc-2021/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/gsoc-2021/</guid><description>Hi all,
-This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on adding support for CPU and platform profiles.
-Title of the project Support for CPU and platform profiles
-Synopsis Rizin previously relied upon manually writing code for adding a new CPU or an IO port. This implementation was unfit as the vast and growing ecology of hardware components such as CPUs and SoCs regularly implement a part of architecture with custom instructions, registers, and address configurations with trivial differences, making it infeasible to maintain all of them inside Rizin.</description></item><item><title>Preserving the commons in computing</title><link>/blog/the-commons-in-computing/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/the-commons-in-computing/</guid><description>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas.</description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.
-This is the writeup for the same.
-Invisible Maze tl;dr
-Challenge is a Nintendo GameBoy ROM image. Reverse the ROM and figure out the implementation Analyze the calling function&amp;rsquo;s checks to find the path along which we must move. Challenge points: 936
-No. of solves: 13
-Challenge Authors: officialcjunior and k4iz3n</description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.
-When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.</description></item></channel></rss>
+yellowmark {
+ background-color: #ffffb3;
+ color: black;
+}
+&lt;/style>
+&lt;p>Hey, we&amp;rsquo;re back.&lt;/p>
+&lt;p>The cadence of these notes will vary like a meandering river as it was not easy to connect different things and also keep the same voice – &amp;ldquo;I am not an expert; I&amp;rsquo;m just writing it down as I fare forward and figure it out&amp;rdquo; throughout the blog. I also feel this blog post lacks a certain standard of emotional density that I thought this would have when I envisioned writing it. Nevertheless, the deliverables of an average blog post on this site: candid accounts of experiences and reflections, with an edge for optimism, can be easily observed even by the accidental audience on this blog post.&lt;/p></description></item><item><title>Jerusalem</title><link>/blog/jerusalem/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/jerusalem/</guid><description>&lt;p>This is the caption I wrote for &lt;a href="https://www.instagram.com/p/CgZevibs7j-/">an Instagram post&lt;/a> about Jerusalem, when I visited it in July 2022. More about the trip can be read on a previous post − &lt;a href="notes-from-israel">Notes from Israel&lt;/a>.&lt;/p>
+&lt;p>Recently, I read it again and thought it was post-worthy, so here it is:&lt;/p>
+&lt;hr>
+&lt;p>To get lost in the beauty and the aesthetics of the Old City of Jerusalem, you won&amp;rsquo;t need to try or look closely.&lt;/p>
+&lt;p>The city naturally presents itself—its hills and vineyards, its grandeur and poise—the moment you step inside its walls. Intangible dust of another era: of untold stories and forgotten past rest in its old and narrow pathways—almost palpable to the trivial and mortal souls of the distant wayfarers—which, upon our touch, dissolves and slips away back to its angelic provenance. Hence, just like how Ernesto Che Guevara saw the ancient city of Cuzco, more than one Jerusalems can be summoned and perceived. And to each of these Jerusalems, we shall dedicate our stay.&lt;/p></description></item><item><title>A September Visit To My Hometown</title><link>/blog/september-2023-home-visit/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/september-2023-home-visit/</guid><description>&lt;p>This is a rundown of my experience of a visit I made to my hometown and family in September 2023.
+There&amp;rsquo;s a place where I build and keep some personal narratives, and I found this there while
+searching for something else yesterday. I felt that it was post-worthy so here it is.&lt;/p>
+&lt;hr>
+&lt;p>My September visit to home—a week-long halt at Chalakudy—ended on the thirteenth and I
+have come back to the city with a reminder that working on myself, usually career, is always
+the best thing to do and brings the most happiness and satisfaction.&lt;/p></description></item><item><title>Brick by brick – my four years at Amrita University</title><link>/blog/college/</link><pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate><guid>/blog/college/</guid><description>&lt;p>For reading or giving feedback, social proof, comments, and further discussion, see the following &lt;a href="https://x.com/chandanaveli/status/1723241534609645998?s=20">Twitter thread&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;style>
+mark {
+ background-color: #ffc266;
+ color: black;
+}
+&lt;/style>
+&lt;h3 id="table-of-contents">Table of contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#the-years">The years&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#2019-starting-out">2019: starting out&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2020-just-aswin-and-his-computer">2020: just Aswin and his computer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2021-changing-landscapes">2021: changing landscapes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2022-saying-yes-to-new-things">2022: saying yes to new things&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2023-to-infinity-and-beyond">2023: to infinity and beyond&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#in-retrospect">In retrospect&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#amritapuri-campus--in-retrospect">Amritapuri Campus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#my-years--in-retrospect">My years&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#teambi0s--in-retrospect">teambi0s&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#reminders-about-life-and-career">Reminders about life and career&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#looking-at-the-future--the-world-is-my-oyster">Looking at the future – the world is my oyster&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgements">Acknowledgements&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Hello, everyone.&lt;/p></description></item><item><title>Notes after working at a 14-people startup</title><link>/blog/notes-after-working-at-a-startup/</link><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/notes-after-working-at-a-startup/</guid><description>&lt;h3 id="table-of-contents">Table of contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#subcom">SubCom&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-internship-and-work">The internship and work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-internship-and-work">Reflections&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#closing-thoughts">Closing&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>I worked at &lt;a href="https://subcom.tech">Subconscious Compute&lt;/a>—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.&lt;/p>
+&lt;p>From day one, I wanted to write this blog down with every detail, and make it as fun and artistic as the public image of the company on LinkedIn. But right now, a lot of happenings have become fuzzy in my present memory to be reviewed and summarized in detail. Therefore, what I&amp;rsquo;ll present will be my current viewpoints and major events, obviously, as many perspectives were molded, reshaped, learned and unlearned during this journey – the first chapter of my life in the workplace. For example, people and practices I thought were the most ridiculous entities of reality, currently feel just typical, and perhaps a bit oddly ironical.&lt;/p></description></item><item><title>Notes from Israel</title><link>/blog/notes-from-israel/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><guid>/blog/notes-from-israel/</guid><description>&lt;h3 id="table-of-contents">Table of contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#delhi--the-journey-begins">Delhi – the journey begins&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#shalom-israel">Shalom, Israel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-meet-up-party-in-the-dorm-lawns">First meet-up party in the dorm lawns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-university">The university&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#beer-sheva-central-park">Be’er Sheva central park&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#attending-a-salsa-class">Attending the pizza party&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#bengis-bar">Bengi&amp;rsquo;s bar&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#startup-tour-at-hitech-park">Startup tour at HiTech park&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#eilat">Eilat&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#coral-beach">Coral beach&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#beer-sheva-city">Be&amp;rsquo;er Sheva city&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-old-city">The old city&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#food-street">Food street&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#jerusalem">Jerusalem&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#the-western-wall">The Western Wall&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#king-davids-fort">King David&amp;rsquo;s fort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#church-of-the-holy-sepulchre">Church of the Holy Sepulchre&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-market-and-the-old-city">The market and the old city&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mount-of-olives">Mount of Olives&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-holocaust-memorial">The Holocaust memorial&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#tel-aviv">Tel Aviv&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#the-beach">The beach&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#jaffa">Jaffa&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#dead-sea">Dead Sea&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#haifa">Haifa&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#akko">Akko&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#nahariyaa">Nahariya&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#last-day-and-the-flight-back">Last day and the flight back&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>These are the candid, first-hand writings of my trip to Israel to attend a summer school on ‘Data Mining and Cybersecurity for Business Intelligence’ at the Ben-Gurion University in July 2022. The prose is mostly first-person and like a diary entry.&lt;/p></description></item><item><title>Hello OpenBSD</title><link>/blog/hello-openbsd/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/hello-openbsd/</guid><description>&lt;p>Oh, hi!&lt;/p>
+&lt;p>This is a blog post about the things I stumbled upon when I
+thought I&amp;rsquo;ll give &lt;a href="https://www.openbsd.org">OpenBSD&lt;/a> a go. Therefore, this post is going
+to sound more like a walkthrough than an ordinary blog post.&lt;/p>
+&lt;p>The reason why I decided to try it out was primarily for the learning experience, and to
+use it as a hobby OS- something you boot up every once in a while when you want to slow
+down and relax a bit. Moreover, I also wanted to see why many people love and endorse
+OpenBSD, and wanted to see if it is my cup of tea.&lt;/p></description></item><item><title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title><link>/blog/gsoc-2021/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/gsoc-2021/</guid><description>&lt;p>Hi all,&lt;/p>
+&lt;p>This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on
+adding support for CPU and platform profiles.&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="https://rizin.re/images/rizin.svg" alt="rizin-image">&lt;/p>
+&lt;h3 id="title-of-the-project">Title of the project&lt;/h3>
+&lt;p>Support for CPU and platform profiles&lt;/p>
+&lt;h3 id="synopsis">Synopsis&lt;/h3>
+&lt;p>Rizin previously relied upon manually writing code for adding a new CPU or an IO port. This
+implementation was unfit as the vast and growing ecology of hardware components such as
+CPUs and SoCs regularly implement a part of architecture with custom instructions,
+registers, and address configurations with trivial differences, making it infeasible to
+maintain all of them inside Rizin.&lt;/p></description></item><item><title>Preserving the commons in computing</title><link>/blog/the-commons-in-computing/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/the-commons-in-computing/</guid><description>&lt;hr>
+&lt;p>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas. empowering the world as we know it, ultimately allowing you to read this very blog.&lt;/p></description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>&lt;p>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.&lt;/p>
+&lt;p>This is the writeup for the same.&lt;/p>
+&lt;h2 id="invisible-maze">Invisible Maze&lt;/h2>
+&lt;p>&lt;strong>tl;dr&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Challenge is a Nintendo GameBoy ROM image.&lt;/li>
+&lt;li>Reverse the ROM and figure out the implementation&lt;/li>
+&lt;li>Analyze the calling function&amp;rsquo;s checks to find the path along which we must move.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Challenge points&lt;/strong>: 936&lt;/p>
+&lt;p>&lt;strong>No. of solves&lt;/strong>: 13&lt;/p>
+&lt;p>&lt;strong>Challenge Authors&lt;/strong>: officialcjunior and &lt;a href="twitter.com/akulpillai">k4iz3n&lt;/a>&lt;/p>
+&lt;p>You can get the challenge file from &lt;a href="https://github.com/teambi0s/InCTFi/tree/master/2020/Misc/Invisible-Maze">here.&lt;/a>&lt;/p></description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>&lt;p>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.&lt;/p>
+&lt;p>When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.&lt;/p></description></item></channel></rss>
