@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work on aswin's blog</title><link>/tags/work/</link><description>Recent content in Work on aswin's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/work/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes from my first workplace as an employee</title><link>/blog/work-1/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/work-1/</guid><description>&lt;style>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work on aswin's blog</title><link>/tags/work/</link><description>Recent content in Work on aswin's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/work/index.xml" rel="self" type="application/rss+xml"/><item><title>What I'm working on – at work and on the side</title><link>/blog/work-2/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>/blog/work-2/</guid><description>&lt;style>
+mark {
+ background-color: #ffc266;
+ color: black;
+}
+yellowmark {
+ background-color: #ffffb3;
+ color: black;
+}
+&lt;/style>
+&lt;p>In March 2025, I was considering doing something:&lt;/p>
+&lt;div style="display: flex; justify-content: center; width: 100%; margin: 20px 0;">
+ &lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Considering to expand and merge a couple of my drafts:&lt;br>&lt;br>1. Draft titled &amp;quot;Design, analysis, and operations of my (internal) app&amp;quot; (Web apps, software engineering, browser automation, SAML, polling, animations)&lt;br>2. Drafts about the internal server infrastructure I built for…&lt;/p>&amp;mdash; aswin c (@chandanaveli) &lt;a href="https://twitter.com/chandanaveli/status/1899700332588101785?ref_src=twsrc%5Etfw">March 12, 2025&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;/div>
+&lt;div>
+&lt;p>My work life has revolved around multiple different projects with multiple project titles, as I wanted it to be. So, this blog post will have a logbook-like format and is like a progress report. I just wanted to write this down before I forget all of this.&lt;/p></description></item><item><title>Notes from my first workplace as an employee</title><link>/blog/work-1/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/work-1/</guid><description>&lt;style>
 mark {
  background-color: #ffc266;
  color: black;

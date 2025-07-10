@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on aswin's blog</title><link>/</link><description>Recent content in Home on aswin's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes from my first workplace as an employee</title><link>/blog/work-1/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/work-1/</guid><description>&lt;style>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on aswin's blog</title><link>/</link><description>Recent content in Home on aswin's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>What I'm working on – at work and on the side</title><link>/blog/work-2/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>/blog/work-2/</guid><description>&lt;style>
+mark {
+ background-color: #ffc266;
+ color: black;
+}
+yellowmark {
+ background-color: #ffffb3;
+ color: black;
+}
+&lt;/style>
+&lt;p>In March 2025, I was considering doing something:&lt;/p>
+&lt;div style="display: flex; justify-content: center; width: 100%; margin: 20px 0;">
+ &lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Considering to expand and merge a couple of my drafts:&lt;br>&lt;br>1. Draft titled &amp;quot;Design, analysis, and operations of my (internal) app&amp;quot; (Web apps, software engineering, browser automation, SAML, polling, animations)&lt;br>2. Drafts about the internal server infrastructure I built for…&lt;/p>&amp;mdash; aswin c (@chandanaveli) &lt;a href="https://twitter.com/chandanaveli/status/1899700332588101785?ref_src=twsrc%5Etfw">March 12, 2025&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;/div>
+&lt;div>
+&lt;p>My work life has revolved around multiple different projects with multiple project titles, as I wanted it to be. So, this blog post will have a logbook-like format and is like a progress report. I just wanted to write this down before I forget all of this.&lt;/p></description></item><item><title>Notes from my first workplace as an employee</title><link>/blog/work-1/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/work-1/</guid><description>&lt;style>
 mark {
  background-color: #ffc266;
  color: black;
@@ -110,7 +125,12 @@ to sound more like a walkthrough than an ordinary blog post.&lt;/p>
 &lt;p>The reason why I decided to try it out was primarily for the learning experience, and to
 use it as a hobby OS- something you boot up every once in a while when you want to slow
 down and relax a bit. Moreover, I also wanted to see why many people love and endorse
-OpenBSD, and wanted to see if it is my cup of tea.&lt;/p></description></item><item><title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title><link>/blog/gsoc-2021/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/gsoc-2021/</guid><description>&lt;p>Hi all,&lt;/p>
+OpenBSD, and wanted to see if it is my cup of tea.&lt;/p></description></item><item><title>Side Channel and Fault Injection Attacks with the ChipWhisperer</title><link>/blog/csaw-esc-2021/</link><pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/csaw-esc-2021/</guid><description>&lt;p>Couple months ago, I had participated in the CSAW Embedded Security Challenges (ESC)- a perennial
+competition about security of embedded systems and devices. Each year, the competition comes with a
+different theme and the time around, it was about Side Channel and Fault Injection attacks with
+the ChipWhisperer Nano. The team and I had a fun time learning and getting used to them.&lt;/p>
+&lt;p>This blog is aimed at giving a short glimpse on what SCAs and other things in its realm are in a nutshell.
+In between, I&amp;rsquo;ll be explaining how we approached a few of the challenges, as well.&lt;/p></description></item><item><title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title><link>/blog/gsoc-2021/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/gsoc-2021/</guid><description>&lt;p>Hi all,&lt;/p>
 &lt;p>This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on
 adding support for CPU and platform profiles.&lt;/p>
 &lt;hr>
@@ -123,7 +143,8 @@ implementation was unfit as the vast and growing ecology of hardware components 
 CPUs and SoCs regularly implement a part of architecture with custom instructions,
 registers, and address configurations with trivial differences, making it infeasible to
 maintain all of them inside Rizin.&lt;/p></description></item><item><title>Preserving the commons in computing</title><link>/blog/the-commons-in-computing/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/the-commons-in-computing/</guid><description>&lt;hr>
-&lt;p>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas. empowering the world as we know it, ultimately allowing you to read this very blog.&lt;/p></description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>&lt;p>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.&lt;/p>
+&lt;p>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas. empowering the world as we know it, ultimately allowing you to read this very blog.&lt;/p></description></item><item><title>CSAW Embedded Security Challenges 2020 - Quals' writeup</title><link>/blog/csaw-2020/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>/blog/csaw-2020/</guid><description>&lt;p>In this blog post, we will look at reverse engineering and solving a RISC-V binary, which was the challenge for qualifying for the CSAW 2020 Embedded Security Challenge (ESC), using the reverse engineering tool Ghidra SRE​.&lt;/p>
+&lt;p>Ghidra SRE, out of the box, does not support analyzing binaries for the RISC-V architecture. In order to get around that, we will be setting up a special &lt;a href="https://github.com/mumbel/ghidra_riscv">RISC-V Ghidra Processor Module&lt;/a>. For that, we just have to clone the Module’s files into the directory named Processors of the Ghidra’s program files. Simple as that!&lt;/p></description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>&lt;p>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.&lt;/p>
 &lt;p>This is the writeup for the same.&lt;/p>
 &lt;h2 id="invisible-maze">Invisible Maze&lt;/h2>
 &lt;p>&lt;strong>tl;dr&lt;/strong>&lt;/p>
@@ -135,7 +156,15 @@ maintain all of them inside Rizin.&lt;/p></description></item><item><title>Prese
 &lt;p>&lt;strong>Challenge points&lt;/strong>: 936&lt;/p>
 &lt;p>&lt;strong>No. of solves&lt;/strong>: 13&lt;/p>
 &lt;p>&lt;strong>Challenge Authors&lt;/strong>: officialcjunior and &lt;a href="twitter.com/akulpillai">k4iz3n&lt;/a>&lt;/p>
-&lt;p>You can get the challenge file from &lt;a href="https://github.com/teambi0s/InCTFi/tree/master/2020/Misc/Invisible-Maze">here.&lt;/a>&lt;/p></description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>&lt;p>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.&lt;/p>
+&lt;p>You can get the challenge file from &lt;a href="https://github.com/teambi0s/InCTFi/tree/master/2020/Misc/Invisible-Maze">here.&lt;/a>&lt;/p></description></item><item><title>Reversing MIPS for the first time</title><link>/blog/reversing-mips/</link><pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate><guid>/blog/reversing-mips/</guid><description>&lt;p>Lately, I had got a &lt;a href="https://github.com/s34s0n/multiarch/tree/master/mips/challenges/word_generator">reversing challenge&lt;/a> compiled for MIPS architecture and I struggled a bit as I couldn&amp;rsquo;t find a lot information on the web on how to analyze or debug it properly.&lt;/p>
+&lt;p>The is a small writeup on how I learned about MIPS and completed the challenge.&lt;/p>
+&lt;h3 id="emulator">Emulator&lt;/h3>
+&lt;p>QEMU is probably the best emulator out there and QEMU lets you emulate a MIPS Malta system&lt;/p>
+&lt;p>If you are on Ubuntu, you can get QEMU using &lt;em>aptitude&lt;/em>&lt;/p></description></item><item><title>The Bus Pirate manual</title><link>/blog/the-bus-pirate-manual/</link><pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate><guid>/blog/the-bus-pirate-manual/</guid><description>&lt;p>A simple manual to help you start working with your &lt;a href="http://dangerousprototypes.com/docs/Bus_Pirate">Bus Pirate&lt;/a>.&lt;/p>
+&lt;h2 id="useful-links">Useful links&lt;/h2>
+&lt;p>To learn about what the device can do for you, I&amp;rsquo;d suggest starting somewhere near &lt;a href="https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all">Sparkfun&amp;rsquo;s article&lt;/a> or the &lt;a href="http://dangerousprototypes.com/docs/Bus_Pirate_102_tutorial">Bus Pirate 102 manual&lt;/a>&lt;/p>
+&lt;h2 id="flashing-the-firmware">Flashing the firmware&lt;/h2>
+&lt;p>After connecting the Bus Pirate, and cloning the &lt;a href="https://github.com/BusPirate/Bus_Pirate">Bus Pirate repository&lt;/a>, simply navigate to the folder &lt;code>package&lt;/code>. You should know about the version of the Bus Pirate you own and navigate to the corresponding folder&lt;/p></description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>&lt;p>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.&lt;/p>
 &lt;p>When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.&lt;/p></description></item><item><title/><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;p>Hello, I&amp;rsquo;m Aswin. I&amp;rsquo;m a 23 year old &lt;a href="https://en.wikipedia.org/wiki/Malayali">Malayali&lt;/a> from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.&lt;/p>
 &lt;p>I like creating, solving, and working on things and products people want to use.&lt;/p>
 &lt;div style="display: flex; justify-content: center; width: 100%; margin: 20px 0;">
