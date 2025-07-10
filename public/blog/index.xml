@@ -1,18 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Aswin's blog</title><link>/blog/</link><description>Recent content in Blogs on Aswin's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Preserving the commons in computing</title><link>/blog/the-commons-in-computing/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/the-commons-in-computing/</guid><description>I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas.</description></item><item><title>CSAW Embedded Security Challenges 2020 - Quals' writeup</title><link>/blog/csaw-2020/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>/blog/csaw-2020/</guid><description>In this blog post, we will look at reverse engineering and solving a RISC-V binary, which was the challenge for qualifying for the CSAW 2020 Embedded Security Challenge (ESC), using the reverse engineering tool Ghidra SRE​.
-Ghidra SRE, out of the box, does not support analyzing binaries for the RISC-V architecture. In order to get around that, we will be setting up a special RISC-V Ghidra Processor Module. For that, we just have to clone the Module’s files into the directory named Processors of the Ghidra’s program files.</description></item><item><title>InCTF Internationals- author's writeup for Invisible Maze</title><link>/blog/inctfi-invisible-maze/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/inctfi-invisible-maze/</guid><description>For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.
-This is the writeup for the same.
-Invisible Maze tl;dr
-Challenge is a Nintendo GameBoy ROM image. Reverse the ROM and figure out the implementation Analyze the calling function&amp;rsquo;s checks to find the path along which we must move. Challenge points: 936
-No. of solves: 13
-Challenge Authors: officialcjunior and k4iz3n</description></item><item><title>Reversing Nanomites</title><link>/blog/reversing-nanomites/</link><pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate><guid>/blog/reversing-nanomites/</guid><description>One particular challenge over there rootme.org taught me a couple of things and I thought it&amp;rsquo;d be great to share some of them.
-The challenge name is &amp;lsquo;ELF x64 - Nanomites - Introduction&amp;rsquo; and you can get it from here. It just asks for an input, which is the flag.
-Nanomites are programs where you have two processes: a father and a son. A parent and a child, if you will.</description></item><item><title>Reversing MIPS for the first time</title><link>/blog/reversing-mips/</link><pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate><guid>/blog/reversing-mips/</guid><description>Lately, I had got a reversing challenge compiled for MIPS architecture and I struggled a bit as I couldn&amp;rsquo;t find a lot information on the web on how to analyze or debug it properly.
-The is a small writeup on how I learned about MIPS and completed the challenge.
-Emulator QEMU is probably the best emulator out there and QEMU lets you emulate a MIPS Malta system
-If you are on Ubuntu, you can get QEMU using aptitude</description></item><item><title>The Bus Pirate manual</title><link>/blog/the-bus-pirate-manual/</link><pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate><guid>/blog/the-bus-pirate-manual/</guid><description>A simple mannual to help you start working with your Bus Pirate.
-Useful links To learn about what the device can do for you, I&amp;rsquo;d suggest starting somewhere near Sparkfun&amp;rsquo;s article or the Bus Pirate 102 mannual
-Flashing the firmware After connecting the Bus Pirate, and cloning the Bus Pirate repository, simply navigate to the folder package. You should know about the version of the Bus Pirate you own and navigate to the corresponding folder</description></item><item><title>Look Into The Past - Writeup from NeverlanCTF</title><link>/blog/look-into-the-past/</link><pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate><guid>/blog/look-into-the-past/</guid><description>Neverlan CTF: Look into the past We played NeverLAN CTF and had so much fun playing it.
-In the Forensics section, there was this task named Look into the past, which was really fun to solve. So, I thought I&amp;rsquo;d just write something about it.
-You can find the challenge file here.
-After taking a look at the filesystem unzipping the challenge file, it is clear that this is a snapshot of a Linux file system.</description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-paspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-paspberry-pi/</guid><description>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.
-When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on aswin&#39;s blog</title>
+    <link>//localhost:1313/blog/</link>
+    <description>Recent content in Blogs on aswin&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What I&#39;m working on – at work and at side</title>
+      <link>//localhost:1313/blog/work-2/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/work-2/</guid>
+      <description>&lt;style&gt;&#xA;mark {&#xA;  background-color: #ffc266;&#xA;  color: black;&#xA;}&#xA;yellowmark {&#xA;  background-color: #ffffb3;&#xA;  color: black;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;In March 2025, I felt like considering to do something:&lt;/p&gt;&#xA;&lt;div style=&#34;display: flex; justify-content: center; width: 100%; margin: 20px 0;&#34;&gt;&#xA;  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Considering to expand and merge a couple of my drafts:&lt;br&gt;&lt;br&gt;1. Draft titled &amp;quot;Design, analysis, and operations of my (internal) app&amp;quot; (Web apps, software engineering, browser automation, SAML, polling, animations)&lt;br&gt;2. Drafts about the internal server infrastructure I built for…&lt;/p&gt;&amp;mdash; aswin c (@chandanaveli) &lt;a href=&#34;https://twitter.com/chandanaveli/status/1899700332588101785?ref_src=twsrc%5Etfw&#34;&gt;March 12, 2025&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&lt;/div&gt;&#xA;&lt;div&gt;&#xA;&lt;p&gt;Work life has been revolving around N different projects with N different project titles, as I wanted it to be. So, this blog post will have a logbook-like format and is like a progress report. I just wanted to write this down before I forget all of this.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notes from my first workplace as an employee</title>
+      <link>//localhost:1313/blog/work-1/</link>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/work-1/</guid>
+      <description>&lt;style&gt;&#xA;mark {&#xA;  background-color: #ffc266;&#xA;  color: black;&#xA;}&#xA;yellowmark {&#xA;  background-color: #ffffb3;&#xA;  color: black;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;Hey, we&amp;rsquo;re back.&lt;/p&gt;&#xA;&lt;p&gt;The cadence of these notes will vary like a meandering river as it was not easy to connect different things and also keep the same voice – &amp;ldquo;I am not an expert; I&amp;rsquo;m just writing it down as I fare forward and figure it out&amp;rdquo; throughout the blog. I also feel this blog post lacks a certain standard of emotional density that I thought this would have when I envisioned writing it. Nevertheless, the deliverables of an average blog post on this site: candid accounts of experiences and reflections, with an edge for optimism, can be easily observed even by the accidental audience on this blog post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jerusalem</title>
+      <link>//localhost:1313/blog/jerusalem/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/jerusalem/</guid>
+      <description>&lt;p&gt;This is the caption I wrote for &lt;a href=&#34;https://www.instagram.com/p/CgZevibs7j-/&#34;&gt;an Instagram post&lt;/a&gt; about Jerusalem, when I visited it in July 2022. More about the trip can be read on a previous post − &lt;a href=&#34;notes-from-israel&#34;&gt;Notes from Israel&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I read it again and thought it was post-worthy, so here it is:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;To get lost in the beauty and the aesthetics of the Old City of Jerusalem, you won&amp;rsquo;t need to try or look closely.&lt;/p&gt;&#xA;&lt;p&gt;The city naturally presents itself—its hills and vineyards, its grandeur and poise—the moment you step inside its walls. Intangible dust of another era: of untold stories and forgotten past rest in its old and narrow pathways—almost palpable to the trivial and mortal souls of the distant wayfarers—which, upon our touch, dissolves and slips away back to its angelic provenance. Hence, just like how Ernesto Che Guevara saw the ancient city of Cuzco, more than one Jerusalems can be summoned and perceived. And to each of these Jerusalems, we shall dedicate our stay.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A September Visit To My Hometown</title>
+      <link>//localhost:1313/blog/september-2023-home-visit/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/september-2023-home-visit/</guid>
+      <description>&lt;p&gt;This is a rundown of my experience of a visit I made to my hometown and family in September 2023.&#xA;There&amp;rsquo;s a place where I build and keep some personal narratives, and I found this there while&#xA;searching for something else yesterday. I felt that it was post-worthy so here it is.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;My September visit to home—a week-long halt at Chalakudy—ended on the thirteenth and I&#xA;have come back to the city with a reminder that working on myself, usually career, is always&#xA;the best thing to do and brings the most happiness and satisfaction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brick by brick – my four years at Amrita University</title>
+      <link>//localhost:1313/blog/college/</link>
+      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/college/</guid>
+      <description>&lt;p&gt;For reading or giving feedback, social proof, comments, and further discussion, see the following &lt;a href=&#34;https://x.com/chandanaveli/status/1723241534609645998?s=20&#34;&gt;Twitter thread&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;style&gt;&#xD;&#xA;mark {&#xD;&#xA;  background-color: #ffc266;&#xD;&#xA;  color: black;&#xD;&#xA;}&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-years&#34;&gt;The years&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#2019-starting-out&#34;&gt;2019: starting out&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#2020-just-aswin-and-his-computer&#34;&gt;2020: just Aswin and his computer&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#2021-changing-landscapes&#34;&gt;2021: changing landscapes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#2022-saying-yes-to-new-things&#34;&gt;2022: saying yes to new things&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#2023-to-infinity-and-beyond&#34;&gt;2023: to infinity and beyond&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#in-retrospect&#34;&gt;In retrospect&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#amritapuri-campus--in-retrospect&#34;&gt;Amritapuri Campus&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#my-years--in-retrospect&#34;&gt;My years&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#teambi0s--in-retrospect&#34;&gt;teambi0s&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#reminders-about-life-and-career&#34;&gt;Reminders about life and career&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#looking-at-the-future--the-world-is-my-oyster&#34;&gt;Looking at the future – the world is my oyster&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#acknowledgements&#34;&gt;Acknowledgements&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Hello, everyone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notes after working at a 14-people startup</title>
+      <link>//localhost:1313/blog/notes-after-working-at-a-startup/</link>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/notes-after-working-at-a-startup/</guid>
+      <description>&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#subcom&#34;&gt;SubCom&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-internship-and-work&#34;&gt;The internship and work&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-internship-and-work&#34;&gt;Reflections&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#closing-thoughts&#34;&gt;Closing&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I worked at &lt;a href=&#34;https://subcom.tech&#34;&gt;Subconscious Compute&lt;/a&gt;—a toddler of a startup at Bengaluru for 5 months—and I know I can write this post in two ways: like a typical Glassdoor review of the company, or like one of my usual blog posts – a candor walk-through of something that was new to me with some gratitude towards the end.&lt;/p&gt;&#xA;&lt;p&gt;From day one, I wanted to write this blog down with every detail, and make it as fun and artistic as the public image of the company on LinkedIn. But right now, a lot of happenings have become fuzzy in my present memory to be reviewed and summarized in detail. Therefore, what I&amp;rsquo;ll present will be my current viewpoints and major events, obviously, as many perspectives were molded, reshaped, learned and unlearned during this journey – the first chapter of my life in the workplace. For example, people and practices I thought were the most ridiculous entities of reality, currently feel just typical, and perhaps a bit oddly ironical.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notes from Israel</title>
+      <link>//localhost:1313/blog/notes-from-israel/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/notes-from-israel/</guid>
+      <description>&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#delhi--the-journey-begins&#34;&gt;Delhi – the journey begins&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#shalom-israel&#34;&gt;Shalom, Israel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#first-meet-up-party-in-the-dorm-lawns&#34;&gt;First meet-up party in the dorm lawns&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-university&#34;&gt;The university&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#beer-sheva-central-park&#34;&gt;Be’er Sheva central park&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#attending-a-salsa-class&#34;&gt;Attending the pizza party&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#bengis-bar&#34;&gt;Bengi&amp;rsquo;s bar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#startup-tour-at-hitech-park&#34;&gt;Startup tour at HiTech park&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#eilat&#34;&gt;Eilat&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#coral-beach&#34;&gt;Coral beach&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#beer-sheva-city&#34;&gt;Be&amp;rsquo;er Sheva city&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-old-city&#34;&gt;The old city&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#food-street&#34;&gt;Food street&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#jerusalem&#34;&gt;Jerusalem&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-western-wall&#34;&gt;The Western Wall&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#king-davids-fort&#34;&gt;King David&amp;rsquo;s fort&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#church-of-the-holy-sepulchre&#34;&gt;Church of the Holy Sepulchre&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-market-and-the-old-city&#34;&gt;The market and the old city&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#mount-of-olives&#34;&gt;Mount of Olives&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-holocaust-memorial&#34;&gt;The Holocaust memorial&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#tel-aviv&#34;&gt;Tel Aviv&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-beach&#34;&gt;The beach&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#jaffa&#34;&gt;Jaffa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#dead-sea&#34;&gt;Dead Sea&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#haifa&#34;&gt;Haifa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#akko&#34;&gt;Akko&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#nahariyaa&#34;&gt;Nahariya&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#last-day-and-the-flight-back&#34;&gt;Last day and the flight back&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;These are the candid, first-hand writings of my trip to Israel to attend a summer school on ‘Data Mining and Cybersecurity for Business Intelligence’ at the Ben-Gurion University in July 2022. The prose is mostly first-person and like a diary entry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello OpenBSD</title>
+      <link>//localhost:1313/blog/hello-openbsd/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/hello-openbsd/</guid>
+      <description>&lt;p&gt;Oh, hi!&lt;/p&gt;&#xA;&lt;p&gt;This is a blog post about the things I stumbled upon when I&#xA;thought I&amp;rsquo;ll give &lt;a href=&#34;https://www.openbsd.org&#34;&gt;OpenBSD&lt;/a&gt; a go. Therefore, this post is going&#xA;to sound more like a walkthrough than an ordinary blog post.&lt;/p&gt;&#xA;&lt;p&gt;The reason why I decided to try it out was primarily for the learning experience, and to&#xA;use it as a hobby OS- something you boot up every once in a while when you want to slow&#xA;down and relax a bit. Moreover, I also wanted to see why many people love and endorse&#xA;OpenBSD, and wanted to see if it is my cup of tea.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Side Channel and Fault Injection Attacks with the ChipWhisperer</title>
+      <link>//localhost:1313/blog/csaw-esc-2021/</link>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/csaw-esc-2021/</guid>
+      <description>&lt;p&gt;Couple months ago, I had participated in the CSAW Embedded Security Challenges (ESC)- a perennial&#xA;competition about security of embedded systems and devices. Each year, the competition comes with a&#xA;different theme and the time around, it was about Side Channel and Fault Injection attacks with&#xA;the ChipWhisperer Nano. The team and I had a fun time learning and getting used to them.&lt;/p&gt;&#xA;&lt;p&gt;This blog is aimed at giving a short glimpse on what SCAs and other things in its realm are in a nutshell.&#xA;In between, I&amp;rsquo;ll be explaining how we approached a few of the challenges, as well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Summer Of Code 2021 report – Support for CPU and Platform Profiles</title>
+      <link>//localhost:1313/blog/gsoc-2021/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/gsoc-2021/</guid>
+      <description>&lt;p&gt;Hi all,&lt;/p&gt;&#xA;&lt;p&gt;This blog post is a brief summary about the work I did on the summer of 2021 with Rizin on&#xA;adding support for CPU and platform profiles.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://rizin.re/images/rizin.svg&#34; alt=&#34;rizin-image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;title-of-the-project&#34;&gt;Title of the project&lt;/h3&gt;&#xA;&lt;p&gt;Support for CPU and platform profiles&lt;/p&gt;&#xA;&lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;&#xA;&lt;p&gt;Rizin previously relied upon manually writing code for adding a new CPU or an IO port. This&#xA;implementation was unfit as the vast and growing ecology of hardware components such as&#xA;CPUs and SoCs regularly implement a part of architecture with custom instructions,&#xA;registers, and address configurations with trivial differences, making it infeasible to&#xA;maintain all of them inside Rizin.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preserving the commons in computing</title>
+      <link>//localhost:1313/blog/the-commons-in-computing/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/the-commons-in-computing/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;I must begin by expressing the joy that is unspeakable to be born in this era and to be using this impressive technology that is computers, to the fullest and is thankful to be able to develop software on them with the least effort and price than it was ever before. For that, I think I must heed the engineers of the past, who knew what they were doing, and to the companies for manufacturing electronics and their ideas. empowering the world as we know it, ultimately allowing you to read this very blog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSAW Embedded Security Challenges 2020 - Quals&#39; writeup</title>
+      <link>//localhost:1313/blog/csaw-2020/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/csaw-2020/</guid>
+      <description>&lt;p&gt;In this blog post, we will look at reverse engineering and solving a RISC-V binary, which was the challenge for qualifying for the CSAW 2020 Embedded Security Challenge (ESC), using the reverse engineering tool Ghidra SRE​.&lt;/p&gt;&#xA;&lt;p&gt;Ghidra SRE, out of the box, does not support analyzing binaries for the RISC-V architecture. In order to get around that, we will be setting up a special &lt;a href=&#34;https://github.com/mumbel/ghidra_riscv&#34;&gt;RISC-V Ghidra Processor Module&lt;/a&gt;. For that, we just have to clone the Module’s files into the directory named Processors of the Ghidra’s program files. Simple as that!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>InCTF Internationals- author&#39;s writeup for Invisible Maze</title>
+      <link>//localhost:1313/blog/inctfi-invisible-maze/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/inctfi-invisible-maze/</guid>
+      <description>&lt;p&gt;For inCTF International Edition 2020, I had so much fun in making a Gameboy ROM reversing challenge.&lt;/p&gt;&#xA;&lt;p&gt;This is the writeup for the same.&lt;/p&gt;&#xA;&lt;h2 id=&#34;invisible-maze&#34;&gt;Invisible Maze&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Challenge is a Nintendo GameBoy ROM image.&lt;/li&gt;&#xA;&lt;li&gt;Reverse the ROM and figure out the implementation&lt;/li&gt;&#xA;&lt;li&gt;Analyze the calling function&amp;rsquo;s checks to find the path along which we must move.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Challenge points&lt;/strong&gt;: 936&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;No. of solves&lt;/strong&gt;: 13&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Challenge Authors&lt;/strong&gt;: officialcjunior and &lt;a href=&#34;twitter.com/akulpillai&#34;&gt;k4iz3n&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can get the challenge file from &lt;a href=&#34;https://github.com/teambi0s/InCTFi/tree/master/2020/Misc/Invisible-Maze&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reversing MIPS for the first time</title>
+      <link>//localhost:1313/blog/reversing-mips/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/reversing-mips/</guid>
+      <description>&lt;p&gt;Lately, I had got a &lt;a href=&#34;https://github.com/s34s0n/multiarch/tree/master/mips/challenges/word_generator&#34;&gt;reversing challenge&lt;/a&gt; compiled for MIPS architecture and I struggled a bit as I couldn&amp;rsquo;t find a lot information on the web on how to analyze or debug it properly.&lt;/p&gt;&#xA;&lt;p&gt;The is a small writeup on how I learned about MIPS and completed the challenge.&lt;/p&gt;&#xA;&lt;h3 id=&#34;emulator&#34;&gt;Emulator&lt;/h3&gt;&#xA;&lt;p&gt;QEMU is probably the best emulator out there and QEMU lets you emulate a MIPS Malta system&lt;/p&gt;&#xA;&lt;p&gt;If you are on Ubuntu, you can get QEMU using &lt;em&gt;aptitude&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Bus Pirate manual</title>
+      <link>//localhost:1313/blog/the-bus-pirate-manual/</link>
+      <pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/the-bus-pirate-manual/</guid>
+      <description>&lt;p&gt;A simple manual to help you start working with your &lt;a href=&#34;http://dangerousprototypes.com/docs/Bus_Pirate&#34;&gt;Bus Pirate&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful links&lt;/h2&gt;&#xA;&lt;p&gt;To learn about what the device can do for you, I&amp;rsquo;d suggest starting somewhere near &lt;a href=&#34;https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all&#34;&gt;Sparkfun&amp;rsquo;s article&lt;/a&gt; or the &lt;a href=&#34;http://dangerousprototypes.com/docs/Bus_Pirate_102_tutorial&#34;&gt;Bus Pirate 102 manual&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;flashing-the-firmware&#34;&gt;Flashing the firmware&lt;/h2&gt;&#xA;&lt;p&gt;After connecting the Bus Pirate, and cloning the &lt;a href=&#34;https://github.com/BusPirate/Bus_Pirate&#34;&gt;Bus Pirate repository&lt;/a&gt;, simply navigate to the folder &lt;code&gt;package&lt;/code&gt;. You should know about the version of the Bus Pirate you own and navigate to the corresponding folder&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Booting up my first Raspberry Pi</title>
+      <link>//localhost:1313/blog/booting-raspberry-pi/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/booting-raspberry-pi/</guid>
+      <description>&lt;p&gt;Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.&lt;/p&gt;&#xA;&lt;p&gt;When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
