@@ -165,15 +165,18 @@ maintain all of them inside Rizin.&lt;/p></description></item><item><title>Prese
 &lt;p>To learn about what the device can do for you, I&amp;rsquo;d suggest starting somewhere near &lt;a href="https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all">Sparkfun&amp;rsquo;s article&lt;/a> or the &lt;a href="http://dangerousprototypes.com/docs/Bus_Pirate_102_tutorial">Bus Pirate 102 manual&lt;/a>&lt;/p>
 &lt;h2 id="flashing-the-firmware">Flashing the firmware&lt;/h2>
 &lt;p>After connecting the Bus Pirate, and cloning the &lt;a href="https://github.com/BusPirate/Bus_Pirate">Bus Pirate repository&lt;/a>, simply navigate to the folder &lt;code>package&lt;/code>. You should know about the version of the Bus Pirate you own and navigate to the corresponding folder&lt;/p></description></item><item><title>Booting up my first Raspberry Pi</title><link>/blog/booting-raspberry-pi/</link><pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/booting-raspberry-pi/</guid><description>&lt;p>Lately, I happened to lay my hands on one of the hottest topic on the tech world, the Raspberry Pi. For those who haven&amp;rsquo;t heard about it, the Raspberry Pi is a low cost, credit-card sized computer that plugs into monitor or TV, and uses a standard keyboard and mouse.&lt;/p>
-&lt;p>When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.&lt;/p></description></item><item><title/><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;p>Hello, I&amp;rsquo;m Aswin. I&amp;rsquo;m a 23 year old &lt;a href="https://en.wikipedia.org/wiki/Malayali">Malayali&lt;/a> from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.&lt;/p>
+&lt;p>When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.&lt;/p></description></item><item><title/><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;h3 id="hello-im-aswin">Hello, I&amp;rsquo;m Aswin&lt;/h3>
+&lt;p>I&amp;rsquo;m a 23 year old &lt;a href="https://en.wikipedia.org/wiki/Malayali">Malayali&lt;/a>, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.&lt;/p>
 &lt;p>I like creating, solving, and working on things and products people want to use.&lt;/p>
-&lt;div style="display: flex; justify-content: center; width: 100%; margin: 20px 0;">
+&lt;div style="display: flex; justify-content: center; width: 100%; margin: 10px 0;">
  &lt;blockquote class="twitter-tweet" data-dnt="true" style="max-width: 550px;">
  &lt;p lang="en" dir="ltr">as far back as i can remember, i always wanted to work on cool products. &lt;a href="https://t.co/Beu9hkQ0qM">https://t.co/Beu9hkQ0qM&lt;/a>&lt;/p>&amp;mdash; aswin c (@chandanaveli) &lt;a href="https://twitter.com/chandanaveli/status/1925395446895398987?ref_src=twsrc%5Etfw">May 22, 2025&lt;/a>
  &lt;/blockquote>
  &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
 &lt;/div>
-&lt;hr>
+&lt;h3 id="top-links">Top links&lt;/h3>
+&lt;ul>
+&lt;li>
 &lt;p>Twitter (Formerly X) : &lt;a href="https://twitter.com/chandanaveli">@chandanaveli&lt;/a>&lt;/p></description></item><item><title/><link>/bookshelf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/bookshelf/</guid><description>&lt;p>This is a list of books I&amp;rsquo;ve read and enjoyed. This page is inspired from &lt;a href="https://patrickcollison.com/bookshelf">Patrick Collison&amp;rsquo;s&lt;/a> Bookshelf.&lt;/p>
 &lt;p>&amp;ldquo;Since the stacks and shelves lack any particular order, so too does this list.&amp;rdquo;&lt;/p>
 &lt;hr>
