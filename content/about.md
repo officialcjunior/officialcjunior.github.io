@@ -1,24 +1,20 @@
-Hello, I'm Aswin. I'm a 23 year old [Malayali](https://en.wikipedia.org/wiki/Malayali) from Kerala, currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.
+### Hello, I'm Aswin
+I'm a 23 year old [Malayali](https://en.wikipedia.org/wiki/Malayali), currently living in Bengaluru. I love to do software engineering, writing, photo-videography, and play music.
 
 I like creating, solving, and working on things and products people want to use.
 
-<div style="display: flex; justify-content: center; width: 100%; margin: 20px 0;">
+<div style="display: flex; justify-content: center; width: 100%; margin: 10px 0;">
   <blockquote class="twitter-tweet" data-dnt="true" style="max-width: 550px;">
     <p lang="en" dir="ltr">as far back as i can remember, i always wanted to work on cool products. <a href="https://t.co/Beu9hkQ0qM">https://t.co/Beu9hkQ0qM</a></p>&mdash; aswin c (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1925395446895398987?ref_src=twsrc%5Etfw">May 22, 2025</a>
   </blockquote>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
----
-Twitter (Formerly X) : [@chandanaveli](https://twitter.com/chandanaveli)
+### Top links
 
-Instagram : [@aswincveli](https://instagram.com/aswincveli)
+* Twitter (Formerly X) : [@chandanaveli](https://twitter.com/chandanaveli)
 
-My current favourite and most generalized philosophy of life can summed up in this:
-
-<img src="https://pbs.twimg.com/media/FtcsUxcaQAE71YG?format=jpg&name=large" alt="http://stevejobsarchive.com/book from https://twitter.com/krishnadusad/status/1645832927652253701/photo/1" width="600"/>
-
----
+* Instagram : [@aswincveli](https://instagram.com/aswincveli)
 
 ### In the press and elsewhere
 - Fandom page about me on a TV show I was on – [Who Wants To Be A Millionaire Wiki](https://millionaire.fandom.com/wiki/Aswin_and_Krishnapriya)
