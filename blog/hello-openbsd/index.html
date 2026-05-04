@@ -34,7 +34,7 @@ my case, the chain loader spit out some errors during the compilation, and I cou
 completely figure out why. I believe it was something to do with GRUB not being able to figure
 out the type of the disk partition.</p><p>In the end, I settled with booting OpenBSD from the UEFI boot menu:</p><blockquote class=twitter-tweet data-conversation=none><p lang=en dir=ltr>I finally joined the OpenBSD gang today.<br><br>Couldn't set up GRUB to dualboot properly, so I just used efibootmgr and booted it from the UEFI menu.<br><br>The view looks ancient (ew) and I have probably have to find a guide to set up things.<br><br>A good start for 2022, I guess.<br><br>More later!</p>&mdash; aswin c! ☯️ (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/1477295882676494340?ref_src=twsrc%5Etfw">January 1, 2022</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><p>This was also the time I learned about <a href=https://linux.die.net/man/8/efibootmgr>efibootmgr</a>-
 which is a tool with which one can manage UEFI boot entries. With efibootmgr, I just had to
-run:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># /dev/sda5 was where I installed OpenBSD </span>
+run:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># /dev/sda5 was where I installed OpenBSD </span>
 </span></span><span style=display:flex><span>$ sudo efibootmgr -c -p <span style=color:#ae81ff>1</span> -d /dev/sda5 -L OpenBSD -l /EFI/Boot/bootx64.efi
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#75715e># set timeout to 10 seconds</span>
@@ -65,7 +65,7 @@ a <a href=https://azarus.ch/posts/2018-02-09-openbsd-wifi-802.1x-wpa-eap.html>bl
 a fine gentleman named Azarus who explained how to do it. It was straightforward:
 I had to get <a href=https://linux.die.net/man/8/wpa_supplicant>wpa_supplicant</a>,
 add the network-specific devices to its configuration file, manually authenticate with
-the device to connect to the access point and get a DHCP lease.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># wpa_supplicant -i iwm0 -c /etc/wpa_supplicant.conf</span>
+the device to connect to the access point and get a DHCP lease.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># wpa_supplicant -i iwm0 -c /etc/wpa_supplicant.conf</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># dhclient iwm0</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># ping 1.1.1.1</span>
 </span></span><span style=display:flex><span>PING 1.1.1.1 <span style=color:#f92672>(</span>1.1.1.1<span style=color:#f92672>)</span> 56<span style=color:#f92672>(</span>84<span style=color:#f92672>)</span> bytes of data.

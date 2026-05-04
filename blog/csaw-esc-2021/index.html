@@ -38,8 +38,8 @@ particular API and it&rsquo;ll return the power traces as a Python List. We&rsqu
 that shortly.</p><p>We&rsquo;ll begin by taking a look at this code, which is the pseudo code of the
 challenge <code>recall</code> from the first set of challenges of the CSAW 2021 Finals.
 You can grab the full source <a href=https://github.com/TrustworthyComputing/csaw_esc_2021/blob/main/challenges/set-1/recall/recall.c>here</a>.</p><p>Just take a look at the loop and how the elements of the <code>data</code> (our input) are
-compared and handled.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=display:flex><span><span style=color:#75715e>// DUMMY VAL
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>uint8_t</span> correct_mem[] <span style=color:#f92672>=</span> {<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>6</span>,<span style=color:#ae81ff>7</span>,<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>9</span>,<span style=color:#ae81ff>10</span>,<span style=color:#ae81ff>11</span>,<span style=color:#ae81ff>12</span>,<span style=color:#ae81ff>13</span>,<span style=color:#ae81ff>14</span>,<span style=color:#ae81ff>15</span>};
+compared and handled.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-c data-lang=c><span style=display:flex><span><span style=color:#75715e>// DUMMY VAL
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>uint8_t</span> correct_mem[] <span style=color:#f92672>=</span> {<span style=color:#ae81ff>0</span>,<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>6</span>,<span style=color:#ae81ff>7</span>,<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>9</span>,<span style=color:#ae81ff>10</span>,<span style=color:#ae81ff>11</span>,<span style=color:#ae81ff>12</span>,<span style=color:#ae81ff>13</span>,<span style=color:#ae81ff>14</span>,<span style=color:#ae81ff>15</span>};
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#66d9ef>uint8_t</span> <span style=color:#a6e22e>verify</span>(<span style=color:#66d9ef>uint8_t</span><span style=color:#f92672>*</span> data, <span style=color:#66d9ef>uint8_t</span> dlen) {
 </span></span><span style=display:flex><span>  <span style=color:#66d9ef>uint8_t</span> mem_different <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
@@ -56,9 +56,9 @@ compared and handled.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> (mem_different) {
 </span></span><span style=display:flex><span>    <span style=color:#a6e22e>simpleserial_put</span>(<span style=color:#e6db74>&#39;r&#39;</span>, <span style=color:#ae81ff>1</span>, <span style=color:#f92672>&amp;</span>zero); <span style=color:#75715e>// Wrong password
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  } <span style=color:#66d9ef>else</span> {
+</span></span></span><span style=display:flex><span>  } <span style=color:#66d9ef>else</span> {
 </span></span><span style=display:flex><span>    <span style=color:#a6e22e>simpleserial_put</span>(<span style=color:#e6db74>&#39;r&#39;</span>, <span style=color:#ae81ff>1</span>, <span style=color:#f92672>&amp;</span>one); <span style=color:#75715e>// GOAL
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  }
+</span></span></span><span style=display:flex><span>  }
 </span></span><span style=display:flex><span>}
 </span></span></code></pre></div><p>The function stops comparing the moment it finds an incorrect character, breaks and writes a
 zero through the <a href=https://chipwhisperer.readthedocs.io/en/latest/simpleserial.html>SimpleSerial</a>
@@ -68,7 +68,7 @@ time and the correct input will take more time, since it&rsquo;ll start comparin
 next letter. This makes this program vulnerable to a power analysis attack.</p><p>Now, let&rsquo;s see what sort of APIs the ChipWhisperer has in its sleeves to aid us in power analysis.</p><p>The toolchain offers <a href=https://chipwhisperer.readthedocs.io/en/latest/api.html#chipwhisperer.capture.scopes.OpenADC.capture>scope.capture()</a> and
 <a href=https://chipwhisperer.readthedocs.io/en/latest/api.html#chipwhisperer.capture.scopes.OpenADC.get_last_trace>scope.get_last_trace()</a> which
 can help us with this. <code>scope.capture()</code> does the trace and <code>get_last_trace()</code> returns the traces, which are
-basically an array of values.</p><p>Let&rsquo;s get a function that returns the power traces when a particular input is sent.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>get_trace</span>(password_guess):
+basically an array of values.</p><p>Let&rsquo;s get a function that returns the power traces when a particular input is sent.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>get_trace</span>(password_guess):
 </span></span><span style=display:flex><span>    
 </span></span><span style=display:flex><span>    <span style=color:#75715e># do some init</span>
 </span></span><span style=display:flex><span>
@@ -83,7 +83,7 @@ so very bruteforce-able) for each of the characters, pass the string to <code>ge
 compute absolute differences of the traces and see which character takes the most time, since
 that will be the correct one.</p><p>To compute the difference, we need the trace of a completely incorrect input which
 will act as a reference trace. Then, for each character of the password, we&rsquo;ll try
-out every possible alphanumerals and capture the traces.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>known_password <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;&#39;</span> 
+out every possible alphanumerals and capture the traces.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-python data-lang=python><span style=display:flex><span>known_password <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;&#39;</span> 
 </span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> i <span style=color:#f92672>in</span> range(<span style=color:#ae81ff>16</span>): 					<span style=color:#75715e># 16 is the length of the password, it&#39;s known</span>
 </span></span><span style=display:flex><span>	ref_trace <span style=color:#f92672>=</span> cap_pass_trace(known <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;#&#34;</span><span style=color:#f92672>*</span>(<span style=color:#ae81ff>16</span><span style=color:#f92672>-</span>len(known)))
 </span></span><span style=display:flex><span>	p <span style=color:#f92672>=</span> {}
@@ -100,7 +100,7 @@ simple things going around.</p><h2 id=fault-injection-attacks>Fault Injection At
 processor so that a particular computation is skipped or faulted. In layman&rsquo;s terms,
 it&rsquo;s like giving the processor a boop. The ChipWhisperer supports Clock and Voltage
 glitching.</p><p>Below is the psuedo-code of the challenge <a href=https://github.com/TrustworthyComputing/csaw_esc_2021/blob/main/challenges/set-1/err0r/err0r.c>err0r</a>.
-Here, the pointer <code>txt</code> will point to the array which contains our input.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=display:flex><span><span style=color:#66d9ef>uint8_t</span> <span style=color:#a6e22e>hash_loop</span>(<span style=color:#66d9ef>uint8_t</span><span style=color:#f92672>*</span> txt, <span style=color:#66d9ef>uint8_t</span> len) {
+Here, the pointer <code>txt</code> will point to the array which contains our input.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-c data-lang=c><span style=display:flex><span><span style=color:#66d9ef>uint8_t</span> <span style=color:#a6e22e>hash_loop</span>(<span style=color:#66d9ef>uint8_t</span><span style=color:#f92672>*</span> txt, <span style=color:#66d9ef>uint8_t</span> len) {
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>uint32_t</span> crc <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>uint32_t</span> crc_2 <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
 </span></span><span style=display:flex><span>
@@ -116,7 +116,7 @@ Here, the pointer <code>txt</code> will point to the array which contains our in
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (crc <span style=color:#f92672>!=</span> crc_2) {
 </span></span><span style=display:flex><span>      <span style=color:#a6e22e>simpleserial_put</span>(<span style=color:#e6db74>&#39;r&#39;</span>,<span style=color:#ae81ff>4</span>, win_code); <span style=color:#75715e>// GOAL
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    } <span style=color:#66d9ef>else</span> {
+</span></span></span><span style=display:flex><span>    } <span style=color:#66d9ef>else</span> {
 </span></span><span style=display:flex><span>      <span style=color:#a6e22e>simpleserial_put</span>(<span style=color:#e6db74>&#39;r&#39;</span>,<span style=color:#ae81ff>4</span> , (<span style=color:#66d9ef>uint8_t</span><span style=color:#f92672>*</span>)<span style=color:#f92672>&amp;</span>crc);
 </span></span><span style=display:flex><span>    }
 </span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0x00</span>;
@@ -130,7 +130,7 @@ will decide how frequently the glitch would be inserted. This is a big deal and 
 not getting good results. To solve <code>err0r</code>, to inject a fault, we used the <a href=https://chipwhisperer.readthedocs.io/en/latest/api.html#chipwhisperer.targets.SimpleSerial.simpleserial_read_witherrors>simpleserial_read_witherrors</a>
 API from the SimpleSerial’s standard library with <code>glitch_timeout</code> set as 10 samples.</p><p>Since, our program returns the CRC hash of the input if both of the hashes
 (<code>crc</code> and <code>crc_2</code>) are the same, we can just keep on glitching until it returns
-something different.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>while</span> <span style=color:#66d9ef>True</span>:
+something different.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>while</span> <span style=color:#66d9ef>True</span>:
 </span></span><span style=display:flex><span>  ret <span style=color:#f92672>=</span> scope<span style=color:#f92672>.</span>capture()
 </span></span><span style=display:flex><span>  val <span style=color:#f92672>=</span> target<span style=color:#f92672>.</span>simpleserial_read_witherrors(<span style=color:#e6db74>&#39;r&#39;</span>, <span style=color:#ae81ff>4</span>, glitch_timeout <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>)
 </span></span><span style=display:flex><span>
