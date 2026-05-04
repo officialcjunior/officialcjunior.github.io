@@ -9,6 +9,10 @@ tags: ['tech', 'work']
 
 ---
 
+# Year 3 at work and tech 
+
+Work and tech stuff since last blog post has continued to be around multiple different projects with multiple project titles. Now, it's 3 years since I started working at a company, so it was time to collect and write down everything I’ve been working on in the past year to see where I’m at. This blog is kind of a draft, still.
+
 ## Table of contents
 * [Internal tools at work](#internal-tools-at-work)
   * [Software Assessment report app (Maximus)](#software-assessment-report-app-maximus)
@@ -22,10 +26,6 @@ tags: ['tech', 'work']
   * [Bootstrat](#bootstrat)
   * [RAGs](#rags)
 * [Future](#future)
-
-# Year 3 at work and tech 
-
-February 2026 marked the third year of working at a company, so it was time to collect and write down everything I’ve been working on in the past year to see where I’m at. This blog is kind of a draft, still.
 
 # Internal tools at work
 
