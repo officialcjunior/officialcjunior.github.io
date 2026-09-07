@@ -1,7 +1,7 @@
 ---
 
 title: "Year 3 at work and tech"
-date: '2026-05-03'
+date: '2026-09-06'
 draft: false
 slug: 'work-3'
 author: 'Aswin'
@@ -11,7 +11,9 @@ tags: ['tech', 'work']
 
 # Year 3 at work and tech 
 
-Work and tech stuff since last blog post has continued to be around multiple different projects with multiple project titles. It's now 3 years since I started working at a company, so it was time to collect and write down everything I’ve been working on in the past year to see where I’m at. This blog is kind of a draft, still.
+Work and tech stuff since last blog post has continued to be around multiple different projects with multiple project titles. It's now 3 years since I started working at this company, and I feel like I've grown a lot in terms of understanding the domain, the enterprise, and the tech stack.
+
+I'm still mostly doing software engineering, but I've been also doing a lot of PM work (identifying problems, talking to stakeholders, understanding the domain, and designing solutions) and a bit of data engineering work (data pipelines and dashboards). This subtle shift got me aware of some more parts of the enterprise and domain, and most importantly, how much solutions are just waiting to be built by someone with the right domain knowledge and agency. And also something about how some things never change and some things just can't be done.
 
 I've become an ardent enthusiast of the enterprise. I've started recognizing how broad and deep things run, my compounding knowledge of the domain, the lasting effects of the work I do, the processes and relationships that already exist that makes work easier, the safety net. So many people working together aligned to a common goal and the scale of it all, is marveling.
 
@@ -40,13 +42,13 @@ This is new trend in the internal tools space.
 
 1. ### AI-based Software Changes
 
-This year, I used LLMs for something real. My company's products' release notes had descriptions of what changed for each new version in a table on the official documentation website, but it was on different pages and thus hard to filter and search. I built a small internal tool that scrapes the release notes, uses an LLM to label the changes with pre-existing list of labels, and displays them in a dashboard. 
+This year, I used LLMs for something real. My company's products' release notes had descriptions of what changed for each software version in a table on the official documentation website, but it was on different pages and thus hard to filter and search. I built a small internal tool that scrapes the release notes, uses an LLM to label the changes with pre-existing list of labels, and displays them in a dashboard as structured and searchable data.
 
 As a prototype, I made this on Cloudflare - with workers and D1 (SQLite). You can find that [here](https://fortinet-software-changes.aswincveli.workers.dev/?product=fortigate&from_version_id=45&to_version_id=65&page=3). I used llama-3.3-70b-instruct-fp8-fast as the model for labeling, and just `cheerio` (a popular Node.js library for parsing HTML) to scrape instead of Cloudflare's `/scrape` endpoint, since the release notes were on simple HTML pages. The whole cron-like workflow of scraping, labeling, and storing in D1 was done with a Cloudflare Workflow. The LLM inference was done in batches, with 10 changes/descriptions per batch, with the system prompt containing a list of labels and a description of what each label means for enough context. The LLM inference costed peanuts.
 
 ![software changes screenshot](/images/work-3/software-changes.png)
 
-Later in production internally, I used gemma4 with Ollama for labeling. The UX, this time was interesting as I had to put the human in the loop considering the LLM-predictions may not always be accurate. The project is in a testing phase internally.
+Later in production internally, I used Ministral 3 14b with Ollama for labeling. The UX, this time was interesting as I had to put the human in the loop considering the LLM-predictions may not always be accurate. The project is in a testing phase internally.
 
 I am yet to look into LLM evals and bring more consistency to the labeling.
 
@@ -56,7 +58,7 @@ My first project at work—an app named Maximus—for a “bug dashboard report 
 
 3. ### Cloud infrastructure for Service Reporting
 
-In Q2 2024, as mentioned in the previous blog, I had built a prototype for a pipeline for automatically generating the service reporting slide deck. The quarterly service report—a slide deck with a bunch of customer-specific metrics like usage trends, money spent, etc., was generated with a time-consuming client-side tool until now. The pipeline I built has two workers: one fetches data from Tableau and ingests it to a PostgreSQL database, and the other writes to a Microsoft Excel workbook template and triggers the VBA code that refreshes the Power Queries and charts. This was put into production from Q4 2024 and probably became the largest data-critical operation I’ve done. Exponential backoff for requests to Tableau, better error logging during refreshing Power Queries, consistency checks to verify whether the VBA and Power Queries ran well – all contributed to better observability and success of the project.
+In Q2 2024, as mentioned in the previous blog, I had built a prototype for a pipeline for automatically generating the service reporting slide deck. The quarterly service report—a slide deck with a bunch of customer-specific metrics like usage trends, money spent, etc., was generated with a time-consuming client-side tool until now. The pipeline I built has two workers: one fetches data from Tableau and ingests it to a SQLite database, and the other writes to a Microsoft Excel workbook template and triggers the VBA code that refreshes the Power Queries and charts. This was put into production from Q4 2024 and probably became the largest data-critical operation I’ve done. Exponential backoff for requests to Tableau, better error logging during refreshing Power Queries, consistency checks to verify whether the VBA and Power Queries ran well – all contributed to better observability and success of the project. This was also the first time I looked into database-related things like query planning and indexing.
 
 <details>  
 <summary>Small code exploration:</summary>  
@@ -70,11 +72,11 @@ In Q2 2024, as mentioned in the previous blog, I had built a prototype for a pip
 
 Something that I didn’t know could work was to run multiple Excel instances in parallel, obviously because they exist in different memory/process ranges.Using xwlings (Python library built on top of win32 to interact with Excel) on our production server, which was a Windows Server with 120GB RAM and 64 cores, we could comfortably run \~8 Excels in parallel without running into COM-related errors. 
 
-4. ### Dashboard for product vulnerabilities
+4. ### Dashboard for managing product vulnerabilities
 
 Cool dashboard with asset matching dashboard I made when we discovered we could leverage an internal API from the Security Responses team turned out to be quite useful. Instead of eye-balling affected versions of new vulnerabilities, the customer-facing engineers check this dashboard to get a glimpse of their customers’ exposure when a new vulnerability is out. A list of (customer’s) product assets and versions were matched with vulnerabilities’ affected products and versions with a simple iterative product comparison and version containment check.
 
-This has got me thinking about a broader ‘Know Your Customer’ program, ways to understand customers in a data-driven way to manage software changes and vulnerabilities. Maybe for H2 if I’m still there.
+This has got me thinking about a broader ‘Know Your Customer’ project, ways to understand customers in a data-driven way to manage software changes and vulnerabilities. Maybe for H2 if I’m still there.
 
 5. ### Loadstats
 
@@ -82,7 +84,7 @@ Something I forgot to mention in the last blog posts was a browser plugin \+ das
 
 6. ### Local server infrastructure at work
 
-Our automation team’s own compute infrastructure was approved and a Dell was delivered a few months back. I’m adding that here, as installing it in our own data lab/datacenter was a first for me – fixing the rack, wires, configuring the network and RAIDs, etc. We’ve put Proxmox (type 1 \- baremetal hypervisor) plus Windows on top of it for now. We’d need to migrate Loadstats and other applications on a Linux VM on this later. It was also the first time setting up nginx and routing many apps to their statically built web apps and APIs.
+Our automation team’s own compute infrastructure was approved and a Dell rack was delivered a few months back. I’m adding that here, as installing it in our own data lab/datacenter was a first for me – fixing the rack, wires, configuring the network and RAIDs, etc. We’ve put Proxmox (type 1 \- baremetal hypervisor) plus Windows on top of it for now. We’d need to migrate Loadstats and other applications on a Linux VM on this later. It was also the first time setting up nginx and routing many apps to their statically built web apps and APIs.
 
 # B2B at work
 
@@ -144,15 +146,17 @@ Lastly, it’s so cheap. It has only cost 0.75$ so far even though my initial cr
 
 ## Sarvam Codex
 
-In late April, I cancelled my Claude Pro subscription to explore more cost-effective alternatives. Initial trials with OpenCode and popular models like DeepSeek, Gemini Flash, and other models worked well even for long-context tasks but proved expensive. I then tested Sarvam's Sarvam-105B and was impressed by its Claude 3.5 sonnet-like performance relative to cost. Integration of Sarvam with Opencode required a custom proxy since Sarvam's ChatCompletions API accepts only strings rather than arrays (unlike the OpenAI specification). Even though the performance was satisfactory, OpenCode exhibited inefficiencies with XML-based tool calls, frequently generating incorrect schema and wasting some tokens. This and general curiosity prompted me to fork OpenAI's Codex to develop a harness just for Sarvam, which I currently still try to work on. Another inspiration was, I'd love if there was an Indian alternative coding model I could use (I'm particularly interested in evaluating Sarvam's upcoming coding model).
+In late April, I cancelled my Claude Pro subscription to explore more cost-effective alternatives. Initial trials with OpenCode and popular models like DeepSeek, Gemini Flash, and other models worked well even for long-context tasks but proved expensive. I then tested Sarvam's Sarvam-105B and was impressed by its Claude 3.5 sonnet-like performance relative to cost. Integration of Sarvam with Opencode required a custom proxy since Sarvam's ChatCompletions API accepts only strings rather than arrays (unlike the OpenAI specification). Even though the performance was satisfactory, Sarvam 105-b exhibited inefficiencies with XML-based tool calls, frequently generating incorrect schema and wasting some tokens. This and general curiosity prompted me to fork OpenAI's Codex to develop a harness just for Sarvam. Another inspiration was, I'd love if there was an Indian alternative coding model I could use (I'm particularly interested in evaluating Sarvam's upcoming coding model).
 
 <blockquote class="twitter-tweet" data-media-max-width="560" data-dnt="true"><p lang="en" dir="ltr">🤔plugging Sarvam&#39;s API straight didn&#39;t work apparently because its ChatCompletions only accepts strings and not an array of strings (latter is the OpenAI spec?). Made a small proxy which flattens those out, pointed OpenCode to that, and now it&#39;s working. Lemme see how it feels. <a href="https://t.co/LOHPszLwfW">pic.twitter.com/LOHPszLwfW</a></p>&mdash; aswin c (@chandanaveli) <a href="https://x.com/chandanaveli/status/2049371024920338798?ref_src=twsrc%5Etfw">April 29, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> 
 
-# Other 
+But Sarvam 105-b isn't good enough for coding tasks and hallucinates a lot. So, that's where the state of Indian agentic coding sits currently.
 
-## AI tools
+<blockquote class="twitter-tweet" data-media-max-width="560" data-dnt="true"><p lang="en" dir="ltr">But Sarvam 105-b isn't good enough for coding tasks and hallucinates a lot. <a href="https://x.com/chandanaveli/status/2083179206226198644?s=20">pic.twitter.com/LOHPszLwfW</a></p>&mdash; aswin c (@chandanaveli) <a href="https://x.com/chandanaveli/status/2083179206226198644?s=20">April 29, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-I didn’t pay for any AI tools other than Claude Pro, which in mid 2025 started coming with Claude Code, but I was curious about everything new that was popping up. So, I once checked out [Lovable](http://lovable.com) to see how easy the ‘human in the loop’-ness  looks like. For a time, I used to always have Perplexity open as a tab but now, Google AI is also quite effective at finding answers and at whatever we used to go to Perplexity for.
+Currently, I'm using Opencode Go for my coding tasks.
+
+---
 
 A quote that stays in my mind our new whole vibe coding and AI era is:
 
@@ -162,20 +166,10 @@ A quote that stays in my mind our new whole vibe coding and AI era is:
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-Currently, I’m using Sarvam as the default coding agent because it’s so cheap (only ₹4/1M token even for their 105B model) and good enough.
-
-<blockquote class="twitter-tweet" data-conversation="none" data-media-max-width="563">
-<p lang="en" dir="ltr">🤔plugging Sarvam's API straight didn't work apparently because its ChatCompletions only accepts strings and not an array of strings (latter is the OpenAI spec?). Made a small proxy which flattens those out, pointed OpenCode to that, and now it's working. Lemme see how it feels. <a href="https://t.co/LOHPszLwfW">pic.twitter.com/LOHPszLwfW</a></p>
-&mdash; aswin c (@chandanaveli) <a href="https://twitter.com/chandanaveli/status/2049371024920338798?ref_src=twsrc%5Etfw">April 29, 2026</a>
-</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
 # Future
 
 * “IDK bro”  
-* I’m thinking more about adoption and enablement. There's really a lot of tech now and less people to make sense of it it by talking and showing it to people. 
-* I feel the ecosystem lacks great new products at the moment and it’s exhausting the culture. More money’s getting sucked into AI datacenters and it’s having more than just a few second order effects on the economy.  
-* As I said, I’m becoming a ‘big company enjoyer’ as much as I’m a ‘small company enthusiast’.
+* I’m thinking more about adoption and enablement. There's really a lot of tech now and less people to make sense of it it by talking and showing it to people. Also wondering whether I can flourish in another part of the enterprise, like in a more product-facing team or sales.
 
 Let’s see what happens this year!
 —  
